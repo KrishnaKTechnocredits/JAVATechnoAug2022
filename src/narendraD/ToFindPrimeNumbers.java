@@ -4,7 +4,7 @@ class ToFindPrimeNumbers {
 	
 	void getPrimeNumbers(int enternumber) {
 		boolean flag=true;
-		for(int index=2; index<=enternumber/2; index++)
+		for(int index=2; index<=Math.sqrt(enternumber); index++) // Or --> index<=enternumber/2
 		{
 			if (enternumber%index==0 && enternumber>1)
 			{
