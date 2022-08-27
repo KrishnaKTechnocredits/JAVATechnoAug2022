@@ -1,4 +1,4 @@
-package amolB;
+package yogeshS;
 
 public class FirstProg {
 

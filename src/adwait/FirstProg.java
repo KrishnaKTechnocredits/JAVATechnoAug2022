@@ -1,4 +1,4 @@
-package amandeepSingh;
+package adwait;
 
 public class FirstProg {
 
