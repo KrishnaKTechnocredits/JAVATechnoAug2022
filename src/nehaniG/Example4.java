@@ -1,11 +1,12 @@
+package nehaniG;
+
 class Example4{
 
    int x = 10;
    int y = 20;
    
    void processData(){
-       int z = x + y;
-	   x = x+10;
+       x = x+10;
 	   y= y+10;
 	}
 	

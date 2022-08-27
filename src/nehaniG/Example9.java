@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Example9{
  
    void printDayByIndex(int dayIndex){

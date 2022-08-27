@@ -1,3 +1,5 @@
+package nehaniG;
+
 class BankOperations{
 
     int balance=10000;

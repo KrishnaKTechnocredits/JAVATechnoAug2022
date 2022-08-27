@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Result{
 
     void processData(int score)

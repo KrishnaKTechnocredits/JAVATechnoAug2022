@@ -1,3 +1,5 @@
+package nehaniG;
+
 class StudentInfo{
 
      void studentName(String firstName,String middleName,String surName){

@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Question{
 
     int num1=3;
@@ -13,7 +15,6 @@ class Question{
 	}
 	
 	void display(){
-		int num3 = 100;
 		System.out.println(num4);
 	}
 	

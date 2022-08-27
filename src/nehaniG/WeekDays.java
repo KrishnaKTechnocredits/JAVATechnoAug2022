@@ -1,3 +1,5 @@
+package nehaniG;
+
 class WeekDays{
 
     void processData(int x){

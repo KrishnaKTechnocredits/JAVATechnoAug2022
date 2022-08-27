@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Example3{
 
      int bal = 10000;

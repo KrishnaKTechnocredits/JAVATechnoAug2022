@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Student{
     String name = "Nehani";
 	int rno = 1;

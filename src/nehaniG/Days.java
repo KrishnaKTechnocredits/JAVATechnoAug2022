@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Days
 {
    int day=1; 

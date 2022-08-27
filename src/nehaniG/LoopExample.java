@@ -1,3 +1,5 @@
+package nehaniG;
+
 class LoopExample{ 
     
 	void printEvenNumbers(int startIndex, int endIndex){
@@ -51,7 +53,6 @@ class LoopExample{
     void differenceInSumOfOddAndEvenNumbers(int startIndex, int endIndex){
 		int sumEven = 0;
 		int sumOdd = 0;
-		int diff = 0;
 		for (int index = startIndex; index <= endIndex; index++){
 			if (index % 2 == 0)
 				sumEven += index;

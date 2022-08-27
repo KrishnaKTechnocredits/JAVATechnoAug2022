@@ -1,3 +1,5 @@
+package nehaniG;
+
 public class Calculator{
     int number1=10;
 	int number2=5;

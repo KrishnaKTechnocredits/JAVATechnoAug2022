@@ -1,9 +1,10 @@
+package nehaniG;
+
 class PublicClass{
 	int roll = 1;
 	String name = "technocredits";
 	
 	void updateInfo(){
-		int roll = 2;
 		name = "maulik";
 	}
 	

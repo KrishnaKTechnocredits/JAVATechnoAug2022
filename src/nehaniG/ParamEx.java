@@ -1,3 +1,5 @@
+package nehaniG;
+
 class ParamEx{
 
     String name;
@@ -15,8 +17,6 @@ class ParamEx{
     }
 	
 	public static void main(String[] args){
-		   String name = "Nehani";
-		   int rno = 1;
 		   ParamEx  paramEx= new ParamEx();
 		   paramEx.setData("Nehani",1);
 		   paramEx.display();

@@ -1,14 +1,14 @@
+package nehaniG;
+
 class Example1{
 
     int accNumber = 123;
 	
 	void processData() {
-	     String name = "Techno";
-		 int accNumber = 567;
-		 accNumber = 912;
 	}
 		 
 	void printInfo() {
+		char[] name = null;
 		System.out.println(name);
 	    System.out.println(accNumber);
 	}

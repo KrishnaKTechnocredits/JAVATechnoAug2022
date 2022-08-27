@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Example22{
 
      int x = 1;

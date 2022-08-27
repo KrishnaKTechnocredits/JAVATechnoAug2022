@@ -1,3 +1,5 @@
+package nehaniG;
+
 class StaticExample{
 
     static int x = 10;
