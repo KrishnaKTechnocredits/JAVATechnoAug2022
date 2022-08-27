@@ -1,4 +1,4 @@
-package dipali;
+package amisha;
 
 public class FirstProg {
 
