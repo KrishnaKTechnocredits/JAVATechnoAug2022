@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Bank{
    int totalAmt = 10000;
    int amt = 0;

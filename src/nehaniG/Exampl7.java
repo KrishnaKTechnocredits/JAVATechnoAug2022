@@ -1,3 +1,5 @@
+package nehaniG;
+
 class Example7{
      int x=10;
      void processData(int num){

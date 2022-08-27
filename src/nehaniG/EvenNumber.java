@@ -1,14 +1,16 @@
+package nehaniG;
+
 class EvenNumber{
 
-    void isEvenNumber(int number);
+    void isEvenNumber(int number) {
 	boolean flag = true;
 	
 	    if(number<1){
-		 System.out.println(number+ "is invalid input");
+		 System.out.println(number+ " is invalid input");
 		 }
 		 
 	    else{
-		for(intex=1;index<=number;index++){
+		for(int index=1;index<=number;index++){
 	    if (number%index == 2){
 		        flag = false;
 		        System.out.println(number + " is not a even number");
