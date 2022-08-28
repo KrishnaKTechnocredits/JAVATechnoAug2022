@@ -5,7 +5,7 @@ class Example4{
 	
 	void processData()
 	{
-		//int z = x+y;//30
+		int z = x+y;//30
 		x = x+10;//20
 		y = y+20;//40
 	}
