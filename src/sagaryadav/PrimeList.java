@@ -9,15 +9,12 @@ class PrimeList{
 				status=true;
 				for (int index2=2; index2<=Math.sqrt(index1); index2++){
 					if(index1%index2==0){
-						System.out.print("NonPrime Numbers between 2 to 50 are: ");
-						System.out.println(index1 + "  ");
 					status=false;
 					break;
 					}
 				}
 				if(status==true){
-				System.out.print("Prime Numbers between 2 to 50 are: ");
-				System.out.println(index1 + "  ");
+				System.out.print(index1 + "  ");
 				}
 			}	
 		}else
@@ -25,8 +22,8 @@ class PrimeList{
 	}
 	public static void main(String[] args){
 		PrimeList primeList = new PrimeList();
-		System.out.println();
 		primeList.showPrime(1,1);
+		System.out.print("Prime Numbers between 2 to 50 are: ");
 		primeList.showPrime(2,50);
 		System.out.println();
 	}
