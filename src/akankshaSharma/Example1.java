@@ -1,16 +1,14 @@
 package akankshaSharma;
 class Example1{
 	int accNumber =123;
-	}
 	
-	void processData{
+	void processData(){
 		String name ="Techno";
 		int accNumber = 567;
-		accnumber= 912;
+		accNumber= 912;
 	}
 	
 	void printInfo(){
-		System.out.println(name);
 		System.out.println(accNumber);
 	}
 	
