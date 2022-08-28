@@ -1,6 +1,6 @@
 package anujaD;
 
-public class WhileLoopEx1 {
+public class WhileloopEx1 {
 	
 	void m1() {
 		int index=1;
@@ -13,7 +13,7 @@ public class WhileLoopEx1 {
 	}
 
 	public static void main(String[] args) {
-		new WhileLoopEx1().m1();
+		new WhileloopEx1().m1();
 		System.out.println(10);
 		
 	}
