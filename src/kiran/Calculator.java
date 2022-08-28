@@ -1,4 +1,5 @@
 package kiran;
+
 class Calculator{
 	int num1=10; // instance variable
 	int num2=5;
