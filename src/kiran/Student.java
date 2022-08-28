@@ -16,7 +16,7 @@ class Student
 	void update()
 	{
 		name="harsh";
-		int rn=26;
+		int rn=28;
 	}
 		
 	public static void main(String[] args)
