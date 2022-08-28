@@ -1,0 +1,5 @@
+package technocredits;
+
+class DefaultDataType{
+	
+}
