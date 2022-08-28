@@ -1,6 +1,5 @@
 package aishwaryaBirajdar;
 
-
 public class Facebook{
 	static int likes = 0;
 	static int comments;

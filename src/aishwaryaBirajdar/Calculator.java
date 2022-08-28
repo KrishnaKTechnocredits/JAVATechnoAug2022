@@ -1,6 +1,5 @@
 package aishwaryaBirajdar;
 
-
 class Calculator{
 
 	int num1 = 10;

@@ -1,6 +1,5 @@
 package aishwaryaBirajdar;
 
-
 class Even{
 	int sum=0;
 	void evenDisplay(int num){

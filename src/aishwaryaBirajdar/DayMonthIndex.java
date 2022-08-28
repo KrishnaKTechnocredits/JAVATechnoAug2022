@@ -1,6 +1,5 @@
 package aishwaryaBirajdar;
 
-
 class DayMonthIndex{
 	
 	void dayIndex(int x){

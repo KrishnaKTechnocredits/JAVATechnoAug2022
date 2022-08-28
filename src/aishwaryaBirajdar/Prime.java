@@ -1,6 +1,5 @@
 package aishwaryaBirajdar;
 
-
 class Prime{
 
 	void isPrime(int num){
