@@ -17,10 +17,7 @@ public class NoisDivisible3and7 {
 	}
 
 	public static void main(String[] args) {
-
 		NoisDivisible3and7 noisDivisible3and7 = new NoisDivisible3and7();
 		noisDivisible3and7.noDivisibility(20, 100);
-
 	}
-
 }
