@@ -14,6 +14,7 @@ public class WhileLoopEx1 {
 
 	public static void main(String[] args) {
 		new WhileLoopEx1().m1();
+		System.out.println(10);
 		
 	}
 }
