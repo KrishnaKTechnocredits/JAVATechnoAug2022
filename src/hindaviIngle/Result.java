@@ -10,7 +10,7 @@ class Result{
 			}else if(score>=80 && score<=89){
 				System.out.println("A, good job");
 			}else if(score>=70 && score<=79){
-				System.out.println("B+, you are improving");
+				System.out.println("B+, you are improving nicely");
 			}else if(score>=60 && score<=69){
 				System.out.println("C+, keep reading");
 			}else if(score>=50 && score<=59){
