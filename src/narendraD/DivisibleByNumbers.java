@@ -24,7 +24,7 @@ public class DivisibleByNumbers {
 		}
 		if (count ==0)
 		{
-			  System.out.println("No divisble numbers present");
+			  System.out.println("No common divisble numbers present");
 		}
 		
 	}
