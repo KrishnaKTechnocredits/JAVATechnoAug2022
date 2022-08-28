@@ -1,7 +1,8 @@
 package monikaDwivedi;
 
-class PrimeNumber(){	
-    int num = 29;
+class PrimeNumber{
+	void isPrime(int num){
+    
     boolean flag = false;
     for (int i = 2; i <= num / 2; ++i) {
       // condition for nonprime number
@@ -21,4 +22,5 @@ class PrimeNumber(){
 		primeNumber.isPrime(37);
 		primeNumber.isPrime(36);
 		primeNumber.isPrime(99);
+}
 }
