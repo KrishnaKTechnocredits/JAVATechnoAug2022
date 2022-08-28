@@ -1,6 +1,6 @@
 package anujaD;
 
-public class WhileloopEx1 {
+class WhileloopEx1 {
 	
 	void m1() {
 		int index=1;
