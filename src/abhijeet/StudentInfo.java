@@ -1,3 +1,5 @@
+package abhijeet;
+
 class StudentInfo{
 
 	 void studentName(String name,String middleName,String lastName){

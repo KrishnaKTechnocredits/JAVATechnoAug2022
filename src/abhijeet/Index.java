@@ -1,3 +1,5 @@
+package abhijeet;
+
 class Index{
 	
 	void day(int dayIndex){
