@@ -1,6 +1,6 @@
 package harshadaJagtap;
 
-class Day{
+class WhatDay{
 	void processData(int dayInd){
 		if (dayInd>=1 && dayInd<=5)
 			System.out.println("Week Days");
@@ -10,7 +10,7 @@ class Day{
 			System.out.println("Invalid Day Index");
 	}
 	public static void main (String[]args){
-		Day day=new Day();
+		WhatDay day=new WhatDay();
 		day.processData(2);
 		day.processData(-3);
 		day.processData(6);
