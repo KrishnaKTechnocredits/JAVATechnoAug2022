@@ -27,5 +27,4 @@ public class LoopBreakAssignment {
 	public static void main(String[] args) {
 		new LoopBreakAssignment().findNumberDivisibleby3and7(10, 200);
 	}
-
 }
