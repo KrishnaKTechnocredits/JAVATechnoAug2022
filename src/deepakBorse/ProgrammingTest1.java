@@ -1,37 +1,11 @@
-/*
-
-
-
-public class progrProgramming Test - 1 : 28th Aug'2022
-
-On User defined range, print first 3 numbers which are divible by 3 and 7.
-input : 20 to 100
-output : 21
-         42
-         63
-Note : Use for loop*/
 package deepakBorse;
 
 public class ProgrammingTest1 {
 
-	
 	void processData(int startR, int endR) {
-		int index = 0, count1 = 0;
-		for (index = startR; index <= endR; index++) {
-			if (index % 3 == 0 && index % 7 == 0) {
-				System.out.println(index);
-				count1++;
-			}
-			if (count1 == 3)
-				break;
-		}
-
-	}
-	 
-	void processDataR(int startR, int endR) {
 		int count1 = 0, index;
-		System.out.println("Number Divisible by 3 & 7 in reverse order from "+endR+" to "+startR);
-		for (index = endR; index>= startR; index--) {
+		System.out.println("First 3 numbers Divisible by 3 & 7 from " + startR + " to " + endR);
+		for (index = startR; index <= endR; index++) {
 			if (index % 3 == 0 && index % 7 == 0) {
 				System.out.println(index);
 				count1++;
@@ -46,7 +20,6 @@ public class ProgrammingTest1 {
 		ProgrammingTest1 ProgrammingTest1 = new ProgrammingTest1();
 
 		ProgrammingTest1.processData(20, 100);
-		ProgrammingTest1.processDataR(20,100);
 	}
 
 }
