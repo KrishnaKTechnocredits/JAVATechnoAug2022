@@ -28,7 +28,7 @@ public class ToDisplayDivisibleByNumbersInReverseOrder {
 			else
 			{
 				  System.out.println("Divisible By Zero Error");
-				break;
+				  break;
 			}
 			  
 		}
