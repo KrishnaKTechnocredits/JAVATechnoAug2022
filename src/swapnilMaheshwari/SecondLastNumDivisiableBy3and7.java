@@ -1,6 +1,6 @@
 package swapnilMaheshwari;
 
-public class SecondLastNumDivisableBy3and7 {
+public class SecondLastNumDivisibleBy3and7 {
 	void processData(int startRange , int endRange) 
 	{
 		int count=0;
@@ -22,7 +22,6 @@ public class SecondLastNumDivisableBy3and7 {
 	}
 	public static void main ( String[] args)
 	{
-		SecondLastNumDivisableBy3and7 secondLastNumDivisableBy3and7 = new SecondLastNumDivisableBy3and7();
-		secondLastNumDivisableBy3and7.processData(10,200);
-	}
+		SecondLastNumDivisibleBy3and7 secondLastNumDivisibleBy3and7 = new SecondLastNumDivisibleBy3and7();
+		secondLastNumDivisibleBy3and7.processData(10,200);	}
 }
