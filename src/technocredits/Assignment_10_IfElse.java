@@ -14,7 +14,7 @@ class Assignment_10_IfElse{
 				count++;
 			}
 		}
-	//	sop(startIndex + ":" + endIndex + "=" + count);
+		System.out.println(count);
 	}
 	
 	void m2(int startIndex, int endIndex){
