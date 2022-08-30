@@ -1,7 +1,7 @@
 
 package mohiniA;
 
-public class TestDivide(){
+public class TestDivide{
 
 		void divisibleby3and7(int num1 ,int num2){
 				int count=0;
@@ -10,7 +10,7 @@ public class TestDivide(){
 					if(num1%3==0 && num1%7==0)
 					{
 							count++;
-							System.out.println("Number" + num1 + "is divisible by 3 and 7")
+							System.out.println("Number" + num1 + "is divisible by 3 and 7");
 					}
 					if (count==3)
 						break;					

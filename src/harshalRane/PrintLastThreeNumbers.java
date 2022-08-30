@@ -21,6 +21,6 @@ class PrintLastThreeNumbers{
 	}
 	
 	public static void main(String[] args){
-		new PrintLastThreeNumbers().processData(20,100);
+		new PrintLastThreeNumbers().processData(10,200);
 	}
 }
