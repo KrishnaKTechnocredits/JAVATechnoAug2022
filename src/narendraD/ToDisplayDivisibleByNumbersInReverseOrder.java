@@ -9,7 +9,7 @@ public class ToDisplayDivisibleByNumbersInReverseOrder {
 	void enterNumbersForDivisible (int startindex, int endindex ) {
 		int count=0;
 
-		System.out.println("Number divisible by "+ enterdivisiblebyfirstnumber + " & " + enterdivisiblebysecondnumber +" are:");
+		System.out.println("Number divisible by "+ enterdivisiblebyfirstnumber + " & " + enterdivisiblebysecondnumber +" in reverse order are:");
 		
 		for(int index = startindex; index>=endindex; index--)
 		{
