@@ -15,8 +15,6 @@ public class SimpleInterestandTemperature {
 	public static void main(String[] args) {
 		SimpleInterestandTemperature simpleInterestandTemperature = new SimpleInterestandTemperature();
 		simpleInterestandTemperature.simpleInterest(500000, 2, 6.5);
-		simpleInterestandTemperature.convertTemperature(100);
-		
+		simpleInterestandTemperature.convertTemperature(100);		
 	}
-
 }
