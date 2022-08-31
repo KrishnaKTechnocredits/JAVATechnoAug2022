@@ -14,8 +14,8 @@ public class Last3NosDivBy3And7 {
 				break;
 		}
 	}
+	
 	public static void main(String[] args) {
 		new Last3NosDivBy3And7().last3NosDivBy3and7(10, 200);
 	}
-
 }
