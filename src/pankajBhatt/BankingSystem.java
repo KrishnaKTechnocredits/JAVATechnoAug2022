@@ -43,6 +43,7 @@ public class BankingSystem {
 	}
 	
 	static void allTransactionSummary() {
+		System.out.println("All Transaction Summary : ");
 		System.out.println("Check Balance Count is : "+uniCreditCount);
 		System.out.println("Credit Count is : "+uniCreditCount);
 		System.out.println("Debit Count is : "+uniDebitCount);
@@ -76,8 +77,6 @@ public class BankingSystem {
 		bankingSyetemUser2.individualTransactionSummary();
 		System.out.println(" ");
 
-		//BankingSystem bankingSystem = new BankingSystem();
 		BankingSystem.allTransactionSummary();
 	}
-
 }
