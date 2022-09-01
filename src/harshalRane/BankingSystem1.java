@@ -60,17 +60,17 @@ class BankingSystem1{
 		bankingSystem1.printBalance();
 		bankingSystem1.individualTransactionSummary();
 		
-		BankingSystem1 bankingSystem2 = new BankingSystem1();
-		bankingSystem2.setUserDetails("User2",50000);
-		bankingSystem2.creditAmount(1500);
-		bankingSystem2.debitAmount(2600);
-		bankingSystem2.creditAmount(2500);
-		bankingSystem2.debitAmount(600);
-		bankingSystem2.creditAmount(7000);
-		bankingSystem2.creditAmount(300);
-		bankingSystem2.creditAmount(1000);
-		bankingSystem2.individualTransactionSummary();
+		bankingSystem1.setUserDetails("User2",50000);
+		bankingSystem1.creditAmount(1500);
+		bankingSystem1.debitAmount(2600);
+		bankingSystem1.creditAmount(2500);
+		bankingSystem1.debitAmount(600);
+		bankingSystem1.creditAmount(7000);
+		bankingSystem1.creditAmount(300);
+		bankingSystem1.creditAmount(1000);
+		bankingSystem1.individualTransactionSummary();
 		
+		BankingSystem1 bankingSystem2 = new BankingSystem1();	
 		bankingSystem2.allTransactionSummary();
 		
 	}	
