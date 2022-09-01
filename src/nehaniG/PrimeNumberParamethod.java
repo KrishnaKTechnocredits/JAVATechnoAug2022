@@ -40,3 +40,5 @@ class PrimeNumberParamethod {
 			primeNumberParamethod.primeRange(100,120);
 	}
 }	
+
+
