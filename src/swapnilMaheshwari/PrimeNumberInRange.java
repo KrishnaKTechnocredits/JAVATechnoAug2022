@@ -22,7 +22,7 @@ public class PrimeNumberInRange {
 				}
 				if ( status==true)
 				{
-					System.out.println(i+ " Number is Prime" );
+					System.out.println(i+ "is Prime Number" );
 					count++;
 					sum= sum+i;
 				}
@@ -39,6 +39,6 @@ public class PrimeNumberInRange {
 	  public static void main (String[] args)
 	  {
 		PrimeNumberInRange primeNumInRange = new PrimeNumberInRange();
-		primeNumInRange.primeNoRange(121);
+		primeNumInRange.primeNoRange(70);
 	  }
 }
