@@ -5,10 +5,11 @@ public class BankingSys {
 	static int debitcnt;
 	static int creditcnt;
 	static int printBalancecnt;
+	static String usrname;
 	int idebitcnt;
 	int icreditcnt;
 	int iprintBalancecnt;
-	String usrname;
+	
 	void debitOpr(int num) {
 		balance =  balance - num;
 		idebitcnt ++;
