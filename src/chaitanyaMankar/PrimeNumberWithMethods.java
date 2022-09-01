@@ -53,5 +53,4 @@ public class PrimeNumberWithMethods
 	primenumber.primeRange(100, 120);
 	primenumber.summary();
 	}
-
 }
