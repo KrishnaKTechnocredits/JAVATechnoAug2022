@@ -26,8 +26,8 @@ class PrimeShow {
 			showPrime(index);
 		}
 		System.out.println();
-		System.out.println("Count is:  " + count);
-		System.out.println("Sum is:  " + sum);
+		System.out.println("Count of Prime numbers is:  " + count);
+		System.out.println("Sum of the prime numbers is:  " + sum);
 		System.out.println("Average of sum is:  " + average);
 	}
 
