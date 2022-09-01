@@ -5,7 +5,6 @@ Create a class to satisfy below requirements.
      Print total count of prime numbers within same range.
      Print sum of all prime numbers within same range
      Print avg of prime numbers within same range*/
-
 package chaitanyaMankar;
 
 public class PrimeNumberWithMethods 
