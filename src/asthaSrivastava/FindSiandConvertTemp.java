@@ -1,16 +1,16 @@
 package asthaSrivastava;
 
 class FindSiandConvertTemp {
-	void simpleInterest( int P, int R,int T){
-		double SI;
-		SI = ((P*R*T)/100);
-		System.out.println("Simple Interest is "+ SI); 
+	void simpleInterest( int p, int r,int t){ 
+		double si;								
+		si = ((p*r*t)/100);
+		System.out.println("Simple Interest is "+ si); 
 	}	
 	
-	void convertTemp( double F){
-		double C;
-		C = ((F - 32) * 5) / 9;
-		System.out.println("Temperature is "+ C); 
+	void convertTemp( double fahrenheit ){   
+		double celsius ;  					
+		celsius = ((fahrenheit - 32) * 5) / 9;
+		System.out.println("Temperature is "+ celsius); 
 	}
 	
 	public static void main(String[] args) {
