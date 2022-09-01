@@ -1,5 +1,7 @@
 //Nested if
 //Weekdayindex & weekday or weekend
+package shridharKumbhar;
+
 class DayIndexWeek{
 	
 	void printbydayindex (int dayIndex){

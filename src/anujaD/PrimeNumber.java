@@ -20,9 +20,7 @@ class PrimeNumber{
 		}
 			public static void main(String[] args){
 				PrimeNumber primeNumber1 = new PrimeNumber();
-				primeNumber1.prime(15);
 				primeNumber1.prime(17);
-				primeNumber1.prime(19);
-				primeNumber1.prime(-90);
+				
 			}
 }
