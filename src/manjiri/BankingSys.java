@@ -70,5 +70,6 @@ public class BankingSys {
 		bankingSys2.individualTransactionSummary();
 		
 		bankingSys.allTransactionSummary();
+		bankingSys2.allTransactionSummary();
 	}
 }
