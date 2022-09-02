@@ -1,4 +1,4 @@
-package smitaVetal;
+package smitaVetal.Basic;
 
 class Calendar{
 	void weekIndex(int week){
