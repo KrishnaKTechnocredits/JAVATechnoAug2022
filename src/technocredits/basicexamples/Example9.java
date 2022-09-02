@@ -1,4 +1,4 @@
-package technocredits;
+package technocredits.basicexamples;
 
 class Example9{
 	int index;

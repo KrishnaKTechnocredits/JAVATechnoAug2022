@@ -1,4 +1,4 @@
-package technocredits;
+package technocredits.basicexamples;
 class Student
 {
    String name = "Maulik";

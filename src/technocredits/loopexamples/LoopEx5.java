@@ -4,7 +4,7 @@
 //14 is div by 7
 // 21 is div by 7
 // 91 is div by 7 and 13
-package technocredits;
+package technocredits.loopexamples;
 
 class LoopEx5{
 	

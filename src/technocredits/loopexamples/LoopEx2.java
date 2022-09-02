@@ -1,4 +1,4 @@
-package technocredits;
+package technocredits.loopexamples;
 
 class LoopEx2{
 	
