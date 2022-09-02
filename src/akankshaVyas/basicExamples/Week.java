@@ -7,7 +7,7 @@ dayIndex -> -3 : Invalid Index
 Note : 1 to 5 index should be consider as weekdays, 6 & 7 should be consider as weekend
 */
 
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Week{
 
 	void processData(int dayIndex){		

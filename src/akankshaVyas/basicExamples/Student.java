@@ -1,5 +1,5 @@
 //Student has name and roll num and it should b printable
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Student{
 	String name= "Akanksha";
 	int rno=1;

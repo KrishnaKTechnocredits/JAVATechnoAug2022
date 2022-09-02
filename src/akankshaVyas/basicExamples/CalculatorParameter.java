@@ -1,5 +1,5 @@
 //Calculator by parameters passing with two variable 
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class CalculatorParameter{
 
 	void addition(int x,int y){

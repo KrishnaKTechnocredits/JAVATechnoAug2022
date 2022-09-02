@@ -1,5 +1,5 @@
 // calculator program with for method add,sub,mul,div and display it
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Calculator{
 	int number1 = 10;
 	int number2 = 5;

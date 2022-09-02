@@ -1,4 +1,4 @@
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 
 public class Last3NumDivisibleBy3n7 {
 

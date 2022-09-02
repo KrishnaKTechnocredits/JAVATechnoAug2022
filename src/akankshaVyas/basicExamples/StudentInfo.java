@@ -13,7 +13,7 @@ Program Statement : Print all details of Student like Name, Middle name, Surname
 8. Compile & Run
 */
 
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class StudentInfo{
 
 	void studentName(String name, String middleName, String surname){

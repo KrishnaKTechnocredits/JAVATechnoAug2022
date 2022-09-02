@@ -1,4 +1,4 @@
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 
 public class DivisibleBy3n7 {
 	
