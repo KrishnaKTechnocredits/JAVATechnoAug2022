@@ -1,4 +1,4 @@
-package technocredits;
+package technocredits.basicexamples;
 
 class BankDetail{
 	int balance = 1000;

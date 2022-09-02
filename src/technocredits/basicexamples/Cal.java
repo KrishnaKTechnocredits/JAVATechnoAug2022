@@ -1,4 +1,4 @@
-package technocredits;
+package technocredits.basicexamples;
 class Cal{
  int ans = 0;
  

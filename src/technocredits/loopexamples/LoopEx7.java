@@ -1,4 +1,4 @@
-package technocredits;
+package technocredits.loopexamples;
 
 public class LoopEx7 {
 	void loopExample(int number) {
