@@ -1,5 +1,5 @@
 // concatination operation 14 line special
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Example4{
 
 	int x = 10;

@@ -1,5 +1,5 @@
 // mcq test 2 
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 public class Example1{
 	
 	int x = 1;

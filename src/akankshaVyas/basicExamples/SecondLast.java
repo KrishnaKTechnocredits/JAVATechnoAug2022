@@ -1,4 +1,7 @@
-package akankshaVyas;
+/* Second last num divisible by 3 n 7
+ * 
+ */
+package akankshaVyas.basicExamples;
 
 public class SecondLast {
 	

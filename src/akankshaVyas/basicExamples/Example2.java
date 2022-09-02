@@ -1,5 +1,5 @@
 // MCQ QUESTION
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Example2{
 	
 	int num1 = 3;

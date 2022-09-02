@@ -54,7 +54,7 @@ output : 19
          11
 */
 
-package akankshaVyas;
+package akankshaVyas.forLoopPrimeBanking;
 class ForEx{
 	
 	void printEvenNum(int startIndex, int endIndex){

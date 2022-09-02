@@ -6,7 +6,7 @@ Program 1: Find a day based on dayIndex.
 dayIndex -> -3 : Invalid Index
 dayIndex -> 13 : Invalid Index
 */
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Day{	
 	void processData(int dayIndex){
 		if(dayIndex==1)

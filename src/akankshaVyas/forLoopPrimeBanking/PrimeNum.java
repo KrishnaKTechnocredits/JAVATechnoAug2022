@@ -11,7 +11,7 @@ input : -90
 output : not a valid number
 */
 
-package akankshaVyas;
+package akankshaVyas.forLoopPrimeBanking;
 class PrimeNum{
 
 	void isPrimeNum(int num){

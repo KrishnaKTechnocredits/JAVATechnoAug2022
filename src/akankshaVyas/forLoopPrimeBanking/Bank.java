@@ -7,7 +7,7 @@ Create a class called Bank having 3 methods and 3 instance variables.
 - create only one object and call methods multiple times, at the end call printInfo method.
 - I suggest to use If condition to make sure asked amount <= balance, if not please print InSufficient fund message in debit method.
 */
-package akankshaVyas;
+package akankshaVyas.forLoopPrimeBanking;
 class Bank{
 
 	int balance = 10000;

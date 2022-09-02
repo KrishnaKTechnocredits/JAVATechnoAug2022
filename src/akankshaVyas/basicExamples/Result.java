@@ -12,7 +12,7 @@ if score is between 50-59, print "C, you can do better".
 Any other range should be considered as invalid.
 */
 
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Result{
 
 	void processResult(int score){

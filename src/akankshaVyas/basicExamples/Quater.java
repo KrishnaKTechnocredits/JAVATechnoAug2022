@@ -7,7 +7,7 @@ Month index is 10 or 11 or 12 -> FY2022 Q4
 Any other index should be considered as invalid
 */
 
-package akankshaVyas;
+package akankshaVyas.basicExamples;
 class Quater{
 
 	void processData(int monthIndex){
