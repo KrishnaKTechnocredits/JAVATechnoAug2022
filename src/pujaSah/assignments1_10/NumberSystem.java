@@ -1,6 +1,6 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
-public class InitialAssignmentNumberSystem {
+public class NumberSystem {
 
 	// Print all even numbers in a user defined range
 	void processEvenNumber(int x, int y) {
@@ -90,13 +90,13 @@ public class InitialAssignmentNumberSystem {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentNumberSystem initialAssignmentNumberSystem = new InitialAssignmentNumberSystem();
-		initialAssignmentNumberSystem.processEvenNumber(10, 15);
-		initialAssignmentNumberSystem.divisibilityBy5(10, 30);
-		initialAssignmentNumberSystem.divisibilityBy3And5(5, 18);
-		initialAssignmentNumberSystem.divisibilityBy7Or13(5, 40);
-		initialAssignmentNumberSystem.numberAddition(1, 5);
-		initialAssignmentNumberSystem.processData(3, 9);
-		initialAssignmentNumberSystem.DisplayOddNumbers(10, 20);
+		NumberSystem numberSystem = new NumberSystem();
+		numberSystem.processEvenNumber(10, 15);
+		numberSystem.divisibilityBy5(10, 30);
+		numberSystem.divisibilityBy3And5(5, 18);
+		numberSystem.divisibilityBy7Or13(5, 40);
+		numberSystem.numberAddition(1, 5);
+		numberSystem.processData(3, 9);
+		numberSystem.DisplayOddNumbers(10, 20);
 	}
 }

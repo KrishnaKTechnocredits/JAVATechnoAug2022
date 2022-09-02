@@ -1,4 +1,4 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
 public class StudentInfo2 {
 	int rollNumber = 10;

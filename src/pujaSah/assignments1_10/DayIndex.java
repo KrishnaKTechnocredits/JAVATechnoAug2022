@@ -1,6 +1,6 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
-public class InitialAssignmentDayIndex {
+public class DayIndex {
 
 	void processData(int x) {
 		System.out.println("Day No: " + x);
@@ -13,9 +13,9 @@ public class InitialAssignmentDayIndex {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentDayIndex initialAssignmentDayIndex = new InitialAssignmentDayIndex();
-		initialAssignmentDayIndex.processData(6);
-		initialAssignmentDayIndex.processData(2);
-		initialAssignmentDayIndex.processData(9);
+		DayIndex dayIndex = new DayIndex();
+		dayIndex.processData(6);
+		dayIndex.processData(2);
+		dayIndex.processData(9);
 	}
 }
