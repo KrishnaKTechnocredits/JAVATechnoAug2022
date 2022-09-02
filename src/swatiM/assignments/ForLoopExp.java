@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.assignments;
 class ForLoopExp{
 		
 		void evenNumber(int start,int end){

@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.assignments;
 class Student{
 	String name = "Swati";
 	int rno = 1 ;

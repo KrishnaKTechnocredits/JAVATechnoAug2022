@@ -8,7 +8,7 @@
 //if score is between 60-69, print "C+, keep reading".
 //if score is between 50-59, print "C, you can do better".
 //Anyother range should be considered as invalid.
-package swatiM;
+package swatiM.assignments;
 
 class StudentMarks{
 	
