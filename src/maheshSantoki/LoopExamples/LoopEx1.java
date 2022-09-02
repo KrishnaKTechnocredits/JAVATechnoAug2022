@@ -1,6 +1,6 @@
 //Assignment 7
 //Mahesh Santoki
-package maheshSantoki;
+package maheshSantoki.LoopExamples;
 class LoopEx1{
 	//print all even numbers
 	void evenNumber(int start,int end){
