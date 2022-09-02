@@ -14,7 +14,7 @@ Write a method to compute simple interest
 
 Note : double data type can store decimal numbers.*/
 
-package deepakBorse;
+package deepakBorse.Assignments;
 
 public class SimpleIntAndFtoC {
 

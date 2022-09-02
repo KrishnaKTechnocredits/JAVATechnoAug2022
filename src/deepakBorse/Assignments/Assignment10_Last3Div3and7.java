@@ -5,7 +5,7 @@ Input : 10 to 200
 Output : 189
               168
               147   */
-package deepakBorse;
+package deepakBorse.Assignments;
 
 public class Assignment10_Last3Div3and7 {
 
