@@ -1,14 +1,14 @@
-package manjiri;
+package manjiri.assignments;
 
 public class BankingSys {
-	static int balance;
-	static int debitcnt;
-	static int creditcnt;
-	static int printBalancecnt;
-	static String usrname;
+	int balance;
+	String usrname;
 	int idebitcnt;
 	int icreditcnt;
 	int iprintBalancecnt;
+	static int debitcnt;
+	static int creditcnt;
+	static int printBalancecnt;
 	
 	void debitOpr(int num) {
 		balance =  balance - num;
@@ -57,7 +57,7 @@ public class BankingSys {
 		bankingSys.individualTransactionSummary();
 		
 		BankingSys bankingSys2 =  new BankingSys();
-		//bankingSys2.setUserDetails("Manjiri-jointAccount", 10000);
+		bankingSys2.setUserDetails("User2", 20000);
 		bankingSys2.debitOpr(500);
 		bankingSys2.debitOpr(500);
 		bankingSys2.debitOpr(500);

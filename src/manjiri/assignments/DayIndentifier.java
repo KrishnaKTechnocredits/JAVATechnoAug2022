@@ -1,5 +1,5 @@
 // Program1: Find a day based on day index
-package manjiri;
+package manjiri.assignments;
 class DayIndentifier{
 	void processData(int dayIndex){
 		if (dayIndex == 1)

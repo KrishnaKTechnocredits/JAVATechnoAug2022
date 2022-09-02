@@ -1,4 +1,4 @@
-package manjiri;
+package manjiri.assignments;
 class AdvancedCalculator{
 	
 	void add(int num1, int num2){

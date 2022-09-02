@@ -1,5 +1,5 @@
 //Program2: Find weekdays or weekend based on day index
-package manjiri;
+package manjiri.assignments;
 class IndetifyWeekdaysOrWeekend{
 	
 	void processData(int dayIndex){

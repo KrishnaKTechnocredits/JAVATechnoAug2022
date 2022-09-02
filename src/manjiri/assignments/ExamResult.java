@@ -1,4 +1,4 @@
-package manjiri;
+package manjiri.assignments;
 class ExamResult{
 
 	void processResult(int score){

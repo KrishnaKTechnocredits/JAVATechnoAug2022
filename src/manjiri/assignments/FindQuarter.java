@@ -1,5 +1,5 @@
 //Program3: Find quarter based on month index
-package manjiri;
+package manjiri.assignments;
 class FindQuarter{
 
 	String year = "FY2022";

@@ -1,6 +1,6 @@
 // Calculator with 4 methods add,sub, mul, div, call from main() method
 // local variable - accessible to that method only
-package manjiri;
+package manjiri.assignments;
 class Calculator{
 	int num1 = 10; //instance variable - accessible to whole class
 	int num2 = 5; //instance variable

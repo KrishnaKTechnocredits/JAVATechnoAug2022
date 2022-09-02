@@ -1,4 +1,4 @@
-package manjiri;
+package manjiri.assignments;
 
 public class FirstProg {
 

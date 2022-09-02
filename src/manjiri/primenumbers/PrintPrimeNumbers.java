@@ -1,4 +1,4 @@
-package manjiri;
+package manjiri.primenumbers;
 
 public class PrintPrimeNumbers {
 	int count;
