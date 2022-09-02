@@ -1,4 +1,4 @@
-package smitaVetal;
+package smitaVetal.Basic;
 
 class Calculator {
 	int number1 = 10;
