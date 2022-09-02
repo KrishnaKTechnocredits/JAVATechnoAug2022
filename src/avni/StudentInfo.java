@@ -1,7 +1,8 @@
 package avni;
-class StudentInfo {
 
-	void studentName(String name, String middleName, String surname) {
+class StudentInfo{
+	
+	void studentName(String name , String middleName,String surname){
 		System.out.println(name);
 		System.out.println(middleName);
 		System.out.println(surname);
