@@ -1,3 +1,5 @@
+package avni;
+
 class Prime{
 
    void isPrime(int num){
