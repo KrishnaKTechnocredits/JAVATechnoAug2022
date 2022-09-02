@@ -1,3 +1,4 @@
+package avni.basic;
 class Result{
 
 	void processResult(int scoore){

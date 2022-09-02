@@ -1,5 +1,5 @@
 //assinment2
-package avni;
+package avni.basic;
 class Calculator{
 	
 	void add(int x,int y){

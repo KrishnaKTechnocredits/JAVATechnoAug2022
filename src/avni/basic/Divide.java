@@ -1,4 +1,4 @@
-package avni;
+package avni.basic;
 
 public class Divide {
 

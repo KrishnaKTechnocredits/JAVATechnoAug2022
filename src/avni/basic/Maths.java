@@ -1,6 +1,6 @@
 //assignment7
 //AVANI DALSANIYA
-package avni;
+package avni.basic;
 class Maths{
 	void even(int start,int end){
 		System.out.println("1.even numbers are");

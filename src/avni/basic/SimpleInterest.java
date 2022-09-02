@@ -1,4 +1,4 @@
-package avni;
+package avni.basic;
 
 public class SimpleInterest {
 	void interest(int p, double r, int n) {

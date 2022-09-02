@@ -1,3 +1,4 @@
+package avni.basic;
 class StudentInfo{
 	
 	void studentName(String name , String middleName,String surname){

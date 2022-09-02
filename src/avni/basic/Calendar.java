@@ -1,4 +1,4 @@
-package avni;
+package avni.basic;
 class Calendar{	
 
 	void dayIndex(int dayIndex){

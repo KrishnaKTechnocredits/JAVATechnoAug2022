@@ -1,4 +1,4 @@
-package avni;
+package avni.basic;
 class Example4{
 
 	int x = 10;
