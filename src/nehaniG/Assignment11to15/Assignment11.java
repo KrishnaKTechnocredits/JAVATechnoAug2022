@@ -1,4 +1,4 @@
-package nehaniG;
+package nehaniG.Assignment11to15;
 
 public class Assignment11 {
 	void interest (double principle, double time, double rate) {
