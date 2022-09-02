@@ -70,6 +70,7 @@ public class BankingSystem
 		bankingSystem2.creditAmount(1000);
 		bankingSystem2.individualTranscationSummary();
 		bankingSystem2.allTranscationSummary();
+		bankingSystem2.printBalance();
 	}
 	
 }
