@@ -1,4 +1,4 @@
-package gauravSahu;
+package gauravSahu.loopExample;
 
 public class Whileloop {
 	
