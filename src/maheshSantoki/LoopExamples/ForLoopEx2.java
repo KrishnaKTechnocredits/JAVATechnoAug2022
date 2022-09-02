@@ -1,6 +1,6 @@
 //divisble by 3 and 7 userdifined range print first 3 numbers 
 //Assignment-10 | 28th August-2022
-package maheshSantoki;
+package maheshSantoki.LoopExamples;
 
 class ForLoopEx2 {
 	

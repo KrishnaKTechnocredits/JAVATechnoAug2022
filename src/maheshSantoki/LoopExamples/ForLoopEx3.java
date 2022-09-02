@@ -1,4 +1,4 @@
-package maheshSantoki;
+package maheshSantoki.LoopExamples;
 
 public class ForLoopEx3 {
 
