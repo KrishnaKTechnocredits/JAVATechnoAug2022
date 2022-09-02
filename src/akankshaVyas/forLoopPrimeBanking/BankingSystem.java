@@ -38,8 +38,8 @@ Let us know if you want us to arrange Assignment-13 solution session.
 package akankshaVyas.forLoopPrimeBanking;
 
 public class BankingSystem {
-	
-	static String name;
+
+	String name;
 	static int bal;
 	int indDebitCount;
 	int indPrintCount;
@@ -47,62 +47,66 @@ public class BankingSystem {
 	static int tPrintCount;
 	static int tDebitCount;
 	static int tCreditCount;
-	
+
 	void setUserDetails(int bal, String name) {
-		
+		this.name = name;
+		this.bal = bal;
+
 	}
-	
+
 	void debitAmount(int amount) {
-		
+
 		bal = bal - amount;
 		indDebitCount++;
 		tDebitCount++;
-		
+
 	}
 
 	void creditAmount(int amount) {
-		bal = bal+amount;
+		bal = bal + amount;
 		indCreditCount++;
 		tCreditCount++;
 	}
-	
+
 	void printBalance() {
 		indPrintCount++;
 		tPrintCount++;
 	}
-	
+
 	void individualTransactionSummary() {
-		
-		System.out.println(name +" transaction summary is : "+ "credit- " + (indCreditCount)+ " times," + " Debit- "+ (indDebitCount)+ " times,  printBalance- "+ (indPrintCount) +" times");
-		
+
+		System.out.println("Main balance for " + name + " is " + bal);
+ 		System.out.println(name + " transaction summary is : " + "credit- " + (indCreditCount) + " times," + " Debit- "
+				+ (indDebitCount) + " times,  printBalance- " + (indPrintCount) + " times \n");
+
 	}
+
 	void allTransactionSummary() {
-		System.out.println("All transaction summary is : "+ "credit- " + (tCreditCount)+ " times," + " Debit- "+ (tDebitCount)+ " times,  printBalance- "+ (tPrintCount) +" times");
-		
+		System.out.println("\n"+"All transaction summary is : " + "credit- " + (tCreditCount) + " times," + " Debit- "
+				+ (tDebitCount) + " times,  printBalance- " + (tPrintCount) + " times \n");
+
 	}
-	
+
 	public static void main(String[] args) {
-	BankingSystem bankingSystem1 = new BankingSystem();
-	bankingSystem1.setUserDetails(5000, "User1");
-	bankingSystem1.debitAmount(100);
-	bankingSystem1.creditAmount(200);
-	bankingSystem1.creditAmount(500);
-	bankingSystem1.printBalance();
-	bankingSystem1.individualTransactionSummary();
-	
-	
-	BankingSystem bankingSystem2 = new BankingSystem();
-	bankingSystem2.setUserDetails(4000, "User2");
-	bankingSystem2.debitAmount(100);
-	bankingSystem2.debitAmount(100);
-	bankingSystem2.creditAmount(200);
-	bankingSystem2.creditAmount(100);
-	bankingSystem2.creditAmount(20);
-	bankingSystem2.creditAmount(10);
-	bankingSystem2.creditAmount(80);
-	bankingSystem2.individualTransactionSummary();
-	bankingSystem2.allTransactionSummary();
-	
+		BankingSystem bankingSystem1 = new BankingSystem();
+		bankingSystem1.setUserDetails(5000, "User1");
+		bankingSystem1.debitAmount(100);
+		bankingSystem1.creditAmount(200);
+		bankingSystem1.creditAmount(500);
+		bankingSystem1.printBalance();
+		bankingSystem1.individualTransactionSummary();
+
+		BankingSystem bankingSystem2 = new BankingSystem();
+		bankingSystem2.setUserDetails(4000, "User2");
+		bankingSystem2.debitAmount(100);
+		bankingSystem2.debitAmount(100);
+		bankingSystem2.creditAmount(200);
+		bankingSystem2.creditAmount(100);
+		bankingSystem2.creditAmount(20);
+		bankingSystem2.creditAmount(10);
+		bankingSystem2.creditAmount(80);
+		bankingSystem2.individualTransactionSummary();
+		bankingSystem2.allTransactionSummary();
+
 	}
 }
-	
