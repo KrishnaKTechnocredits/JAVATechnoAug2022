@@ -1,4 +1,4 @@
-package adittyThakare;
+package adittyThakare.basicconcepts;
 
 public class Facebook{
 

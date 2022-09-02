@@ -1,4 +1,12 @@
-package adittyThakare;
+/*Programming Test - 1 : 28th Aug'2022
+
+On User defined range, print first 3 numbers which are divible by 3 and 7.
+input : 20 to 100
+output : 21
+             42
+              63
+Note : Use for loop*/
+package adittyThakare.basicconcepts;
 
 public class Assignment10 {
 	

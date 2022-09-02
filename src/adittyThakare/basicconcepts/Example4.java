@@ -1,4 +1,4 @@
-package adittyThakare;
+package adittyThakare.basicconcepts;
 
 class Example4{
 	int x = 10;

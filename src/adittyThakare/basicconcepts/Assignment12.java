@@ -1,4 +1,12 @@
-package adittyThakare;
+/*Assignment - 12 : 1st Sep'2022
+
+Create a class to satisfy below requirements. 
+ a) Print all the prime numbers between range 100->120. (parameterized method)
+     Print total count of prime numbers within same range.
+     Print sum of all prime numbers within same range
+     Print avg of prime numbers within same range
+*/
+package adittyThakare.basicconcepts;
 
 public class Assignment12 {
 	int primeCount, primeAddition, primeAverage;
