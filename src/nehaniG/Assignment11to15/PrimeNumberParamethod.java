@@ -1,4 +1,4 @@
-package nehaniG;
+package nehaniG.Assignment11to15;
 
 class PrimeNumberParamethod {
 	int primeCount;
