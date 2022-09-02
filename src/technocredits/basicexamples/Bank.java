@@ -1,4 +1,4 @@
-package technocredits;
+package technocredits.basicexamples;
 public class Bank{
  int totalAmt = 10000;
  int amt = 0;

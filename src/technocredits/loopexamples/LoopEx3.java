@@ -1,10 +1,6 @@
-package technocredits;
+package technocredits.loopexamples;
 
-class Assignment_10_IfElse{
-	
-	public static void main(String[] args) {
-		System.out.println("Assignment 10 DOne");
-	}
+class LoopEx3{
 	
 	void m1(int startIndex){
 		int count=0;
@@ -14,7 +10,7 @@ class Assignment_10_IfElse{
 				count++;
 			}
 		}
-		System.out.println(count);
+	//	sop(startIndex + ":" + endIndex + "=" + count);
 	}
 	
 	void m2(int startIndex, int endIndex){
