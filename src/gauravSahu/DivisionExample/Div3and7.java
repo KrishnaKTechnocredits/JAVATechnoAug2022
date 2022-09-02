@@ -1,4 +1,4 @@
-package gauravSahu;
+package gauravSahu.DivisionExample;
 
 public class Div3and7 {
 
