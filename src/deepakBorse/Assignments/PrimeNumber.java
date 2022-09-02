@@ -9,7 +9,7 @@ output : 17 is a prime number
 input : -90
 output : not a valid number
 */
-package deepakBorse;
+package deepakBorse.Assignments;
 
 class PrimeNumber{
 

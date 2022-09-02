@@ -55,7 +55,7 @@ output : 19
          11
 		 
 */
-package deepakBorse;
+package deepakBorse.Assignments;
 
 class loopAssignment{
 	

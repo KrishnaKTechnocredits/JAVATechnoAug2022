@@ -24,7 +24,7 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 NOTE : You should have setUserDetails method to set username and initial Balance */
 
 
-package deepakBorse;
+package deepakBorse.Assignments;
 
 public class BankSystem {
 	
