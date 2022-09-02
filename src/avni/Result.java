@@ -1,5 +1,4 @@
 package avni;
-
 class Result{
 
 	void processResult(int scoore){
