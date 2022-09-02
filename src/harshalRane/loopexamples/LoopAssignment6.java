@@ -1,4 +1,4 @@
-package harshalRane;
+package harshalRane.loopexamples;
 
 class LoopAssignment6{
 	
