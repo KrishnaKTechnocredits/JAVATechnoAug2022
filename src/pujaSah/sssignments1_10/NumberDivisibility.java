@@ -1,6 +1,6 @@
-package pujaSah;
+package pujaSah.sssignments1_10;
 
-public class InitialAssignmentNumberDivisibility {
+public class NumberDivisibility {
 
 	void processData() {
 		System.out.println("Numbers starting from 1 to 20 that are divisible by 3 are:");
@@ -12,7 +12,8 @@ public class InitialAssignmentNumberDivisibility {
 	}
 
 	public static void main(String[] args) {
-		NumberDivisibility numberDivisibility = new NumberDivisibility();
+		NumberDivisibility numberDivisibility =
+				new NumberDivisibility();
 		numberDivisibility.processData();
 	}
 }

@@ -1,4 +1,4 @@
-package pujaSah;
+package pujaSah.sssignments1_10;
 
 public class InitialAssignmentCalculator {
 	int number1 = 10;

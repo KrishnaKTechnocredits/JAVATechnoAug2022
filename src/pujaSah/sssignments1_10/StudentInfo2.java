@@ -1,6 +1,6 @@
-package pujaSah;
+package pujaSah.sssignments1_10;
 
-public class InitialAssignmentStudentInfo2 {
+public class StudentInfo2 {
 	int rollNumber = 10;
 	String name = "Shikha";
 	String middleName = "Amit";
@@ -21,9 +21,8 @@ public class InitialAssignmentStudentInfo2 {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentStudentInfo2 initialAssignmentStudentInfo2 = new InitialAssignmentStudentInfo2();
-		initialAssignmentStudentInfo2.studentName();
-		initialAssignmentStudentInfo2.studentOtherDetails(initialAssignmentStudentInfo2.rollNumber,
-				initialAssignmentStudentInfo2.birthDate);
+		StudentInfo2 studentInfo2 = new StudentInfo2();
+		studentInfo2.studentName();
+		studentInfo2.studentOtherDetails(studentInfo2.rollNumber,studentInfo2.birthDate);
 	}
 }
