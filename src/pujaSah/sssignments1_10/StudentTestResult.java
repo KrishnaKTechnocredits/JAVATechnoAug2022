@@ -1,6 +1,6 @@
-package pujaSah;
+package pujaSah.sssignments1_10;
 
-public class InitialAssignmentStudentTestResult {
+public class StudentTestResult {
 
 	void processResult(String name, int marks) {
 		if (marks >= 0 && marks <= 49) {
@@ -28,11 +28,11 @@ public class InitialAssignmentStudentTestResult {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentStudentTestResult initialAssignmentStudentTestResult = new InitialAssignmentStudentTestResult();
-		initialAssignmentStudentTestResult.processResult("Rahul", 7);
-		initialAssignmentStudentTestResult.processResult("Kavita", 99);
-		initialAssignmentStudentTestResult.processResult("Priya", 30);
-		initialAssignmentStudentTestResult.processResult("Anjali", 200);
-		initialAssignmentStudentTestResult.processResult("Nikita", -67);
+		StudentTestResult studentTestResult = new StudentTestResult();
+		studentTestResult.processResult("Rahul", 7);
+		studentTestResult.processResult("Kavita", 99);
+		studentTestResult.processResult("Priya", 30);
+		studentTestResult.processResult("Anjali", 200);
+		studentTestResult.processResult("Nikita", -67);
 	}
 }

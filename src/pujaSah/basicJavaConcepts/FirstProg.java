@@ -1,4 +1,4 @@
-package pujaSah;
+package pujaSah.basicJavaConcepts;
 
 public class FirstProg {
 
