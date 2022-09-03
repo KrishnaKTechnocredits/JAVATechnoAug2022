@@ -1,6 +1,6 @@
 //Class to print day of week , weekend/weekday , Quarter of the year based on input number provided
 
-package mohiniA;
+package mohiniA.basic;
 class Index{
 		
 	void weekDay( int day){

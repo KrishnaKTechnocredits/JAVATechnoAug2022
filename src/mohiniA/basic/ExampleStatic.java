@@ -1,4 +1,4 @@
-package mohiniA;
+package mohiniA.basic;
 
 class ExampleStatic{
 	static int x =10;

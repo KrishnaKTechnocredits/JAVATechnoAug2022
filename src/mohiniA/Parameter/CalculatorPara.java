@@ -1,4 +1,4 @@
-package mohiniA;
+package mohiniA.Parameter;
 
 class CalculatorPara{
 	
