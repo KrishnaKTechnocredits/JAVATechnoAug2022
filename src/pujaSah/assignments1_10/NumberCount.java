@@ -1,7 +1,7 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
-public class InitialAssignmentNumberCount {
-	
+public class NumberCount {
+
 	void processData() {
 		int count = 0;
 		for (int index = 1; index <= 100; index++) {
@@ -13,7 +13,7 @@ public class InitialAssignmentNumberCount {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentNumberCount initialAssignmentNumberCount = new InitialAssignmentNumberCount();
-		initialAssignmentNumberCount.processData();
+		NumberCount numberCount = new NumberCount();
+		numberCount.processData();
 	}
 }

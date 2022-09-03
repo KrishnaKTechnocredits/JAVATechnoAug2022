@@ -1,6 +1,6 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
-public class InitialAssignmentQuarterIndex {
+public class QuarterIndex {
 
 	void processData(int x) {
 		System.out.println("Month No: " + x);
@@ -18,10 +18,10 @@ public class InitialAssignmentQuarterIndex {
 
 	public static void main(String[] args) {
 
-		InitialAssignmentQuarterIndex initialAssignmentQuarterIndex = new InitialAssignmentQuarterIndex();
-		initialAssignmentQuarterIndex.processData(5);
-		initialAssignmentQuarterIndex.processData(9);
-		initialAssignmentQuarterIndex.processData(2);
-		initialAssignmentQuarterIndex.processData(20);
+		QuarterIndex quarterIndex = new QuarterIndex();
+		quarterIndex.processData(5);
+		quarterIndex.processData(9);
+		quarterIndex.processData(2);
+		quarterIndex.processData(20);
 	}
 }

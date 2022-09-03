@@ -1,6 +1,6 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
-public class InitialAssignmentNumberAddition {
+public class NumberAddition {
 	void processData(int firstIndex, int lastIndex) {
 		int sum = 0;
 		for (int index = firstIndex; index <= lastIndex; index++) {
@@ -10,7 +10,7 @@ public class InitialAssignmentNumberAddition {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentNumberAddition initialAssignmentNumberAddition = new InitialAssignmentNumberAddition();
-		initialAssignmentNumberAddition.processData(10, 20);
+		NumberAddition numberAddition = new NumberAddition();
+		numberAddition.processData(10, 20);
 	}
 }

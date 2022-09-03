@@ -1,6 +1,6 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
-public class InitialAssignmentCalculator3 {
+public class Calculator3 {
 
 	void add(int x, int y) {
 		int ans = x + y;
@@ -23,10 +23,10 @@ public class InitialAssignmentCalculator3 {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentCalculator3 initialAssignmentCalculator3 = new InitialAssignmentCalculator3();
-		initialAssignmentCalculator3.add(5, 10);
-		initialAssignmentCalculator3.subtract(30, 10);
-		initialAssignmentCalculator3.multiply(10, 10);
-		initialAssignmentCalculator3.divide(20, 2);
+		Calculator3 calculator3 = new Calculator3();
+		calculator3.add(5, 10);
+		calculator3.subtract(30, 10);
+		calculator3.multiply(10, 10);
+		calculator3.divide(20, 2);
 	}
 }

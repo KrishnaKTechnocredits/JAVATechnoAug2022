@@ -1,6 +1,6 @@
-package pujaSah.sssignments1_10;
+package pujaSah.assignments1_10;
 
-public class InitialAssignmentPrimeNumber {
+public class PrimeNumber {
 
 	void isPrime(int num) {
 		if (num > 0) {
@@ -22,9 +22,9 @@ public class InitialAssignmentPrimeNumber {
 	}
 
 	public static void main(String[] args) {
-		InitialAssignmentPrimeNumber initialAssignmentPrimeNumber = new InitialAssignmentPrimeNumber();
-		initialAssignmentPrimeNumber.isPrime(121);
-		initialAssignmentPrimeNumber.isPrime(37);
-		initialAssignmentPrimeNumber.isPrime(-10);
+		PrimeNumber primeNumber = new PrimeNumber();
+		primeNumber.isPrime(121);
+		primeNumber.isPrime(37);
+		primeNumber.isPrime(-10);
 	}
 }
