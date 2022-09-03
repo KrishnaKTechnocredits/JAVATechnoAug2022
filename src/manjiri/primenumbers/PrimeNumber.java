@@ -1,4 +1,4 @@
-package manjiri;
+package manjiri.primenumbers;
 class PrimeNumber{
 	boolean status = true;
 	
