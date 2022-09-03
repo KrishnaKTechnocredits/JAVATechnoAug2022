@@ -21,7 +21,7 @@ Patel
 G-809, Heaven Apartment, Baner, Pune.
 34
 */
-package deepakBorse;
+package deepakBorse.Assignments;
 
 class StudentInfo{
 	String Name, middleName, surname, birthdate, Address;

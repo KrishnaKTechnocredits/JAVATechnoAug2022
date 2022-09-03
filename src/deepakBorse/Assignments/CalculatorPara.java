@@ -1,4 +1,4 @@
-package deepakBorse;
+package deepakBorse.Assignments;
 
 class CalculatorPara{
 	

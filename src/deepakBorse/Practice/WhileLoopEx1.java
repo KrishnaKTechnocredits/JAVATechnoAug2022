@@ -1,4 +1,4 @@
-package deepakBorse;
+package deepakBorse.Practice;
 
 public class WhileLoopEx1 {
 	

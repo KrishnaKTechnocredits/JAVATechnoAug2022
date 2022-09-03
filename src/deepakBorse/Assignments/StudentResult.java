@@ -9,7 +9,7 @@ if score is between 70-79, print "B+, you are improving".
 if score is between 60-69, print "C+, keep reading".
 if score is between 50-59, print "C, you can do better".
 Any other range should be considered as invalid. */
-package deepakBorse;
+package deepakBorse.Assignments;
 
 class StudentResult{
 	
