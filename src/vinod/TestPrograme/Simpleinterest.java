@@ -1,4 +1,4 @@
-package vinod;
+package vinod.TestPrograme;
 
 public class Simpleinterest {
 	

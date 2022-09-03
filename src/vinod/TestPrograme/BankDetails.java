@@ -1,4 +1,4 @@
-package vinod;
+package vinod.TestPrograme;
 class BankDetails{
  int debitCount = 0;
  int creditCount = 0;

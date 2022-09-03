@@ -1,4 +1,4 @@
-package vinod;
+package vinod.TestPrograme;
 
 public class Divisibleby3and7 {
 	void divisibleby3and7(int num1, int num2) {

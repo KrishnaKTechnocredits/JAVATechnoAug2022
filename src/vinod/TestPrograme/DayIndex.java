@@ -1,4 +1,4 @@
-package vinod;
+package vinod.TestPrograme;
 class DayIndex {
  int day = 1;
  
