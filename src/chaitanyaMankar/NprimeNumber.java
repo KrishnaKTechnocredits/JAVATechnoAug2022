@@ -2,24 +2,35 @@ package chaitanyaMankar;
 
 public class NprimeNumber 
 {
-
-	void nPrime(int num)
-	{	
+	void nPrime(int n)
+	{	 		
 		int count = 0;
+		int num = 2;
+		
 		System.out.println("First "+num+" Prime Numbers: ");
-		for(int i=0;;i++)
+		
+		while(count!=n)
 		{
-			if(i%2!=0)
+			boolean status = true;
+			for(int index=2;index<=num/2;index++)
 			{
-				System.out.println(i);
+				if(num%index==0)
+					{
+						status = false;
+						break;
+				
+					}
+			}
+		
+		if(status == true)
+			{
+				System.out.println(num+" Number is a Prime number");
 				count++;
 			}
-			if(count==num)
-			{
-				break;
-			}
+		num++;
 		}
 	}
+	
 	public static void main(String[] args) 
 	{
 		NprimeNumber nprime = new NprimeNumber();
