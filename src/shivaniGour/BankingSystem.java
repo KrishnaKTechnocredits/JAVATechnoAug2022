@@ -21,7 +21,7 @@ public class BankingSystem {
 			System.out.println("Amount debited: " + amt);
 			debitCount++;
 			allDebitCount++;
-			
+
 		} else {
 			System.out.println("Insufficient Funds");
 		}
@@ -45,13 +45,12 @@ public class BankingSystem {
 		System.out.println("Debit: " + debitCount + " times");
 		System.out.println("Print Balance: " + printBal + " times");
 	}
-	
+
 	void allTransactionSummary() {
 		System.out.println("All users Credit Count: " + allCreditCount + " times");
 		System.out.println("All users Debit Count: " + allDebitCount + " times");
 		System.out.println("All users Print Balance count: " + allPrintBalance + " times");
 	}
-
 
 	public static void main(String[] args) {
 		BankingSystem bankUser1 = new BankingSystem();
@@ -84,9 +83,8 @@ public class BankingSystem {
 		bankUser3.printBalance();
 		bankUser3.individualTransactionSummary();
 		System.out.println("********************************");
-		BankingSystem summary = new BankingSystem();
 		System.out.println("--Total Summary of Transactions--");
-		summary.allTransactionSummary();
+		bankUser3.allTransactionSummary();
 	}
 
 }
