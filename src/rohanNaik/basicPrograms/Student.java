@@ -1,4 +1,4 @@
-package rohanNaik;
+package rohanNaik.basicPrograms;
 
 class Student{
 	int rollno = 1;

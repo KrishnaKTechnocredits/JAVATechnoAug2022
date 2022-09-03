@@ -1,4 +1,4 @@
-package rohanNaik;
+package rohanNaik.basicPrograms;
 
 class Calculator{
 	int number1=100;
