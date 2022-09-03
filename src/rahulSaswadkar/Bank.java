@@ -27,7 +27,7 @@ NOTE : You should have setUserDetails method to set username and initial Balance
 package rahulSaswadkar;
 
 public class Bank {
-	
+
 	int debitCount;
 	int creditCount;
 	int printSummaryCount;
@@ -36,64 +36,61 @@ public class Bank {
 	static int debitCountByAllUsers;
 	static int creditCountByAllUsers;
 	static int printSummaryCountByAllUsers;
-	
-	
-	
+
 	void debitAmount(int amt) {
 		balance = balance - amt;
 		debitCount += 1;
 		debitCountByAllUsers += 1;
 	}
-	
+
 	void creditAmount(int amt) {
 		balance = balance + amt;
 		creditCount += 1;
 		creditCountByAllUsers += 1;
 	}
-	
+
 	void currentBalance() {
-		//System.out.println("Current balance is : " + balance);
-		printSummaryCount +=1;
+		// System.out.println("Current balance is : " + balance);
+		printSummaryCount += 1;
 		printSummaryCountByAllUsers += 1;
 	}
-	
+
 	void individualTransactionSummary() {
 //		System.out.println("Count of Credit Transactions : " + creditCount );
 //		System.out.println("Count of Debit Transactions : " + debitCount );
 //		System.out.println("Count of Print Current Balance Service call : " + printSummaryCount );
-		System.out.println(name + " transaction summary : Credit - " + creditCount + " times, Debit - " + debitCount + " times, printBalance - "
-				+ printSummaryCount + " times" );
-		
-		
+		System.out.println(name + " transaction summary : Credit - " + creditCount + " times, Debit - " + debitCount
+				+ " times, printBalance - " + printSummaryCount + " times");
+
 	}
-	
+
 	void allTransactionSummary() {
 //		System.out.println("Count of Credit Transactions by all users : " + creditCountByAllUsers );
 //		System.out.println("Count of Debit Transactions by all users : " + debitCountByAllUsers );
 //		System.out.println("Count of Print Current Balance Service call by all users: " + printSummaryCountByAllUsers );
-		System.out.println("All Transaction summary : Credit - " + creditCountByAllUsers + " times, Debit - " + debitCountByAllUsers + 
-				" times, printBalance - " + printSummaryCountByAllUsers + " times" );
-		
+		System.out.println("All Transaction summary : Credit - " + creditCountByAllUsers + " times, Debit - "
+				+ debitCountByAllUsers + " times, printBalance - " + printSummaryCountByAllUsers + " times");
+
 	}
-	
+
 	void setUserDetails(String name, int balance) {
 		this.name = name;
 		this.balance = balance;
 	}
-	
+
 	public static void main(String[] args) {
 		Bank bank1 = new Bank();
 		Bank bank2 = new Bank();
-		
+
 		bank1.setUserDetails("User1", 1000);
 		bank2.setUserDetails("User2", 2000);
-		
+
 		bank1.creditAmount(200);
 		bank1.creditAmount(200);
 		bank1.debitAmount(100);
 		bank1.currentBalance();
 		bank1.individualTransactionSummary();
-		
+
 		bank2.creditAmount(200);
 		bank2.creditAmount(200);
 		bank2.creditAmount(200);
@@ -101,11 +98,10 @@ public class Bank {
 		bank2.creditAmount(200);
 		bank2.debitAmount(100);
 		bank2.debitAmount(100);
-		//bank2.currentBalance();
+		// bank2.currentBalance();
 		bank2.individualTransactionSummary();
-		
+
 		bank1.allTransactionSummary();
 		bank2.allTransactionSummary();
 	}
-
 }
