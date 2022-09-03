@@ -1,3 +1,4 @@
+package avni;
 class Student{ 
 
 String name = "AVANI";
