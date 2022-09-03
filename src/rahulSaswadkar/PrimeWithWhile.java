@@ -18,40 +18,40 @@ output : 2
 package rahulSaswadkar;
 
 public class PrimeWithWhile {
-		public static void main(String[] args) {
-			PrimeWithWhile pritmeWithWhile = new PrimeWithWhile();
-			pritmeWithWhile.findPrimeNumbers(5);
-			
-		}
-		
-		int count;
-		
-		void findPrimeNumber(int num) {
-			boolean status = true;
-			if (num > 0) {
-				for (int index = 2; index <= num / 2; index++) {
-					if (num % index == 0) {
-						status = false;
-						break;
-					}
-				}
-				if (status == true) {
-					System.out.println(num);
-					count += 1;
-				}
-			} else {
-				System.out.println(num + " is not a valid number");
-			}
-		}
-		
-		void findPrimeNumbers(int counter) {
-			int startIndex = 2;
-			while(count <= counter){
-				findPrimeNumber(startIndex);
-				if(count == counter) {
+	public static void main(String[] args) {
+		PrimeWithWhile pritmeWithWhile = new PrimeWithWhile();
+		pritmeWithWhile.findPrimeNumbers(5);
+
+	}
+
+	int count;
+
+	void findPrimeNumber(int num) {
+		boolean status = true;
+		if (num > 0) {
+			for (int index = 2; index <= num / 2; index++) {
+				if (num % index == 0) {
+					status = false;
 					break;
 				}
-				startIndex++;	
-		    }
+			}
+			if (status == true) {
+				System.out.println(num);
+				count += 1;
+			}
+		} else {
+			System.out.println(num + " is not a valid number");
+		}
+	}
+
+	void findPrimeNumbers(int counter) {
+		int startIndex = 2;
+		while (count <= counter) {
+			findPrimeNumber(startIndex);
+			if (count == counter) {
+				break;
+			}
+			startIndex++;
+		}
 	}
 }
