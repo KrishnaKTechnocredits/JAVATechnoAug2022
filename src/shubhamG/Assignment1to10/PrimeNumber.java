@@ -1,4 +1,19 @@
-package shubhamG;
+package shubhamG.Assignment1to10;
+
+/*Assignment - 8 & 9 : 26th Aug'2022
+Write a program to find if a given number is prime or not.
+
+input : 15
+output : 15 number is not a prime number
+
+input : 17
+output : 17 is a prime number
+
+input : -90
+output : not a valid number
+
+*/
+
 class PrimeNumber{
 
 	void checkPrimeNumber(int num){

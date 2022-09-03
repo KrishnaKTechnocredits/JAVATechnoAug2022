@@ -1,4 +1,6 @@
-package shubhamG;
+package shubhamG.Assignment1to10;
+
+	//Calculator program.
 
 class Calculator{
 	int num1 =15;
