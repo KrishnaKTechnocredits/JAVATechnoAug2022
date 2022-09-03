@@ -1,5 +1,5 @@
 
-package mohiniA;
+package mohiniA.Loop;
 
 public class TestDivide{
 

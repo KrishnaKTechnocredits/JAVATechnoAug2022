@@ -1,4 +1,4 @@
-package mohiniA;
+package mohiniA.basic;
 
 //Calculator to add,substract,divide,mult
 

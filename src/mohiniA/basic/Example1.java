@@ -1,4 +1,4 @@
-package mohiniA;
+package mohiniA.basic;
 
 class Example1{
 	int x =10;
