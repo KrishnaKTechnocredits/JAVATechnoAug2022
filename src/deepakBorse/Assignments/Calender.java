@@ -20,7 +20,7 @@ Month index is 4 or 5 or 6 -> FY2022 Q2
 Month index is 7 or 8 or 9 -> FY2022 Q3
 Month index is 10 or 11 or 12 -> FY2022 Q4
 Any other index should be considered as invalid */
-package deepakBorse;
+package deepakBorse.Assignments;
 
 class Calender{
 

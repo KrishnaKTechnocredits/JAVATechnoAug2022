@@ -1,4 +1,4 @@
-package deepakBorse;
+package deepakBorse.Assignments;
 
 class BankDetails{
 	int balance=15000; // instance variable

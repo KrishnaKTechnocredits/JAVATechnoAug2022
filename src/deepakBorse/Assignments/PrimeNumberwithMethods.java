@@ -7,7 +7,7 @@ Create a class to satisfy below requirements.
      Print avg of prime numbers within same range
 */
 
-package deepakBorse;
+package deepakBorse.Assignments;
 
 public class PrimeNumberwithMethods {
 	int Primecount, SumPrime;
