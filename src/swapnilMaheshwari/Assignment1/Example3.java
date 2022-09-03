@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.Assignment1;
 class Example3
 {
 	int accNumber=123;
