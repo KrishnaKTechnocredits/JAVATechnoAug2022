@@ -1,6 +1,6 @@
 // Program 2: calculator
 //Mahesh santoki
-package maheshSantoki;
+package maheshSantoki.startingExamples;
 class Calculator{
 	int number1=10;
 	int number2=5;

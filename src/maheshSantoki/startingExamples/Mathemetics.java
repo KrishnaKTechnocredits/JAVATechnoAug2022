@@ -1,4 +1,4 @@
-package maheshSantoki;
+package maheshSantoki.startingExamples;
 
 public class Mathemetics {
 
