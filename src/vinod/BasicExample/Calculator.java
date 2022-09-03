@@ -1,4 +1,4 @@
-package vinod;
+package vinod.BasicExample;
 class Calculator{
 	int number1=10; //instance variable
 	int number2=5;

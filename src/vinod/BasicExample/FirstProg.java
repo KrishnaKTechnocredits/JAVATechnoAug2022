@@ -1,4 +1,4 @@
-package vinod;
+package vinod.BasicExample;
 
 public class FirstProg {
 
