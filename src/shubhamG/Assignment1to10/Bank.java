@@ -1,4 +1,14 @@
-package shubhamG;
+package shubhamG.Assignment1to10;
+
+/*
+Assignment - 3 : 22nd Aug'22
+Create a class called Bank having 3 methods and 3 instance variables.
+- expected operations - debitAmount, creditAmount, printInfo.
+- print info should print total debit operation, total credits operations and current balance.
+- variable balance to hold current balance, creditCount, debitCount.
+- create only one object and call methods multiple times, at the end call printInfo method.
+- I suggest using the If condition to make sure the asked amount <= balance, if not please print InSufficient fund message in debit method.
+*/
 
 class Bank{
 	int balance = 20000;
