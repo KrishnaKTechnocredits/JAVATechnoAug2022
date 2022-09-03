@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.assignments;
 class Calender{
   // Find day from output
 	void dayIndex(int day){

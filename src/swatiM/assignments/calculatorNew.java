@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.assignments;
 class CalculatorNew {
 	void addition(int x,int y) {
 		int ans = x+y;  

@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.assignments;
 class BankDetails{
 	int balance = 500;
 	int creditcount,debitcount;

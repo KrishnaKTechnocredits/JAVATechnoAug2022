@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.assignments;
 class Calculator {
 	int number1=10; // instance variabl
 	int number2=5;  // instance variabl

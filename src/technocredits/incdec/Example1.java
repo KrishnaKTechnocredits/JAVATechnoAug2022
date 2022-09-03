@@ -29,8 +29,6 @@ public class Example1 {
 		System.out.println(y); // 19
 	}
 	
-	
-	
 	void processData10() {
 		int x = 19; // 18 // 17 // 16
 		int y = --x; // 18 // 17 // 16

@@ -12,7 +12,7 @@ Write a method to compute simple interest
  Write a method to convert temperature from Fahrenheit to Celsius degree.
 	 Celsius = (fahrenheit - 32) * 5 / 9
  */
-package swatiM;
+package swatiM.assignments;
 
 public class SimpleInterest {
 	void calculateSimpleIntrest(double principle, double time, double rate) {

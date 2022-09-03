@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.assignments;
 
 public class BankingSystem {
 	int balance;
