@@ -1,4 +1,4 @@
-package rohanNaik;
+package rohanNaik.basicPrograms;
 
 public class FirstProg {
 
