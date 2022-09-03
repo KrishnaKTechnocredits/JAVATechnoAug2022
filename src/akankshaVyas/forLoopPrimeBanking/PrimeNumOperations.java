@@ -1,4 +1,4 @@
-package akankshaVyas;
+package akankshaVyas.forLoopPrimeBanking;
 
 public class PrimeNumOperations {
 
