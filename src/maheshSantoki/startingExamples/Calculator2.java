@@ -1,6 +1,6 @@
 // Assignment:2
 //Mahesh santoki
-package maheshSantoki;
+package maheshSantoki.startingExamples;
 class Calculator2{
 
 	void add(int x,int y){

@@ -1,4 +1,4 @@
-package maheshSantoki;
+package maheshSantoki.startingExamples;
 class Calendar{
 	//1: FIND A DAY FROM WEEK
 	void dayIndex(int day){

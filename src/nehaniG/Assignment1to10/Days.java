@@ -1,4 +1,4 @@
-package nehaniG;
+package nehaniG.Assignment1to10;
 
 class Days
 {

@@ -1,6 +1,6 @@
 //Prime number
 //Mahesh santoki
-package maheshSantoki;
+package maheshSantoki.primeNumberEx;
 class PrimeNumber1
 {			
 			void prime(int n)

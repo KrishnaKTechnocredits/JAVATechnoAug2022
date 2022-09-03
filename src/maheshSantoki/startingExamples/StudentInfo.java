@@ -1,6 +1,6 @@
 //Assignment -5
 //Mahesh santoki
-package maheshSantoki;
+package maheshSantoki.startingExamples;
 class StudentInfo{
 	
 	void studentName( String Name, String middlename, String surname ){

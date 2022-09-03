@@ -1,5 +1,5 @@
 package avni;
-class Divide{
+class Divisible{
 	
 	void divideby(int start , int end){
 	int count=0;

@@ -1,4 +1,4 @@
-package harshalRane;
+package harshalRane.primeNumber;
 
 class PrimeNumber{
 	

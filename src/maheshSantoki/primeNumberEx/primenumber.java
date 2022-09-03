@@ -1,5 +1,5 @@
 //check prime numbers or not;
-package maheshSantoki;
+package maheshSantoki.primeNumberEx;
 class primeNumber{
 	
 	void primenum(int n){

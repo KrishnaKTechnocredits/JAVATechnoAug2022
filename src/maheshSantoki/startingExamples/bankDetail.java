@@ -1,6 +1,6 @@
 //Assignment:3
 //Mahesh Santoki
-package maheshSantoki;
+package maheshSantoki.startingExamples;
 class BankDetail{
 	int balance = 10000;
 	int creditCount=0;

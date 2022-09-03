@@ -1,5 +1,5 @@
 //Program:1
-package maheshSantoki;
+package maheshSantoki.startingExamples;
 class Student{
 	String name = "Mahesh";
 	int no = 19;
