@@ -14,7 +14,6 @@ public class Test2 {
 		System.out.println("Count of numbers required to get sum of " + targetSum + " is : " + count);
 	}
 	
-	
 	public static void main(String[] args) {
 		numbersRequiredForSum(10);
 	}
