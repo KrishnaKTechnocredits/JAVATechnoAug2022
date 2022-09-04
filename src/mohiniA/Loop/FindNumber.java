@@ -5,15 +5,16 @@ public class FindNumber {
 	void findRequiredNumbers(int targetNum) {
 		int count = 0;
 		int sum = 0;
-		int index = 1;
+		
 
 		while (sum < targetNum) {
 
-			if (sum > sum + index)
+			if (sum > sum + count)
 				break;
 			count++;
-			sum += index;
-			index++;
+			sum += count;
+			
+			
 		}
 		System.out.println(count);
 	}
