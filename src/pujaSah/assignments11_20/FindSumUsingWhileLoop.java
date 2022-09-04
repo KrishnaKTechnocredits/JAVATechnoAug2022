@@ -4,9 +4,9 @@ public class FindSumUsingWhileLoop {
 
 	void calculateSum(int num) {
 		int count = 0;
-		int sum = 1;
+		int sum = 0;
 		int i = 1;
-		while (sum <= num) {
+		while (sum < num) {
 			sum = sum + i;
 			i++;
 			count++;
@@ -16,6 +16,6 @@ public class FindSumUsingWhileLoop {
 
 	public static void main(String[] args) {
 		FindSumUsingWhileLoop obj = new FindSumUsingWhileLoop();
-		obj.calculateSum(45);
+		obj.calculateSum(10);
 	}
 }
