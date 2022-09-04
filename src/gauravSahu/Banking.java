@@ -3,16 +3,16 @@ package gauravSahu;
 public class Banking {
 
 	static int balance = 10000;
-	static int debitcount=0;
-	static int creditcount=0;
-	static int printbalance=0;
-	
+	static int debitcount = 0;
+	static int creditcount = 0;
+	static int printbalance = 0;
+
 	int individualprintbalance;
 	int individualdebit;
 	int individualcredit;
 	int userprintbalance;
-	
-	void userDetails (String name) {
+
+	void userDetails(String name) {
 		System.out.println("User name is " + name);
 	}
 
@@ -59,7 +59,7 @@ public class Banking {
 		System.out.println("Current balance " + balance);
 		System.out.println("Total Print balance executed " + printbalance + "times");
 	}
-	
+
 	public static void main(String[] args) {
 		Banking user1 = new Banking();
 		user1.userDetails("Gaurav");
