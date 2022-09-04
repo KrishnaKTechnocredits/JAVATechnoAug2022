@@ -11,7 +11,7 @@ public class Test2 {
 			count++;
 			num++;
 		}
-		System.out.println("Sum of numbers required to get " + targetSum + " is : " + count);
+		System.out.println("Count of numbers required to get sum of " + targetSum + " is : " + count);
 	}
 	
 	
