@@ -20,7 +20,7 @@ public class PrintPrime {
 	}	
 	void printfirst(int N) {
 		int num = 2;
-		System.out.println("first prime numbers are");
+		System.out.println("first " +N+" prime numbers are");
 		while(num>=2 && count<N) {
 			primeNumber(num);
 			num++;
@@ -29,6 +29,6 @@ public class PrintPrime {
 	}
 	
 	public static void main(String[] args) {
-		new PrintPrime().printfirst(7);
+		new PrintPrime().printfirst(17);
 	}
 }
