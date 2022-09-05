@@ -1,4 +1,4 @@
-package priyankaD;
+package priyankaD.Assignment1_5;
 
 class Bank
 {

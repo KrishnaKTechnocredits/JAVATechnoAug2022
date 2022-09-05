@@ -1,4 +1,4 @@
-package priyankaD;
+package priyankaD.Assignment6_10;
 
 public class DivBy3and7 {
 	
