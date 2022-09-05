@@ -1,25 +1,40 @@
 package chaitanyaMankar;
 
-public class Return
+public class Return 
 {
-	static boolean m1(int num)
-	{
-		if(num%2==0)
+	static int nPrime(int n)
+	{	 		
+		int count = 0;
+		int sum = 0;
+		int num = 2;
+		
+		while(count!=n)
 		{
-			return true;
-		}
-		else if (num%3 ==0)
-		{
-			return false;
-		}
-		return false;
-	}
+			boolean status = true;
+			for(int index=2;index<=num/2;index++)
+			{
+				if(num%index==0)
+					{
+						status = false;
+						break;
+					}
+			}
 	
-	public static void main(String[] args)
-	{
-		boolean b1 = m1(20);
-		System.out.println(b1);
-		boolean b2 = m1(35);
-		System.out.println(b2);
+			if(status == true)
+			{
+				count++;
+				System.out.println("Prime Number: "+num);
+				sum = sum + num;
+			}
+		num++;
+		}
+		return sum;
 	}
+
+	public static void main(String[] args) 
+	{
+		int s = nPrime(5);
+		System.out.println("Addition of Prime Number "+s);
+	}
+
 }
