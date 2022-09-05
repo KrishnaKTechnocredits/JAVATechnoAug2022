@@ -1,5 +1,5 @@
 //Printing is it a week day or weekend by Day Ind
-package harshadaJagtap;
+package harshadaJagtap.if_condition;
 class Day{
 	void processData(int dayInd){
 		if (dayInd>=1 && dayInd<=5)

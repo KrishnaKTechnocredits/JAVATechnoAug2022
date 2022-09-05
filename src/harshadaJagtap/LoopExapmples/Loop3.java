@@ -1,5 +1,5 @@
 //count numbers divisible be 3 and 7 btwn 1-100
-package harshadaJagtap;
+package harshadaJagtap.LoopExapmples;
 class Loop3{
 	void m1(){
 		int count=0;

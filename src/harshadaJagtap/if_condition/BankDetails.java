@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.if_condition;
 
 class BankDetails{
 	int balance=1000;

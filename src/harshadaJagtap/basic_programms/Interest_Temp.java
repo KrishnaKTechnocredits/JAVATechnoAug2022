@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.basic_programms;
 
 public class Interest_Temp {
 

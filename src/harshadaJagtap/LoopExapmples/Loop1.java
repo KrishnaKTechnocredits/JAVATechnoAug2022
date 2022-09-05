@@ -1,5 +1,5 @@
 //sum of numbers from given range
-package harshadaJagtap;
+package harshadaJagtap.LoopExapmples;
 class Loop1{
 	void m1(int startIndex, int endIndex){
 		int sum=0;

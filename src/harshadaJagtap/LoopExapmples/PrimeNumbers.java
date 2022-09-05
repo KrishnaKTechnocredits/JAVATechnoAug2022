@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.LoopExapmples;
 
 public class PrimeNumbers {
 	  int count=0;

@@ -1,5 +1,5 @@
 //print numbers divisible by 9 in reverse order from 1-100
-package harshadaJagtap;
+package harshadaJagtap.LoopExapmples;
 class Loop4{
 	void divisibleBy9(){
 		int count=0;

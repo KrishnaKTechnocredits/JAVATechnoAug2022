@@ -1,5 +1,5 @@
 //count numbers divisible by 3 from 1-20
-package harshadaJagtap;
+package harshadaJagtap.LoopExapmples;
 class Loop2{
 	void m1(){
 		int count=0;
