@@ -3,8 +3,8 @@ package mohiniA;
 public class Assignment10 {
 
 	void Div3and7(int num1, int num2) {
-		if (num1 >= 0 && num2 >= 0) {
-			int count = 0;
+		if (num1 >= 0 && num2 >= 0 && num2 > num1) {
+			 int count = 0;
 			for (; num2 >= num1; num2--) {
 
 				if (num2 % 3 == 0 && num2 % 7 == 0) {
@@ -23,6 +23,9 @@ public class Assignment10 {
 
 		Assignment10 num = new Assignment10();
 		num.Div3and7(10, 200);
+		num.Div3and7(-30,100);
+		num.Div3and7(250,60);
+		
 
 	}
 
