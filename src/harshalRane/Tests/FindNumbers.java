@@ -31,9 +31,10 @@ class FindNumbers{
 		{
 			sum = sum + num;
 			num++;
-			if(sum!=targetNum)
+			while(sum!=targetNum)
 			{
 				count++;
+				break;
 			}
 		System.out.println(count);
 	   }
