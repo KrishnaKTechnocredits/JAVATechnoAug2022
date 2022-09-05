@@ -1,6 +1,7 @@
+package shridharKumbhar;
+
 //Nested if
 //Weekdayindex & weekday or weekend
-package shridharKumbhar;
 
 class DayIndexWeek{
 	
