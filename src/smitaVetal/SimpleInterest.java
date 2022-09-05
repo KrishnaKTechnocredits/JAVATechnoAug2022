@@ -1,7 +1,8 @@
 package smitaVetal;
 
 public class SimpleInterest {
-
+	
+	
 	void calculateSI(double Principal, double Time, int Rate) {
 		double SimpleInterest = 0;
 		SimpleInterest = ((Principal * Rate * Time) / 100);
