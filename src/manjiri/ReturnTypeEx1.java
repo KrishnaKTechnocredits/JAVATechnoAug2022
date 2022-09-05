@@ -23,7 +23,7 @@ public class ReturnTypeEx1 {
 	void sumOfPrimeNum(int n) {
 		int count = 0;
 		int sum = 0;
-		int num = 1;
+		int num = 2;
 		boolean result = false;
 		while(count != n) {
 			result = isPrime(num);
