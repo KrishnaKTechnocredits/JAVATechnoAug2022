@@ -44,15 +44,15 @@ public class ReturnStringLength {
 		ReturnStringLength returnStringLength = new ReturnStringLength();
 
 		String name = "Maulik";
-		int length = returnStringLength.getStringLength("Maulik");
+		int length = returnStringLength.getStringLength(name);
 		char middleChar = returnStringLength.getMiddleChar(name);
 		System.out.println(
 				" The middle char of string name " + name + " is- " + middleChar + " and string length is " + length);
 
 		name = "Technocredits";
+		length = returnStringLength.getStringLength(name);
 		middleChar = returnStringLength.getMiddleChar(name);
-		System.out.println(
-				" The middle char of string name " + name + " is- " + middleChar + " and string length is " + length);
+		System.out.println(		" The middle char of string name " + name + " is- " + middleChar + " and string length is " + length);
 
 	}
 }
