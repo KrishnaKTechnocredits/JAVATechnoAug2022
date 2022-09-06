@@ -20,28 +20,22 @@ output : 6
  */
 package harshalRane.Tests;
 
-class FindNumbers{
+class FindNumbers {
 
-	void findRequiredNumbers(int targetNum){
-		int count=0;
-		int sum =0;
+	void findRequiredNumbers(int targetNum) {
+		int count = 0;
+		int sum = 0;
 		int num = 1;
-		
-		while(sum<targetNum)
-		{
+
+		while (sum < targetNum) {
 			sum = sum + num;
 			num++;
-			while(sum!=targetNum)
-			{
-				count++;
-				break;
-			}
-		System.out.println(count);
-	   }
+			count++;
+			System.out.println(count);
+		}
 	}
-	public static void main(String[] args)
-	{
+
+	public static void main(String[] args) {
 		new FindNumbers().findRequiredNumbers(50);
 	}
 }
-
