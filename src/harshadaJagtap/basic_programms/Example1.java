@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.basic_programms;
 
 class Example1{
 	int x=10;

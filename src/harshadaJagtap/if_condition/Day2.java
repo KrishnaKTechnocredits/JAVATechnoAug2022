@@ -1,5 +1,5 @@
 //printing in which quarter month falls
-package harshadaJagtap;
+package harshadaJagtap.if_condition;
 class Day2
 {
 	void processData(int monthInd)

@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.LoopExapmples;
 class PrimeNumber{
 	
 	void isPrime(int num){

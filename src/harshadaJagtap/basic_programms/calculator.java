@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.basic_programms;
 
 class Calculator{
 	int a=10;

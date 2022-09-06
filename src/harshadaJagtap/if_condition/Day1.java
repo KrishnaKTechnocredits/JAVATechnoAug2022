@@ -1,5 +1,5 @@
 //printing Day by day index
-package harshadaJagtap;
+package harshadaJagtap.if_condition;
 class Day1{
 	void processData(int dayInd){
 		if (dayInd==1)

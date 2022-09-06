@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.LoopExapmples;
 
 public class LoopEx10 {
 	int count;

@@ -1,4 +1,4 @@
-package harshadaJagtap;
+package harshadaJagtap.if_condition;
 
 public class PrintBankDetails {
 	
