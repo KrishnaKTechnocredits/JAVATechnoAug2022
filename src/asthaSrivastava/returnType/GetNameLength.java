@@ -9,7 +9,7 @@
 
 // input : Technocredits
 // output : Middle character in name Technocredits is c*/
-package asthaSrivastava;
+package asthaSrivastava.returnType;
 
 public class GetNameLength {
 
