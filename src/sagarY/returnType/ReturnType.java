@@ -1,3 +1,6 @@
+/*We need to do sum of first 5 prime number, using return keyword
+output: (2 + 3 + 5 + 7 + 11) = 28 */
+
 package sagarY.returnType;
 
 public class ReturnType {
