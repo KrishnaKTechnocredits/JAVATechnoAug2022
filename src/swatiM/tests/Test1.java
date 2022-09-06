@@ -1,4 +1,4 @@
-package swatiM;
+package swatiM.tests;
 
 public class Test1 {
 
