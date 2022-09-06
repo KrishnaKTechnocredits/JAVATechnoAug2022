@@ -2,7 +2,7 @@ package sagarY;
 
 class PrimeList{
 
-	void showPrime(int num1, int num2){
+	static void showPrime(int num1, int num2){
 		if (num1==1){
 			boolean status=true;
 			for(int index1=num1; index1<=num2; index1++){
