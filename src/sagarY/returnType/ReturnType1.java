@@ -17,31 +17,31 @@ package sagarY.returnType;
 
 public class ReturnType1 {
 
-	int num;
+	static String name="";
+	
+	int getNameLength(String name) {
+		this.name=name;
+		System.out.println("Given String is : " + name);
+		System.out.print("Length of the String" + name+ " is : \n");
+		return (name.length());
+	} 
 
-	int getNameLength(String name1) {
-		System.out.println("Given String is : " + name1);
-		System.out.print("Length of the String " + name1 + " is : ");
-		return (name1.length());
-
-	}
-
-	char getMiddleChar(String name) {
-		System.out.println("\n\nGiven String is : " + name);
+	char getMiddleChar(String name1) {
+		name1=this.name;
 		if (name.length() % 2 != 0) {
-			System.out.print("Middle char if the String is : ");
+			System.out.print("\nMiddle char of the String is : ");
 			return (name.charAt(name.length() / 2));
 		} else {
-			System.out.print("Middle char of the String is: ");
+			System.out.print("\nMiddle char of the String is: ");
 			return (name.charAt(name.length() / 2 - 1));
 		}
 	}
 
 	public static void main(String[] args) {
 		ReturnType1 return1 = new ReturnType1();
-		int length = return1.getNameLength("SagarNYadav");
+		int length = return1.getNameLength("ILoveJavaAndTechnoCredits");
 		System.out.print(length);
-		char ch = return1.getMiddleChar("SagarYadav");
+		char ch = return1.getMiddleChar(name);
 		System.out.print(ch);
 	}
 }
