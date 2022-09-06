@@ -17,7 +17,7 @@ package komalShrivastava;
 
 public class WhileLoop {
 	
-	private boolean primeFlag;
+	boolean primeFlag;
 
 	void primeNumbers(int primeCount) {
 		int count = 0;
