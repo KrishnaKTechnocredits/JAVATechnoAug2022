@@ -29,7 +29,7 @@ public class ReturnStatement {
 		System.out.println("Length of Name " + name1 + " is: " + var.getNameLength(name1));
 		System.out.println("Mid Character of Name " + name1 + " is: " + var.getMiddleChar(name1));
 		String name2 = "Technocredits";
-		System.out.println("Length of Name " + name1 + " is: " + var.getNameLength(name2));
+		System.out.println("Length of Name " + name2 + " is: " + var.getNameLength(name2));
 		System.out.println("Mid Character of Name " + name2 + " is: " + var.getMiddleChar(name2));
 	}
 
