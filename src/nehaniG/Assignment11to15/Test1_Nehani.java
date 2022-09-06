@@ -1,4 +1,4 @@
-package nehaniG;
+package nehaniG.Assignment11to15;
 
 public class Test1_Nehani {
 	void divisibleby3and7 (int startIndex, int endIndex) {

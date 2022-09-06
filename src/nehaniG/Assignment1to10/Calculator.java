@@ -1,4 +1,4 @@
-package nehaniG;
+package nehaniG.Assignment1to10;
 
 public class Calculator{
     int number1=10;
