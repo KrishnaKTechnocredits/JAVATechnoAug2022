@@ -1,4 +1,6 @@
-package asthaSrivastava;
+/*Calculator program using Parameterized method*/
+
+package asthaSrivastava.assignments;
 
 public class Calculator {
 	

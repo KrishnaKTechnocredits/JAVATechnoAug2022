@@ -1,4 +1,15 @@
-package asthaSrivastava;
+/*Write a program to find if a given number is prime or not.
+
+input : 15
+output : 15 number is not a prime number
+
+input : 17
+output : 17 is a prime number
+
+input : -90
+output : not a valid number
+*/
+package asthaSrivastava.primeNumber;
 
 public class PrimeNo{   // Find Prime Number
 

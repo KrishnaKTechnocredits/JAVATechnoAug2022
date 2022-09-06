@@ -1,4 +1,4 @@
-package asthaSrivastava;
+package asthaSrivastava.basicExamples;
 
 class Example4 {
 
