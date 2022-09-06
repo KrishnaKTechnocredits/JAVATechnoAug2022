@@ -38,6 +38,5 @@ public class StringMethods {
 		System.out.println("Middle character in the name Maulik is " + ch2);
 		System.out.println("Middle character in the name Technocredits is " + ch3);
 		System.out.println("Middle character in the name Puja Sah is " + str.getMiddleChar("Puja Sah"));
-
 	}
 }
