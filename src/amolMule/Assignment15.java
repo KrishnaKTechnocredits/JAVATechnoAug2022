@@ -9,7 +9,6 @@ public class Assignment15 {
 		System.out.println("Prime numbers between the range are:");
 		while (count != rangenum) {
 			int flag = 0;
-
 			for (int i = 2; i <= number / 2; i++) {
 				if (number % i == 0) {
 					flag = 1;
@@ -17,7 +16,6 @@ public class Assignment15 {
 					break;
 				}
 			}
-
 			if (flag == 0) {
 				// System.out.println("Its prime");
 				System.out.print(" "+number);
@@ -35,5 +33,4 @@ public class Assignment15 {
 		System.out.println();
 		System.out.println("Sum of prime numbers is: "+a);
 	}
-
 }
