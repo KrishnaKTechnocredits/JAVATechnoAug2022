@@ -18,7 +18,6 @@ public class Assignment17 {
 			str = str + evenStr.charAt(index);
 		}
 		return str;
-
 	}
 
 	static String reverseEvenChar(String evenStr) {
