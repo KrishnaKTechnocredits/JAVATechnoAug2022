@@ -5,7 +5,7 @@
 //Character.isDigit(ch);
 //int num = Character.getNumericValue(ch); '9'
 
-package harshadaJagtap.return_type;
+package harshadaJagtap.StringExamples;
 
 public class Example7 {
 
@@ -28,5 +28,4 @@ public class Example7 {
 		int sumOfDigit= example7.sumOfDigits("Te8chno3cred7it9s");
 		System.out.println(sumOfDigit);
 	}
-	
 }

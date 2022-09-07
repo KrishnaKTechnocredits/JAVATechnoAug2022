@@ -2,7 +2,7 @@
 //input : technocredits
 //output : ehordt
 
-package harshadaJagtap.return_type;
+package harshadaJagtap.StringExamples;
 
 public class Example4 {
 	

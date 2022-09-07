@@ -2,7 +2,7 @@
 //input : "Te8chno3cred7it9s"
 //output : 4
 
-package harshadaJagtap.return_type;
+package harshadaJagtap.StringExamples;
 
 public class Example6 {
 	int count=0;
