@@ -34,7 +34,7 @@ public class LengthCharReturn {
 		System.out.println("Length of name  Smita is " + length);
 
 		char name1 = nameLength.getMiddleChar("Techn");
-		System.out.println("Middle character in Tech  is " + name1);
+		System.out.println("Middle character in Techn  is " + name1);
 
 		char name2 = nameLength.getMiddleChar("Amol");
 		System.out.println("Middle character in Amol  is " + name2);
