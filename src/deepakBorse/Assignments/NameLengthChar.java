@@ -31,10 +31,12 @@ public class NameLengthChar {
 		char ch;
 		if (namelen % 2 == 0) {
 			ch = name.charAt((namelen / 2) - 1);
-			System.out.println(ch);
-		} else
+			System.out.println("Middle character of '" + name + "' : " + ch);
+		} 
+		else {
 			ch = name.charAt((namelen / 2));
-		System.out.println("Middle character of '" + name + "' : " + ch);
+			System.out.println("Middle character of '" + name + "' : " + ch);
+		}
 		return 0;
 	}
 
@@ -48,7 +50,7 @@ public class NameLengthChar {
 		// NameLengthChar NameLengthChar=new NameLengthChar();
 		// int len=NameLengthChar.getNameLength("Deepak Borse");
 		// System.out.println("Length of the string '"+NameLengthChar.name+"' : "+len);
-		new NameLengthChar().printinfo("DeepakBorse");
+		new NameLengthChar().printinfo("Harshil Borse");
 	}
 
 }
