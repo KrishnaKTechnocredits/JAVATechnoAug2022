@@ -9,7 +9,7 @@ Hint : 5 pass as parameter, method should print first 5 prime numbers.
 sample input : 5
 output : (2+3+5+7+11)=28*/
 
-package asthaSrivastava;
+package asthaSrivastava.returnType;
 
 public class PrimeNumberReturn {
 	static int count = 0;
