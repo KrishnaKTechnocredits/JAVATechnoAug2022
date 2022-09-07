@@ -3,9 +3,9 @@ package titikshaG;
 public class Lengthofnumber {
 	
 	int lenghthOfStr(String str)
-	{
+		{
 		return str.length();
-	}
+		}
 	
 	char m1(String str){
 		int length=str.length();
@@ -37,4 +37,5 @@ public class Lengthofnumber {
 		
 	}
 	}
+	
 	
