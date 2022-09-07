@@ -51,9 +51,10 @@ class Assignment14Prime{
 	
 	public static void main(String[] args) {
 		Assignment14Prime prime = new Assignment14Prime();
+		Assignment14Prime prime2 = new Assignment14Prime();
 
 		prime.isPrimeFor(20);
 		System.out.println("-----------------");
-		prime.isPrimeWhile(20);
+		prime2.isPrimeWhile(20);
 	}
 }

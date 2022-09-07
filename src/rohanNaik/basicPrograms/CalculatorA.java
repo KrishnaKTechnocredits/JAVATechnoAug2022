@@ -1,4 +1,4 @@
-package rohanNaik;
+package rohanNaik.basicPrograms;
 class CalculatorA{
 	
 	void add(int x, int y){

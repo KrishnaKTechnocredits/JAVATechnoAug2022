@@ -14,8 +14,8 @@ class Prime{
 				}
 			}
 		
-		if(flag== true)
-			System.out.println(num + " is Prime!");
+			if(flag== true)
+				System.out.println(num + " is Prime!");
 		}
 		else 
 			System.out.println("invalid");
