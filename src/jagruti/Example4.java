@@ -20,5 +20,6 @@ class Example4{
 		Example4 example4 = new Example4();
 		example4.processData();
 		example4.display();	
+		
 	}
 }
