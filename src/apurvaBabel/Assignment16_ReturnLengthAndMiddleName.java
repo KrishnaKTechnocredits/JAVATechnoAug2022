@@ -18,11 +18,10 @@ public class Assignment16_ReturnLengthAndMiddleName {
 	}
 
 	void display(String name) {
-		Assignment16_ReturnLengthAndMiddleName assignment16 = new Assignment16_ReturnLengthAndMiddleName();
 		System.out.println(name);
-		int num = assignment16.getNameLength(name);
+		int num = getNameLength(name);
 		System.out.println("Length of the word " + " is " + num);
-		char letter = assignment16.getMiddleCharacter(name);
+		char letter = getMiddleCharacter(name);
 		System.out.println("Middle character in name " + name + " is " + letter);
 	}
 
