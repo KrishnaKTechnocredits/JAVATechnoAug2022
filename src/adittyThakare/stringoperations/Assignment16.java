@@ -14,7 +14,7 @@
 
 // input : Technocredits
 // output : Middle character in name Technocredits is c
-*/package adittyThakare.basicconcepts;
+*/package adittyThakare.stringoperations;
 
 public class Assignment16 {
 	
