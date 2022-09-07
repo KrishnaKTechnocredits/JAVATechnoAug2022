@@ -43,6 +43,3 @@ public class Assignment14_PrimeNo {
 	}
 
 }
-//19//18//17//16
-//18
-//18,17,16,16

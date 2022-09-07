@@ -1,7 +1,5 @@
 package harshalRane.practise;
 
-import harshalRane.Tests.FindNumbers;
-
 public class Test2_Practise1 {
 
 	void findRequiredNumbers(int targetNum){
@@ -19,6 +17,6 @@ public class Test2_Practise1 {
 	}  
 		public static void main(String[] args)
 		{
-			new FindNumbers().findRequiredNumbers(50);
+			new Test2_Practise1().findRequiredNumbers(50);
 		}
 }
