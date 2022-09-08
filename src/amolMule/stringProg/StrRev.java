@@ -36,16 +36,16 @@ public class StrRev {
 	}
 
 	int getCountDigit(String str) {
-		int cnt = 0;
+		int count = 0;
 		int len = str.length();
 		for (int i = 0; i < len; i++) {
 			char ch = str.charAt(i);
 			boolean digitFlag = Character.isDigit(ch);
 			if (digitFlag)
-				cnt++;
+				count++;
 		}
 
-		return cnt;
+		return count;
 	}
 
 	public static void main(String args[]) {
