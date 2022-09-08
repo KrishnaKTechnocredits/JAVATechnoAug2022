@@ -15,7 +15,7 @@ public class Arrangingstrings {
 		  }
 	 }
 		  return tempDigit + tempLetter;
-	 }
+  }
   
   String getUpperCase(String name)
   {
