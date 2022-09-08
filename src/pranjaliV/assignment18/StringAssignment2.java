@@ -18,7 +18,6 @@ char targetChar = 't';
 output : 4
 */
 
-//11.39
 package pranjaliV.assignment18;
 
 public class StringAssignment2 {
