@@ -1,4 +1,4 @@
-package sagarY.returnType;
+package sagarY.StringAndChar;
 
 public class ReturnType2 {
 	static String name = "";
