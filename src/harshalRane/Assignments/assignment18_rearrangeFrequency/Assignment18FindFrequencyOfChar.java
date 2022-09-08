@@ -8,7 +8,7 @@ public class Assignment18FindFrequencyOfChar {
 
 		for (int index = 0; index < input.length(); index++) {
 			char ch = input.charAt(index);
-			if (ch == 't') {
+			if (ch == targetChar) {
 				count++;
 			}
 		}
