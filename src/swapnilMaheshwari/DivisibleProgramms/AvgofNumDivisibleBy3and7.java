@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.DivisibleProgramms;
 
 public class AvgofNumDivisibleBy3and7 {
 	int count=0, sum=0;

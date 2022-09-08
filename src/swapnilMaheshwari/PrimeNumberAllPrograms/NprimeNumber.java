@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.PrimeNumberAllPrograms;
 
 public class NprimeNumber {
 	int index=2;

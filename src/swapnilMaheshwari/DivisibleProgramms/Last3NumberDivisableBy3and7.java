@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.DivisibleProgramms;
 
 public class Last3NumberDivisableBy3and7
 {

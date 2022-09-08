@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.PrimeNumberAllPrograms;
 
 public class PrimeNumberInRange {
 	  void primeNoRange (int num)

@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.DivisibleProgramms;
 
 public class SecondLastNumDivisibleBy3and7 {
 	void processData(int startRange , int endRange) 

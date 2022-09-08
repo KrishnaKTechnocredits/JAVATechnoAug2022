@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.Assignment1;
 class Example4
 {
 	int x=10;
