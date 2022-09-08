@@ -18,5 +18,4 @@ public class Assignment18RearrangeString {
 	public static void main(String[] args) {
 		System.out.println(Assignment18RearrangeString.isDigit("te2ch4no"));
 	}
-
 }

@@ -51,5 +51,4 @@ public class Assignment18RearrangeAndFindFrequency {
 			System.out.println(Assignment18RearrangeAndFindFrequency.RearrangeLetterDigit("t8EcHNo5Cred3iTs"));
 			System.out.println(Assignment18RearrangeAndFindFrequency.FindFrequencyOfLetter("TechnoTtcredits", 't'));
 		}
-
 	}
