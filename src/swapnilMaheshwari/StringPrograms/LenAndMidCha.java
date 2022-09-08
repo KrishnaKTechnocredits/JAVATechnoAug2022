@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.StringPrograms;
 
 public class LenAndMidCha {
 	

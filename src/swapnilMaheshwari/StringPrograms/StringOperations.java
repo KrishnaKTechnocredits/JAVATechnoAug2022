@@ -25,7 +25,7 @@ int num = Character.getNumericValue(ch); '9'
 
 */
 
-package swapnilMaheshwari;
+package swapnilMaheshwari.StringPrograms;
 
 public class StringOperations {
 
