@@ -26,9 +26,7 @@ public class RearrangeString2 {
 	}
 
 	public static void main(String[] args) {
-		RearrangeString2 rearrangeString2 = new RearrangeString2();
 		String input = "t8EcHNo5Cred3iTs";
-		String output = rearrangeString2.rearrangeString2(input);
-		System.out.println("Re-arranged sequence for " + input + " is : " + output);
+		System.out.println("Re-arranged sequence for " + input + " is : " + new RearrangeString2().rearrangeString2(input));
 	}
 }
