@@ -20,9 +20,9 @@ output : 6
  */
 package harshalRane.Tests;
 
-class FindNumbers {
+public class FindNumbers {
 
-	void findRequiredNumbers(int targetNum) {
+	public void findRequiredNumbers(int targetNum) {
 		int count = 0;
 		int sum = 0;
 		int num = 1;

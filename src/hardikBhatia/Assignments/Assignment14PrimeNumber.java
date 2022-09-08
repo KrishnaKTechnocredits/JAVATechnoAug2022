@@ -1,4 +1,4 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
 public class Assignment14PrimeNumber {
 	int count = 0;

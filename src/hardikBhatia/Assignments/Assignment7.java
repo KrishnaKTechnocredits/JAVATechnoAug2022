@@ -1,4 +1,4 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
 public class Assignment7 {
 	void printAllEvenNumber(int startIndex, int endIndex){
