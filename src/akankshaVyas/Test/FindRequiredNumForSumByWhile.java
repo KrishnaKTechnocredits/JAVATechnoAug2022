@@ -22,7 +22,7 @@ public class FindRequiredNumForSumByWhile {
 		int count = 0;
 		int sum = 0;
 		int num = 1;
-		while (sum < targetNum) {
+		while (sum <= targetNum) {
 			sum = sum + num;
 			count++;
 			num++;
