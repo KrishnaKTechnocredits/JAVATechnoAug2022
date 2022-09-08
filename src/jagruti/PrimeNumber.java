@@ -1,4 +1,4 @@
-/*Assignment - 9 : 26th Aug'2022
+/*Assignment - 8 & 9 : 26th Aug'2022
 Write a program to find given number is prime or not.
 input : 15
 output : 15 number is not a prime number
