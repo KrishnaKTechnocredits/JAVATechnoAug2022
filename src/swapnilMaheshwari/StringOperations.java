@@ -84,15 +84,15 @@ public class StringOperations {
 	}
 
 	int getSumOfDigitInString(String str) {
-		int length = str.length();
-		boolean countOfDig;
+		//int length = str.length();
+		//boolean countOfDig;
 		int sum = 0;
-		for (int index = 0; index <= length - 1; index++) {
+		for (int index = 0; index <= str.length() - 1; index++) {
 			char ch = str.charAt(index);
-			countOfDig = Character.isDigit(ch);
-			if (countOfDig == true) {
-				int number = Character.getNumericValue(ch);
-				sum = sum + number;
+			//countOfDig = Character.isDigit(ch);
+			if (Character.isDigit(ch)) {
+				//int number = Character.getNumericValue(ch);
+				sum = sum + Character.getNumericValue(ch);
 			}
 		}
 		return sum;
