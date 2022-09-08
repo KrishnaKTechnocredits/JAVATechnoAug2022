@@ -1,4 +1,4 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
 public class Assignment16 {
 	int getNameLength(String name) {
