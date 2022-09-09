@@ -4,7 +4,7 @@ input = "t8EcHNo5Cred3iTs";
 output : EHNCT853tcoredis 
 // Character.isUpperCase(ch), Character.isLowerCase(ch)*/
 
-package manjiri;
+package manjiri.StringEx;
 
 public class StringEx4 {
 	String getRearrangeString(String name) {
