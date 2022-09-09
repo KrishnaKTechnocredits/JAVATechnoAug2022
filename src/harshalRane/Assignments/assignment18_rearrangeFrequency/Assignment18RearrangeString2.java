@@ -1,7 +1,7 @@
 package harshalRane.Assignments.assignment18_rearrangeFrequency;
 
 public class Assignment18RearrangeString2 {
-	static String RearrangeLetterDigit(String name) {
+	static String rearrangeLetterDigit(String name) {
 		String upper = "";
 		String lower = "";
 		String digit = "";
@@ -19,6 +19,6 @@ public class Assignment18RearrangeString2 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(Assignment18RearrangeString2.RearrangeLetterDigit("t8EcHNo5Cred3iTs"));
+		System.out.println(Assignment18RearrangeString2.rearrangeLetterDigit("t8EcHNo5Cred3iTs"));
 	}
 }

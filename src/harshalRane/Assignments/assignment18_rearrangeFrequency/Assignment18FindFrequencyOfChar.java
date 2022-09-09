@@ -1,7 +1,7 @@
 package harshalRane.Assignments.assignment18_rearrangeFrequency;
 
 public class Assignment18FindFrequencyOfChar {
-	static int FindFrequencyOfLetter(String input, char targetChar) {
+	static int findFrequencyOfLetter(String input, char targetChar) {
 		int count = 0;
 		input = input.toLowerCase();
 		targetChar = Character.toLowerCase(targetChar);
@@ -16,6 +16,6 @@ public class Assignment18FindFrequencyOfChar {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(Assignment18FindFrequencyOfChar.FindFrequencyOfLetter("TechnoTtcredits", 't'));
+		System.out.println(Assignment18FindFrequencyOfChar.findFrequencyOfLetter("TechnoTtcredits", 't'));
 	}
 }
