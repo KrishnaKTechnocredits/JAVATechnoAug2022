@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.DivisibleProgramms;
 class ForProgramms
 {
 	void evenNumberCheck ( int startIndex , int endIndex){

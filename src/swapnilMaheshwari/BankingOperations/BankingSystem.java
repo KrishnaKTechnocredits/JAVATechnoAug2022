@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.BankingOperations;
 
 public class BankingSystem {
 	int bal;

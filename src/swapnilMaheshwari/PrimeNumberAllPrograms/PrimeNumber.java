@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.PrimeNumberAllPrograms;
 class PrimeNumber
 { 
   void isPrimeNum ( int num)

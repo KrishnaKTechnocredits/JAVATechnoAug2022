@@ -16,7 +16,7 @@ char targetChar = 't';
 output : 4
  */
 
-package swapnilMaheshwari;
+package swapnilMaheshwari.StringPrograms;
 
 public class StringRearrange {
 

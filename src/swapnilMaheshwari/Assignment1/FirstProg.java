@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.Assignment1;
 
 public class FirstProg {
 

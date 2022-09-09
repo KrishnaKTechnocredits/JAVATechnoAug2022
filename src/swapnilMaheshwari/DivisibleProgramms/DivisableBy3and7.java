@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.DivisibleProgramms;
 
 public class DivisableBy3and7 {
 	int i,count=0;

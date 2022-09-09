@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.Assignment1;
 
 public class SimpleInterestAndCelsicusCalculation {
 	void simpleInterest(double p, double r, double t) {

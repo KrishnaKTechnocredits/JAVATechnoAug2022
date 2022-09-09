@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.DivisibleProgramms;
 
 public class TotalCountDivisibleBy3and7 {
 	void processData(int startRange, int endRange) {

@@ -1,4 +1,4 @@
-package swapnilMaheshwari;
+package swapnilMaheshwari.PrimeNumberAllPrograms;
 
 public class PrimeNumInRangeOptimized {
 	int count = 0, sum = 0, avg;
