@@ -1,7 +1,7 @@
 //Assignment - 10 : 30th Aug'2022
 //Find the last 3 numbers divisible by 3 and 7.
 
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
 public class Assignment10 {
 	void findNumberDivisibleBy3and7(int startIndex, int endIndex) {
