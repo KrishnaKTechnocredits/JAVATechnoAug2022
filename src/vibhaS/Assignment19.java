@@ -27,13 +27,15 @@ public class Assignment19 {
 		return isPrime;
 	}
 
-	void getPrimeNum(int[] arr) {
+	int getPrimeNum(int[] arr) {
+		int sum=0;
 		for (int index = 0; index < arr.length; index++) {
 			boolean ans = getSumOfPrimeNum(arr[index]);
 			if (ans == true) {
-				System.out.println("Given number is prime number => " + arr[index]);
+				sum=sum+arr[index];
 			}
 		}
+		return sum;
 	}
 
 	int getMaxNum(int[] num) {
@@ -75,22 +77,23 @@ public class Assignment19 {
 
 	public static void main(String[] args) {
 		Assignment19 assignment19 = new Assignment19();
-		int[] num = { 10, 20, 30 };
+		int[] num = { 10,11,15};
 		int ans = assignment19.getSumOfNum(num);
 		System.out.println("Sum of number => " + ans);
 		System.out.println("");
-		int[] num1 = { 10, 11, 13, 14, 15, 16, 23, 24, 43, 44 };
-		assignment19.getPrimeNum(num1);
+		int[] num1 = { 11,14,17,22,44 };
+		int ans1=assignment19.getPrimeNum(num1);
+		System.out.println("sum of prime number is => " + ans1);
 		System.out.println("");
-		int[] num2 = { 10, 20, 40, 9, 3 };
-		int ans1 = assignment19.getMaxNum(num2);
-		System.out.println("max num is  => " + ans1);
+		int[] num2 = { 11,4,55,23,43 };
+		int ans2 = assignment19.getMaxNum(num2);
+		System.out.println("max num is  => " + ans2);
 		System.out.println("");
-		int[] num3 = { 10, 20, 40, 9, 3 };
-		int ans2 = assignment19.getMinNum(num3);
-		System.out.println("min num is  => " + ans2);
+		int[] num3 = { 11,4,55,23,43 };
+		int ans3 = assignment19.getMinNum(num3);
+		System.out.println("min num is  => " + ans3);
 		System.out.println("");
-		String[] arr = { "Maulik", "Krishna", "Harsh", "Technocredits" };
+		String[] arr = {"Ashish","Aditty","Manjiri","AnKita" };
 		assignment19.getArrayOfMiddleChar(arr);
 		System.out.println("");
 	}
