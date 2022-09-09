@@ -14,7 +14,7 @@ String str = "TechnoTtcredits";
 char targetChar = 't';
 output : 4
 */
-package asthaSrivastava.returnType;
+package asthaSrivastava.string;
 
 public class RearrangeString {
 
