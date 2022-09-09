@@ -3,7 +3,7 @@
 //output : kiluaM
 
 
-package harshadaJagtap.return_type;
+package harshadaJagtap.String2_ReturnTypes;
 
 public class Example3 {
 	

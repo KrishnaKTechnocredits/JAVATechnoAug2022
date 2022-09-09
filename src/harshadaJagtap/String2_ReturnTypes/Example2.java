@@ -7,7 +7,7 @@
 // input : Technocredits
 // output : Middle character in name Technocredits is c
 
-package harshadaJagtap.return_type;
+package harshadaJagtap.String2_ReturnTypes;
 
 public class Example2 {
 	int a;
