@@ -89,7 +89,6 @@ public class Assignments19 {
 	
 	void getMiddleCharOfArrayElement(String[] inputArray) {
 		int strIndex = 0;
-		char[] outputArray= {};
 		
 		for(int index=0;index<inputArray.length;index++) {
 			int strLength = inputArray[index].length();
