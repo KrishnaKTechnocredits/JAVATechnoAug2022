@@ -17,8 +17,6 @@ public class ArrayEx3 {
 	
 	public static void main(String[] args) {
 		int[] intArr = {11,4,55,23,43};
-		System.out.println(new ArrayEx3().getMaxNumFromArray(intArr));
+		System.out.println("Maximum number from an array is: "+new ArrayEx3().getMaxNumFromArray(intArr));
 	}
-	
-
 }

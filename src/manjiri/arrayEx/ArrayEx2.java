@@ -35,6 +35,6 @@ public class ArrayEx2 {
 	
 	public static void main(String[] args) {
 		int intArr[] = {11,14,17,22,44};
-		System.out.println(new ArrayEx2().getSumOfPrimeNumFromArray(intArr));
+		System.out.println("Sum of all prime numbers in an array is: "+new ArrayEx2().getSumOfPrimeNumFromArray(intArr));
 	}
 }

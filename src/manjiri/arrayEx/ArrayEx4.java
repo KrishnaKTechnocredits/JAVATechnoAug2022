@@ -17,7 +17,6 @@ public class ArrayEx4 {
 
 	public static void main(String[] args) {
 		int[] intArr = { 11, 4, 55, 23, 43 };
-		System.out.println(new ArrayEx4().getMinNumFromArray(intArr));
+		System.out.println("Minimum number from an array is: "+new ArrayEx4().getMinNumFromArray(intArr));
 	}
-
 }
