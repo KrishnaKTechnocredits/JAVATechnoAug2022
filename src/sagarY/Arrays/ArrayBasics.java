@@ -74,10 +74,10 @@ public class ArrayBasics {
 	public static void main(String[] args) {
 		int[] num1 = { 11, 34, 17, 25, 31 };
 		int output1 = new ArrayBasics().sumOfArrays(num1);
-		System.out.println("Sum of the numbers in given array {20,40,60} is: \n" + output1);
+		System.out.println("Sum of the numbers in given array {11,34,17,25} is: \n" + output1);
 
 		int output2 = new ArrayBasics().getSumOfPrime(num1);
-		System.out.println("Sum of the prime numbers in given array {11,34,17,25} is: \n" + output2);
+		System.out.println("Sum of the Prime numbers in given array {11,34,17,25} is: \n" + output2);
 
 		int[] num3 = { 11, 4, 55, 23, 43 };
 		int output3 = new ArrayBasics().maxNumber(num3);
