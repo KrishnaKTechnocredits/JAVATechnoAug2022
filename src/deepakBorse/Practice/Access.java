@@ -1,4 +1,4 @@
-package deepakBorse.Assignments;
+package deepakBorse.Practice;
 
 public class Access {
 	int x=2;
