@@ -15,7 +15,7 @@ public class Assignment18RearrangeAndFindFrequency {
 			return digit + letter;
 		}
 
-		static String RearrangeLetterDigit(String name) {
+		static String rearrangeLetterDigit(String name) {
 			String upper = "";
 			String lower = "";
 			String digit = "";
@@ -32,7 +32,7 @@ public class Assignment18RearrangeAndFindFrequency {
 			return upper + digit + lower;
 		}
 
-		static int FindFrequencyOfLetter(String input, char targetChar) {
+		static int findFrequencyOfLetter(String input, char targetChar) {
 			int count = 0;
 			input = input.toLowerCase();
 			targetChar = Character.toLowerCase(targetChar);
@@ -48,7 +48,7 @@ public class Assignment18RearrangeAndFindFrequency {
 
 		public static void main(String[] args) {
 			System.out.println(Assignment18RearrangeAndFindFrequency.isDigit("te2ch4no"));
-			System.out.println(Assignment18RearrangeAndFindFrequency.RearrangeLetterDigit("t8EcHNo5Cred3iTs"));
-			System.out.println(Assignment18RearrangeAndFindFrequency.FindFrequencyOfLetter("TechnoTtcredits", 't'));
+			System.out.println(Assignment18RearrangeAndFindFrequency.rearrangeLetterDigit("t8EcHNo5Cred3iTs"));
+			System.out.println(Assignment18RearrangeAndFindFrequency.findFrequencyOfLetter("TechnoTtcredits", 't'));
 		}
 	}
