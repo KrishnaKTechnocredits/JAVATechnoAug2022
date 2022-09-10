@@ -4,7 +4,7 @@
 package titikshaG;
 
 public class Medialcharacter {
-	String getmedialarray(String[] name)
+	String getMedialArray(String[] name)
 	{ 
 		int midLength=name[0].length();
 		for(int index=0;index<name.length;index++)
@@ -18,7 +18,7 @@ public class Medialcharacter {
 	}
 		 
 	char getMiddleCharacter(String[] str){ 
-		String input=getmedialarray(str);
+		String input=getMedialArray(str);
 		int index=0;
 		if (input.length()%2==0) {
 			index=(input.length()/2-1);
