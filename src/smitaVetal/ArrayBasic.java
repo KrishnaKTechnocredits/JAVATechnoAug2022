@@ -56,8 +56,8 @@ public class ArrayBasic {
 	}
 
 	int getMaxNum(int[] num) {
-		int max = 0;
-		for (int index = 0; index < num.length; index++) {
+		int max = num[0];
+		for (int index = 1; index < num.length; index++) {
 			if (num[index] > max)
 				max = num[index];
 		}
@@ -66,7 +66,7 @@ public class ArrayBasic {
 
 	int getMinNum(int[] num) {
 		int min = num[0];
-		for (int index = 0;index<num.length; index++) {
+		for (int index = 1;index<num.length; index++) {
 			if(num[index]<min) {
 				min=num[index];
 			}
