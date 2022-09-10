@@ -1,5 +1,7 @@
 package shivaniGour;
 
+import java.util.Arrays;
+
 public class ArrayAssignment19 {
 	int getSumOfArray(int[] arr) {
 		int add = 0;
@@ -71,7 +73,7 @@ public class ArrayAssignment19 {
 		ArrayAssignment19 varArr = new ArrayAssignment19();
 		int[] arr = { 10, 11, 15, 17 };
 		String[] arr1 = { "Ashish", "Aditty", "Manjiri", "Ankita" };
-		System.out.println("Sum of elements is: " + varArr.getSumOfArray(arr));
+		System.out.println("Sum of elements of array"+Arrays.toString(arr)+" is: " + varArr.getSumOfArray(arr));
 		System.out.println("Sum of Prime elements is: " + varArr.sumOfPrimeArray(arr));
 		System.out.println("Max Array element is: " + varArr.getMaxArray(arr));
 		System.out.println("Max Array element is: " + varArr.getMinArray(arr));
