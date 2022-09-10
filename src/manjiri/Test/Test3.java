@@ -16,7 +16,6 @@ public class Test3 {
 				maxString = input[index];				
 			}
 		}
-		System.out.println(maxString);
 		return maxString;
 	}
 	
