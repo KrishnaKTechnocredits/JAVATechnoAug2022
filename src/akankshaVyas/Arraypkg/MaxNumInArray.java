@@ -3,9 +3,10 @@ package akankshaVyas.Arraypkg;
 public class MaxNumInArray {
 
 	int getMaxNUm(int[] arr) {
-
-		int max = 0;
+		int max = arr[0];
+		
 		for (int index = 0; index < arr.length; index++) {
+			
 			if (max <= arr[index]) {
 				max = arr[index];
 			}
@@ -14,7 +15,7 @@ public class MaxNumInArray {
 	}
 
 	int getMinNum(int[] arr) {
-		int min = 0;
+		int min =arr[ 0];
 		for (int index = 0; index < arr.length; index++) {
 
 			if (arr[index] <= arr[0]) {
