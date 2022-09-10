@@ -15,7 +15,7 @@ output : Mahesh -> h
               Rahul -> h
  */
 
-package basic;
+package sanket;
 
 public class ArrayTest3 {
 
