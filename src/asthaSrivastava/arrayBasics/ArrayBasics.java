@@ -20,7 +20,8 @@ input : {"Ashish","Aditty","Manjiri","Ankita"}
 output : Ashish -> h
          Aditty -> i
 		 Manjiri -> j
-		 Ankita -> k*/
+		 Ankita -> k
+		 Assignment19_Array_Astha #684*/
 package asthaSrivastava.arrayBasics;
 
 public class ArrayBasics {
@@ -70,18 +71,13 @@ public class ArrayBasics {
 	}
 
 	int getMinNumber(int[] arry) { // Program 4
-		int maxNum = 0;
+		int minNum = arry[0];
 		for (int index = 0; index < arry.length; index++) {
-			if (maxNum < (arry[index])) {
-				maxNum = (arry[index]);
-			} else {
-
-				break;
-			}
-
+			if (minNum > (arry[index])) {
+				minNum = (arry[index]);
+			} 
 		}
-
-		return maxNum;
+		return minNum;
 	}
 
 	char getMiddleChar(String name) { // Program 5
