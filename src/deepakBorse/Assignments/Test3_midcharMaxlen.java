@@ -18,6 +18,8 @@ output :      Mahesh -> h
  */
 package deepakBorse.Assignments;
 
+import java.util.Arrays;
+
 public class Test3_midcharMaxlen {
 
 	char maxchaMaxlen(String[] namearry) {
@@ -60,6 +62,7 @@ public class Test3_midcharMaxlen {
 		Test3_midcharMaxlen Test3_midcharMaxlen = new Test3_midcharMaxlen();
 		
 		String[] namearry = { "Krishna", "Maulik", "Aashvi", "Technocredits", "Harsh" };
+		System.out.println("Given Array"+Arrays.toString(namearry));
 		char midchar = Test3_midcharMaxlen.maxchaMaxlen(namearry);
 		System.out.println("Middle charater of max length string :" + midchar);
 
