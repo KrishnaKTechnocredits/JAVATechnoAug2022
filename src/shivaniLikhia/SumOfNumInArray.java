@@ -5,7 +5,7 @@ package shivaniLikhia;
 
 public class SumOfNumInArray {
 
-	int getSumOfNumInArray(int[] arr) {
+	int getSumOfNumInArray(int[] arr) {  
 		int sum = 0;
 		int length = arr.length;
 		for(int index=0;index<length;index++) {

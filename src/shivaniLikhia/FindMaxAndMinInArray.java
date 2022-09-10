@@ -11,8 +11,8 @@ package shivaniLikhia;
 public class FindMaxAndMinInArray {
 	int index;
 	int getMaxNumInArray(int[] arr) {
-		int max = 0;
-		for(index=0;index<arr.length;index++)
+		int max = arr[0];
+		for(index=1;index<arr.length;index++)
 			if(max<arr[index]) {
 			max = arr[index];
 			}
