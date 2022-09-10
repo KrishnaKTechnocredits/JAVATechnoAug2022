@@ -1,4 +1,4 @@
-package monikaDwivedi;
+package monikaDwivedi.Assignments;
 /*Find weekdays or weekend based on dayindex*/
 
 
