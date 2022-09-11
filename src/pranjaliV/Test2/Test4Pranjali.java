@@ -25,7 +25,7 @@ import java.util.Arrays;
 
 public class Test4Pranjali {
 	
-	int getSumDigits(String input) {//18.15-18.34
+	int getSumDigits(String input) {
 		int sum=0;
 		int digit=0;
 		for(int index=0; index<input.length(); index++) {
