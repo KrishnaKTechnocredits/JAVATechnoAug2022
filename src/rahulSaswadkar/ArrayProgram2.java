@@ -35,10 +35,14 @@ public class ArrayProgram2 {
 	public static void main(String[] args) {
 		ArrayProgram2 arrayProgram2 = new ArrayProgram2();
 		String[] str = {"Krishna","Maulik","Aashvi","Technocredits","Harsh"};
-		System.out.println("Middle Character of Max lenght Element of given array is : " + arrayProgram2.m2(arrayProgram2.m1(str)));
+		System.out.println("Program 1 -" + "\nGiven Array : " + Arrays.toString(str));
+		System.out.println("Max Lenght Element of given Array is : " + arrayProgram2.m1(str));
+		System.out.println("Middle Character of Max lenght Element \'" + arrayProgram2.m1(str) +"\' of given array is : " + arrayProgram2.m2(arrayProgram2.m1(str)));
 		
 		String[] str1 = {"Mahesh","Avni","Puja","Harshal","Aditty","Rahul"};
+		System.out.println("\nProgram 2 -" + "\nGiven Array : " + Arrays.toString(str1));
 		System.out.println("Array of Miiddle character of each element of given array : " + Arrays.toString(arrayProgram2.m3(str1)));
+		arrayProgram2.displayData(str1,arrayProgram2.m3(str1));
 	}
 	
 	String m1(String[] str) {
@@ -70,6 +74,12 @@ public class ArrayProgram2 {
 		}
 		return midChar;
 		
+	}
+	
+	void displayData(String[] str1, char[] midCharArr) {
+		for(int index = 0;index<str1.length;index++) {
+			System.out.println(str1[index] + "-->" + midCharArr[index]);
+		}
 	}
 	
 	
