@@ -1,4 +1,4 @@
-package monikaDwivedi;
+package monikaDwivedi.Assignments;
 //Assignment - 3 : 22nd Aug'22
 
 //Create a class called Bank having 3 methods and 3 instance variables.
