@@ -34,10 +34,7 @@ public class TreeProgramFromMastercard {
 		System.out.println("No of visible trees : "+prg.getMaxNumber(num)+"\n");
 		int [] num1= {3,7,5};
 		System.out.println("No of visible trees : "+prg.getMaxNumber(num1));
-		
-		
-
-	}
+		}
 	}
 
 
