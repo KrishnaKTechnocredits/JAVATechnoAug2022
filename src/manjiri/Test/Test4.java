@@ -12,7 +12,7 @@ package manjiri.Test;
 
 public class Test4 {
 	
-	int getSumOfDigitsInString(String input) {
+	private int getSumOfDigitsInString(String input) {
 		char ch = ' ';
 		int sum =0;
 		for (int index = 0; index < input.length();index++) {

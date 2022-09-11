@@ -23,9 +23,9 @@ public class Test4_2 {
 	public static void main(String[] args) {
 		Test4_2 test42 = new Test4_2();
 		int[] input1 = {3,7,5};
-		System.out.println("Count of visible trees "+"input1"+" "+"is: "+ test42.getCountOfVisibleTrees(input1));
+		System.out.println("Count of visible trees for "+"input1"+" "+"is: "+ test42.getCountOfVisibleTrees(input1));
 		
 		int[] input2 = {3,5,11,9,10,13};
-		System.out.println("Count of visible trees "+"input2"+" "+"is: "+ test42.getCountOfVisibleTrees(input2));
+		System.out.println("Count of visible trees for "+"input2"+" "+"is: "+ test42.getCountOfVisibleTrees(input2));
 	}
 }
