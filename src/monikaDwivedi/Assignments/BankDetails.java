@@ -1,4 +1,4 @@
-package monikaDwivedi;
+package monikaDwivedi.Assignments;
 class BankDetails{
 	int bal = 1500;
 	

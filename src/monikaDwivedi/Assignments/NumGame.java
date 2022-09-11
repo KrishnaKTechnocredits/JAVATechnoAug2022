@@ -1,4 +1,4 @@
-package monikaDwivedi;
+package monikaDwivedi.Assignments;
 class NumGame{
 	int num;
 	
