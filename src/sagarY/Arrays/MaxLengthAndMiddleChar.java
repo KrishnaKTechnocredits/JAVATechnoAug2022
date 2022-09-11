@@ -1,8 +1,27 @@
+/*Test - 3 : 10th Sep'2022
+
+Program 1 : (20 mins)
+Return middle character of max length String from given array.
+input : {"Krishna","Maulik","Aashvi","Technocredits","Harsh"}
+output : c
+
+Program 2: (40 mins)
+Write a method to return middle character of each elements from given array.
+input : {"Mahesh","Avni","Puja","Harshal","Aditty","Rahul"}
+output : Mahesh -> h
+              Avni -> v
+              Puja -> u
+              Harshal -> s
+              Aditty -> i
+              Rahul -> h
+              */
+
+
 package sagarY.Arrays;
 
 import java.util.Arrays;
 
-public class ArrayReturn1 {
+public class  MaxLengthAndMiddleChar{
 
 	char getMiddleChar(String name) {
 		char ch = ' ';
@@ -49,14 +68,14 @@ public class ArrayReturn1 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Program 1:");
+		System.out.println("Test 3\nProgram 1:\nReturn middle character of max length String from given array");
 		String[] name = { "Krishna", "Maulik", "Aashvi", "Technocredits", "Harsh" };
 		System.out.println("Input Array - " + Arrays.toString(name));
-		String str = new ArrayReturn1().maxLengthName(name);
-		char ch1 = new ArrayReturn1().getMiddleChar(str);
+		String str = new MaxLengthAndMiddleChar().maxLengthName(name);
+		char ch1 = new MaxLengthAndMiddleChar().getMiddleChar(str);
 		
-		System.out.println("\nProgram 2:");
-		ArrayReturn1 array = new ArrayReturn1();
+		System.out.println("\nProgram 2:\nWrite a method to return middle character of each elements from given array.");
+		MaxLengthAndMiddleChar array = new MaxLengthAndMiddleChar();
 		String[] arr1 = { "Krishna", "Maulik", "Aashvi", "Technocredits", "Harsh" };
 		char[] ch = array.getMiddleChar(arr1);
 		System.out.println("Input Array - " + Arrays.toString(arr1));
