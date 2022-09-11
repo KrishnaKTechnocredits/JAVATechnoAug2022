@@ -11,7 +11,7 @@ output : Mahesh -> 5
          Aditty -> 8
          Rahul -> 0
 */         
-public class Test4 {
+public class Test4_Program1 {
 
 	int getSumOfIntegersFromArray(String str) {
 		int sum = 0;
@@ -33,7 +33,7 @@ public class Test4 {
 	}
 
 	public static void main(String[] args) {
-		Test4 test4 = new Test4();
+		Test4_Program1 test4 = new Test4_Program1();
 
 		String[] str1 = { "Ma1he4sh", "A9vni", "P1uj3a5", "Harshal", "A4d4itty", "Rahul" };
 		System.out.println("Given Input Array is: " + Arrays.toString(str1) + "\n");
