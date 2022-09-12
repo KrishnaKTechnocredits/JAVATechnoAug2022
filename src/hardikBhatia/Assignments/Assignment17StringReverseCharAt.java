@@ -1,4 +1,4 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
 public class Assignment17StringReverseCharAt {
 
