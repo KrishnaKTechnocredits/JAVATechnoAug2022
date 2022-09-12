@@ -17,7 +17,6 @@ public class MinNumberFromArray {
 		MinNumberFromArray minNumberFromArray = new MinNumberFromArray();
 		int num[] = { 11, 4, 55, 23, 43 };
 		System.out.println("Minimum Number from Given array is: " + minNumberFromArray.getMinNumFromArray(num));
-
 		System.out.println(Arrays.toString(num));
 	}
 }
