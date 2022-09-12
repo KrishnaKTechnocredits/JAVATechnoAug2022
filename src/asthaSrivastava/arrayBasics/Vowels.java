@@ -48,11 +48,13 @@ public class Vowels {
 
 		int result = new Vowels().getCountOfVowels("maulik");
 		System.out.println("Count of Vowels in given String maulik is " + result);
-
+		System.out.println("-----------------");
+		
 		String[] output = { "Ashish", "Aditty", "Manjiri", "Ankita" };
 		for (int i = 0; i < output.length; i++) {
 			System.out.println(output[i] + "->" + new Vowels().getCountOfVowels(output[i]));
 		}
+		System.out.println("-----------------");
 
 		String[] input = { "Ashish", "Aditty", "Manjiri", "Ankita", "Credits" };
 		System.out.println("Max Length name is "+new Vowels().getMaxLength(input));

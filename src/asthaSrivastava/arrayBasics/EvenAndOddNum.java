@@ -53,7 +53,7 @@ public class EvenAndOddNum { //Program3
 		int[] input = { 10, 11, 15, 6 };
 
 		int result = new EvenAndOddNum().getEvenNumber(input);
-		System.out.println("Even numbers in given array" + Arrays.toString(input) + " is " + result);
+		System.out.println("Sum of even numbers in given array" + Arrays.toString(input) + " is " + result);
 
 		int result1 = new EvenAndOddNum().diffOfEvenAndOdd(input);
 		System.out.println(
