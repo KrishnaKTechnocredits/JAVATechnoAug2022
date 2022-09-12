@@ -3,7 +3,7 @@ String str = "TechnoTtcredits";
 char targetChar = 't';
 output : 4*/
 
-package manjiri;
+package manjiri.StringEx;
 
 public class StringEx5 {
 	
