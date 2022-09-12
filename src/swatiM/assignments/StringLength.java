@@ -31,7 +31,7 @@ public class StringLength {
 
 	char getMiddleChar(String name) {
 		int index = 0;
-		int len = name.length();
+		int len = getNameLength(name);
 		if (len % 2 == 0) {
 			index = len / 2 - 1;
 		} else {
@@ -48,9 +48,9 @@ public class StringLength {
 		System.out.println("Length of string is : " + length);
 		char ch = stringlength.getMiddleChar("Technocredits");
 		System.out.println("Middle character in name Technocredits is " + ch);
-		 length = stringlength.getNameLength("Swati");
+		length = stringlength.getNameLength("Swati");
 		System.out.println("Length of string is : " + length);
-		 ch = stringlength.getMiddleChar("Swati");
+		ch = stringlength.getMiddleChar("Swati");
 		System.out.println("Middle character in name Swati is " + ch);
 
 	}
