@@ -3,7 +3,7 @@ String str = "te2cH4no";
 output : "24tecHno";
 Hint : AllDigitAllCharacter*/
 
-package manjiri;
+package manjiri.StringEx;
 
 public class StringEx3 {
 	String getRearrangedString(String name) {
