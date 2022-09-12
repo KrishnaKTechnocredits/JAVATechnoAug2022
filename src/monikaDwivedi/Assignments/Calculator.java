@@ -1,4 +1,4 @@
-package monikaDwivedi;
+package monikaDwivedi.Assignments;
 class Calculator{	
 	int number1=20; //instance variable
 	int number2=10; //instance variable

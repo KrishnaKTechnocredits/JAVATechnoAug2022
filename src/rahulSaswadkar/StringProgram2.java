@@ -36,19 +36,19 @@ public class StringProgram2 {
 		// stringProgram2.getReverseName(str);
 
 		// String revName = stringProgram2.getReverseName1(str);
-		System.out.println("Reverse Name of Name " + str + " is : " + stringProgram2.getReverseName1(str));
+		System.out.println("Reverse Name of Name \'" + str + "\' is : " + stringProgram2.getReverseName1(str));
 
 		// String oddCharOfName = stringProgram2.getOddIndexCharacters(str1);
-		System.out.println("\nOdd characters of Name " + str1 + " is : " + stringProgram2.getOddIndexCharacters(str1));
+		System.out.println("\nOdd characters of Name \'" + str1 + "\' is : " + stringProgram2.getOddIndexCharacters(str1));
 
 		// String oddCharOfNameRev =
 		// stringProgram2.getOddIndexCharacters(stringProgram2.getReverseName1(str1));
-		System.out.println("\nOdd characters of Name in Reverse " + str1 + " is : "
+		System.out.println("\nOdd characters of Name \'" + str1 + "\' in Reverse is : "
 				+ stringProgram2.getOddIndexCharacters(stringProgram2.getReverseName1(str1)));
 
-		System.out.println("\nCount of digits in a given string " + str2 + " is : " + stringProgram2.getDigitCount(str2));
+		System.out.println("\nCount of digits in a given string \'" + str2 + "\' is : " + stringProgram2.getDigitCount(str2));
 
-		System.out.println("\nSum of digits in a given string " + str2 + " is : " + stringProgram2.getDigitSum(str2));
+		System.out.println("\nSum of digits in a given string \'" + str2 + "\' is : " + stringProgram2.getDigitSum(str2));
 
 	}
 
