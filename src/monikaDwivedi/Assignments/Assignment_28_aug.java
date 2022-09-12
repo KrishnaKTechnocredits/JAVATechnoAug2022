@@ -1,6 +1,6 @@
 /*user defined range, 20 and 100 ,
  print 1st 3 numbers divisible by 3 and 7*/
-package monikaDwivedi;
+package monikaDwivedi.Assignments;
 
 public class Assignment_28_aug {
 	int num;
