@@ -24,7 +24,7 @@ Hint : ch = Character.charAt(index);
 Character.isDigit(ch);
 int num = Character.getNumericValue(ch); '9'
  */
-package swatiM.assignments.string;
+package swatiM.assignments.stringProgram;
 
 public class Stringoperations {
     

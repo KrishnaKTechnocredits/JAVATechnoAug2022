@@ -19,7 +19,7 @@ Method name convention:
 4. printInfo() : if method is prininting something, we can start method name with print keyword.
  */
 
-package swatiM.assignments;
+package swatiM.assignments.stringProgram;
 
 public class StringLength {
 

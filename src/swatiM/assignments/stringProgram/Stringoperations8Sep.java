@@ -1,4 +1,4 @@
-package swatiM.assignments;
+package swatiM.assignments.stringProgram;
 
 //1) Write a program to rearrange String in given format. 
 //String str = "te2cH4no";
