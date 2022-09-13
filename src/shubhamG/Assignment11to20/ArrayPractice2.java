@@ -138,7 +138,7 @@ public class ArrayPractice2 {
 
 		int[] arr1 = { 11, 13, 17, 22, 44 };
 		System.out.println("Given input Array is: "+Arrays.toString(arr1));
-		System.out.println("Sum of Non Prime Numbers are : " + arrayPractice2.getSumOfPrimeNumber(arr1));
+		//System.out.println("Sum of Non Prime Numbers are : " + arrayPractice2.getSumOfPrimeNumber(arr1));
 
 		int[] arr2 = { 11, 35, 17, 105, 44 };
 		System.out.println("\nGiven input Array is: "+Arrays.toString(arr2));
