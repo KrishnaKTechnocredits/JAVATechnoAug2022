@@ -1,0 +1,5 @@
+package amolMule;
+class Math{
+	
+	
+}

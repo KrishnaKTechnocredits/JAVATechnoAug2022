@@ -6,7 +6,7 @@ class Example{
 	int y = 20;
 	
 	void processData(){
-		int z = x+y;
+		//int z = x+y;
 		x = x+10;
 		y = y+10;
 	}
