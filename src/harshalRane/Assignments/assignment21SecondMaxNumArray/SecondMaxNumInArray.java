@@ -1,5 +1,7 @@
 package harshalRane.Assignments.assignment21SecondMaxNumArray;
 
+import java.util.Arrays;
+
 public class SecondMaxNumInArray {
 	
 	int getMaxNum(int[] num) {
@@ -22,6 +24,7 @@ public class SecondMaxNumInArray {
 		SecondMaxNumInArray a = new SecondMaxNumInArray();
 		int[] input = {10,19,76,22,44,81,23};
 		int output = a.getMaxNum(input);
-		System.out.println(output);
+		System.out.println(Arrays.toString(input));
+		System.out.println("Second highest number in given array is: " +output);
 	}
 }
