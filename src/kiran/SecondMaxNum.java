@@ -1,5 +1,7 @@
 package kiran;
 
+import java.util.Arrays;
+
 public class SecondMaxNum {
     int getsecondHighestNumber(int[] arr) {
    	 int max=0;
@@ -18,7 +20,8 @@ public class SecondMaxNum {
 	public static void main(String[] args) {
 		SecondMaxNum obj=new SecondMaxNum();
 		int[] a1=new int[] {10,99,33,44,89,76};
-		System.out.println(obj.getsecondHighestNumber(a1));
+		System.out.println(Arrays.toString(a1));
+		System.out.println("Second highest number : "+obj.getsecondHighestNumber(a1));
 	}
 
 }
