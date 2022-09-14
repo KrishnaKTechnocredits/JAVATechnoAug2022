@@ -3,7 +3,7 @@ package manjiri;
 public class Mcq4_15 {
 
 	public static void main(String[] args) {
-		System.out.println(Mcq4_15.m1());
+		System.out.println(Mcq4_15.m1()); // ans is 1
 	}
 
 	static int m1() {
