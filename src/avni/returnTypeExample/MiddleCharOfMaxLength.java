@@ -1,6 +1,6 @@
 /*return middle char of max length from given array.
  * input {krishna , maulik , aashvi , technocredits , harsh} output :c .*/ 
-package avni.arrayExamples;
+package avni.returnTypeExample;
 
 public class MiddleCharOfMaxLength {
 
