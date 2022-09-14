@@ -1,3 +1,4 @@
+
 /*1) Write a method to return sum of all not prime numbers from given array.
 input : {11,13,17,22,44}
 output : 66
@@ -17,6 +18,7 @@ output : 16
 input : {10,11,15,6}
 output : 10
 Hint : 16 - 26 = 10*/
+
 
 package manjiri.arrayEx;
 
@@ -94,5 +96,6 @@ public class ArrayEx1 {
 			return evenSum - oddSum;
 		else
 			return oddSum - evenSum;
+
 	}
 }

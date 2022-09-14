@@ -1,5 +1,5 @@
 package vinod;
-class Assignment{
+class Assignment1{
 	void checkDay(int dayIndex){
 		if(dayIndex==1)
 			System.out.println("its a Monday");
@@ -39,7 +39,7 @@ class Assignment{
 			System.out.println("invalid weekendDays");
 	}
 	public static void main(String[] args){
-		Assignment assignment = new Assignment();
+		Assignment1 assignment = new Assignment1();
 		assignment.checkDay(1);
 		assignment.checkDay(2);
 		assignment.checkDay(3);

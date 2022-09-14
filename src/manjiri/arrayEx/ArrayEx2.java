@@ -61,5 +61,6 @@ public class ArrayEx2 {
 		for(int index = 0; index < input.length; index++) {
 			System.out.println(input[index]+ " " + "-> " + output[index]);
 		}
+
 	}
 }
