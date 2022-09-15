@@ -1,13 +1,14 @@
 package hemanshi;
+import java.lang.String;
 
 public class Assignment13 {
 	static int debitCount, creditCount, printBalance, balance;
 	int individualDebitCount , invidualCreditCount , individualPrintBalance;
 	
-	void setUserDetails(String username, int StartingBalance) {
+	void setUserDetails(String string, int StartingBalance) {
 		balance=StartingBalance;
 		System.out.println("--+++++ Transaction details +++++--");
-		System.out.println("Username: "+username);
+		System.out.println("Username: "+string);
 		System.out.println("Initial balance: "+StartingBalance);
 
 }

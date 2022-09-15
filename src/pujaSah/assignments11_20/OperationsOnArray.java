@@ -1,4 +1,4 @@
-package pujaSah;
+package pujaSah.assignments11_20;
 
 public class OperationsOnArray {
 	int getSumOfElementsInarray(int[] arr) {
