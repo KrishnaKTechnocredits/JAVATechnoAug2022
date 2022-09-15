@@ -19,9 +19,12 @@ public class ArrayEx8 {
 
 	public static void main(String[] args) {
 		int[] inputArr = { 10, 20, 30, 22, 44, 21, 92, 89 };
-		// int[] inputArr = {10,20,30,22,44,44,92,89, 104, 110,101,101};
 		System.out.println("Original Array: " + Arrays.toString(inputArr));
 		int[] output = new ArrayEx8().getProcessedArray(inputArr);
 		System.out.println("Processed Array: " + Arrays.toString(output));
+		
+		int[] inputArr2 = {0,10,0,20,30,22,44,44,92,89,0,0,104,0,110,101,101,0};
+		System.out.println("Original Array: " + Arrays.toString(inputArr2));
+		System.out.println("Processed Array: " + Arrays.toString(new ArrayEx8().getProcessedArray(inputArr2)));
 	}
 }
