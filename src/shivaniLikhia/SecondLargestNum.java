@@ -12,7 +12,7 @@ public class SecondLargestNum {
 		for(int index=1;index<arr.length;index++) {
 			if(max<arr[index]) {
 				max = arr[index];
-				System.out.println(max);
+				System.out.println("Highest Number from array is : " +max);
 			}
 			else if(secondMax<arr[index]) {
 				secondMax=arr[index];
@@ -23,6 +23,6 @@ public class SecondLargestNum {
 	
 	public static void main(String[] args) {
 		int[] arr = {10,99,33,44,89,76};
-		System.out.println(new SecondLargestNum().getSecondLargestNum(arr));
+		System.out.println("Second Highest Number is : " +new SecondLargestNum().getSecondLargestNum(arr));
 	}
 }
