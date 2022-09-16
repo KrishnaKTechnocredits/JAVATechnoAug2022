@@ -37,9 +37,11 @@ input : {"Ashish","Aditty","Manjiri","Ankita","Credits"}
 output : Credits
  */
 
-package rahulSaswadkar;
+package rahulSaswadkar.arrayPrograms;
 
 import java.util.Arrays;
+
+import rahulSaswadkar.PrimeWithWhileAndReturn;
 
 public class ArrayProgram3 {
 	public static void main(String[] args) {

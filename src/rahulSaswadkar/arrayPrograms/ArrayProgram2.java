@@ -27,7 +27,7 @@ sop(input[0] + "->" + output[0])
 sop(input[index] + "->" + output[index])
 
  */
-package rahulSaswadkar;
+package rahulSaswadkar.arrayPrograms;
 
 import java.util.Arrays;
 
