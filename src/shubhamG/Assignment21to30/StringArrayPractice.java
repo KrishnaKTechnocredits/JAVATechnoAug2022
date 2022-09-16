@@ -1,5 +1,37 @@
 package shubhamG.Assignment21to30;
 
+/*Assignment - 23 : 16th Sep'2022
+
+Program 1:
+Write a method to return maximum length word from given input.
+String input = "Good morning friends this is technocredits";
+output : technocredits
+
+String getMaxLengthWord(String input){
+	
+}
+
+String[] arr = input.split(" ");
+
+Program 2: Write a method to print all the words having atleast one digit.
+
+String input = "Good mor9ning fr3iends t2hi2s is technocredits";
+output : mor9ning
+         fr3iends
+         t2hi2s	
+
+Program 3: Write a method to return word having maximum uppercase.
+
+String input = "Good Mor9niNg FR3ienDs t2hi2s Is tEchnocredits";
+output : FR3ienDs			 
+
+Program 4: Write a method to print all the words having no digits and uppercase.
+String input = "Good mor9ning techno fr3iends t2Hi2s is tEchnocredits";
+output : techno
+         is
+
+*/
+
 public class StringArrayPractice {
 
 	String getMaxLengthWord(String input) {
