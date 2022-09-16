@@ -14,6 +14,7 @@ public class ArrayProgram5 {
 		int[] num1 = { 10, 99, 33, 44, 89, 76 };
 		int[] num2 = { 10, 99, 33, 101, 89, 76, 103 };
 		int[] num3 = { 10, 99, 33, 103, 89, 76, 101, 104, 110 };
+		int[] num4 = { 10, 10, 99, 33, 103, 89, 76, 101, 104, 110, 110 };
 
 		System.out.println("Second highest number in given array " + Arrays.toString(num1) + " is : "
 				+ arrayProgram5.getSecondHighestNumberFromArray(num1));
@@ -21,6 +22,8 @@ public class ArrayProgram5 {
 				+ arrayProgram5.getSecondHighestNumberFromArray(num2));
 		System.out.println("\nSecond highest number in given array " + Arrays.toString(num3) + " is : "
 				+ arrayProgram5.getSecondHighestNumberFromArray(num3));
+		System.out.println("\nSecond highest number in given array " + Arrays.toString(num4) + " is : "
+				+ arrayProgram5.getSecondHighestNumberFromArray(num4));
 	}
 
 	int getSecondHighestNumberFromArray(int[] num) {
@@ -36,10 +39,12 @@ public class ArrayProgram5 {
 			if (num[index] > maxNumber) {
 				secondMaxNumber = maxNumber;
 				maxNumber = num[index];
-
-			} else if (num[index] > secondMaxNumber)
+			}  else if (num[index] > secondMaxNumber && num[index] < maxNumber ) {
 				secondMaxNumber = num[index];
+		}
+		
 		}
 		return secondMaxNumber;
 	}
+
 }
