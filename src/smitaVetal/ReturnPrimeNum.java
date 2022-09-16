@@ -1,35 +1,42 @@
 package smitaVetal;
 
 public class ReturnPrimeNum {
-	int count =0;
-	static int sum=0;
 	
-	boolean getPrimeNum(int num) {
+	boolean isPrime(int num) {
+		int index = 2;
 		boolean flag = true;
-		for (int index=2;index<=num/2;index++) {
-			if(num%index==0)
-				flag=false;
-			break;
+		while(index <= Math.sqrt(num)) {
+			if (num % index == 0) {
+				flag = false;
+				break;
+			}
+			index++;
 		}
 		if(flag) {
-			count++;
-			sum=sum+num;
+			return true;
 		}
-			return flag;
+		else {
+			return false;
+		}
 	}
 	
-	int firstPrimeNum(int N) {
-		int num =2;
-		System.out.println("Sum of first "+ N+ " prime numbers are");
-		while(num >=2 && count<N) {
-			getPrimeNum(num);
-		num++;
+	void sumOfPrimeNum(int n) {
+		int count = 0;
+		int sum = 0;
+		int num = 2;
+		boolean result = false;
+		while(count != n) {
+			result = isPrime(num);
+			if (result) {
+				count++;
+				sum = sum + num;
+			}
+			num++;
 		}
-		return sum;
+		System.out.println("Sum of first "+ n +" prime numbers is " + sum);
 	}
 	
 	public static void main(String[] args) {
-		new ReturnPrimeNum().firstPrimeNum(5);
-		System.out.println(sum);
+		new ReturnPrimeNum().sumOfPrimeNum(5);
 	}
 }
