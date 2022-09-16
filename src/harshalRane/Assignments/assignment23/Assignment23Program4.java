@@ -7,9 +7,6 @@ output : techno
 package harshalRane.Assignments.assignment23;
 
 public class Assignment23Program4 {
-	int upper = 0;
-	int lower = 0;
-	int digit = 0;
 	
 	boolean isDigit(String input) {
 		for(int index=0;index<input.length();index++) {
@@ -34,6 +31,7 @@ public class Assignment23Program4 {
 		Assignment23Program4 p4 = new Assignment23Program4();
 		String input = "Good mor9ning techno fr3iends t2Hi2s is tEchnocredits";
 		System.out.println(input);
+		System.out.println("-----------------------------------------------");
 		p4.printWordWithLowerCase(input);
 	}
 }
