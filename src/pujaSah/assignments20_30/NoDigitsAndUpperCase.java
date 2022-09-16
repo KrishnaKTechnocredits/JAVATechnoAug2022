@@ -22,7 +22,7 @@ public class NoDigitsAndUpperCase {
 		NoDigitsAndUpperCase obj = new NoDigitsAndUpperCase();
 
 		String inStr = "Good mor9ning techno fr3iends t2Hi2s is tEchnocredits";
-		System.out.println("Input String: " + inStr);
+		System.out.println("Input String: " + inStr + "\n");
 
 		System.out.println("Words with no Digits and Upper case are : " + "\n");
 		obj.displayWordsWithNoDigitsAndUpperCase(inStr);

@@ -18,7 +18,7 @@ public class MaxLengthWord {
 
 		String inputString = "Good morning friends this is technocredits";
 		System.out.println("InputString: " + inputString + "\n");
-		
+
 		System.out.println("The maximum length word is: " + obj.getMaxLengthWord(inputString));
 	}
 }

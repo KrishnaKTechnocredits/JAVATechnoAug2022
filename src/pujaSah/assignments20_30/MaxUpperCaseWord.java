@@ -25,6 +25,8 @@ public class MaxUpperCaseWord {
 		MaxUpperCaseWord obj = new MaxUpperCaseWord();
 
 		String inStr = "Good Mor9niNg FR3ienDs t2hi2s Is tEchnocredits";
+		System.out.println("Input String: " + inStr + "\n");
+		
 		System.out.println("Word with maximum uppercase characters is: " + obj.getWordWithMaxUpperCaseLetters(inStr));
 	}
 }
