@@ -101,7 +101,7 @@ public class ArrayProgram7 {
 		//int countOfMaxUpperCaseLetters = getCountOfUpperCaseLetters(arr[0]);
 		int countOfUpperCaseLetters = 0;
 		//String strMaxUpperCaseLetters = arr[0];
-		String strMaxUpperCaseLetters = "\'No word in give String has Upper case letter\'";
+		String strMaxUpperCaseLetters = "\'No word in given String has Upper case letter\'";
 		int maxCount = 0;
 		
 		 for(int index = 0; index < arr.length ; index++) {
