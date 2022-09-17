@@ -17,7 +17,7 @@ public class SecondHighestNumberArray {
 			if (input[index] > maxNumber) {
 				secondMaxNumber = maxNumber;
 				maxNumber = input[index];
-			} else if (input[index] > secondMaxNumber) {
+			} else if (input[index] > secondMaxNumber && input[index]!=maxNumber) {
 				secondMaxNumber = input[index];
 			}
 		}
@@ -27,9 +27,12 @@ public class SecondHighestNumberArray {
 	public static void main(String[] args) {
 		int[] input = { 10, 99, 33, 44, 89, 76 };
 		int[] input1 = { 10, 99, 33 };
+		int[] input2= {10,99,33,100,89,100};
 		System.out.println(Arrays.toString(input) + "\n Second highest number from given array is : "
 				+ new SecondHighestNumberArray().getsecondHighestNumber(input));
 		System.out.println(Arrays.toString(input1) + "\n Second highest number from given array is : "
 				+ new SecondHighestNumberArray().getsecondHighestNumber(input1));
+		System.out.println(Arrays.toString(input2) + "\n Second highest number from given array is : "
+				+ new SecondHighestNumberArray().getsecondHighestNumber(input2));
 	}
 }
