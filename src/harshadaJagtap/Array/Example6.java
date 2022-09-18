@@ -1,6 +1,5 @@
 //return sum of not prime numbers from array 
 
-
 package harshadaJagtap.Array;
 
 public class Example6 {
