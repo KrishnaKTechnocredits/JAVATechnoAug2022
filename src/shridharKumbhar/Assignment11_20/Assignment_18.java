@@ -3,7 +3,7 @@
 //Uppercase letters + digit + lowercase letters
 //frequesncy of given character "t"
 
-package shridharKumbhar;
+package shridharKumbhar.Assignment11_20;
 
 public class Assignment_18 {
 	

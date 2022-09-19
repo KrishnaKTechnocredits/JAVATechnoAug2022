@@ -12,10 +12,10 @@ class Prime {
 					break;
 				}
 			}
-			if (flag = false)
-				System.out.println("not prime");
+			if (flag)
+				System.out.println(" prime");
 			else
-				System.out.println("prime");
+				System.out.println(" not prime");
 		}
 
 	}

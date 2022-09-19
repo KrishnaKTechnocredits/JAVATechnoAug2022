@@ -1,4 +1,4 @@
-package hardikBhatia;
+package hardikBhatia.Test;
 
 public class Test4 {
 	//Program 1 : Write a method to return sum of all the digits present in each elements from given
