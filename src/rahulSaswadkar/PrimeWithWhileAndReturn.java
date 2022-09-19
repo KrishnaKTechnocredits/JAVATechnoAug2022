@@ -13,7 +13,7 @@ public class PrimeWithWhileAndReturn {
 		System.out.print(new PrimeWithWhileAndReturn().getPrimeNumbers(5));
 	}
 	
-	boolean isPrimeNumber(int num) {
+	public boolean isPrimeNumber(int num) {
 		boolean isPrimeNum = true;
 		if(num > 0) {
 			for(int startIndex = 2 ; startIndex <= num/2 ; startIndex++) {

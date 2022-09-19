@@ -1,40 +1,66 @@
-/*Write a method to return sum of all prime numbers from given array.
-input : {11,14,17,22,44}
-output : 28
-Hint : (11+17 = 28)*/
-
 package manjiri.arrayEx;
 
 public class ArrayEx2 {
-	int getSumOfPrimeNumFromArray(int[] arr) {
-		int sum = 0;
-		for (int index = 0; index < arr.length; index++) {
-			boolean isPrime = checkPrimeNum(arr[index]);
-			if (isPrime) {
-				sum = sum + arr[index];
-			}
-		}
-		return sum;
-	}
-
-	boolean checkPrimeNum(int num) {
-		int i = 2;
-		boolean flag = true;
-		while (i < Math.sqrt(num)) {
-			if(num % i == 0) {
-				flag = false;
-				break;
-			}
-			i++;
-		}
-		if(flag) {
+	
+	private boolean isVowel(char ch) {
+		ch = Character.toLowerCase(ch);
+		if(ch == 'a' || ch == 'e' || ch == 'i'|| ch == 'o' || ch == 'u') 
 			return true;
-		}	
-		return false;
+		else 
+			return false;		
 	}
 	
-	public static void main(String[] args) {
-		int intArr[] = {11,14,17,22,44};
-		System.out.println("Sum of all prime numbers in an array is: "+new ArrayEx2().getSumOfPrimeNumFromArray(intArr));
+	int getCountOfVowelsInString(String name) {
+		int count = 0;
+		
+		for(int index = 0; index < name.length();index++) {
+			if (isVowel(name.charAt(index)))
+				count++;
+		}
+		return count;
+	}
+	
+	int[] getCountOfVowelsInArray(String[] input) {
+		int[] output = new int[input.length];
+		
+		for (int index = 0; index < input.length; index++) {
+			int result = getCountOfVowelsInString(input[index]);
+			
+			output[index] = result;
+		}
+		return output;
+	}	
+	
+	String getMaxLengthNameFromArray(String[] input) {
+		int maxLength = input[0].length();
+		String maxString = input[0];
+		
+		for (int index = 1; index < input.length; index++) {
+			if(maxLength <= input[index].length()) {
+				maxLength = input[index].length();
+				maxString = input[index];
+			}
+		}
+		return maxString;
+	}
+	
+	String getMaxLengthNameFromArrayUsingReverseLoop(String[] input) {
+		int maxLength = input[0].length();
+		String maxString = input[0];
+		
+		for (int index = input.length-1; index >= 0; index--) {
+			if(maxLength < input[index].length()) {
+				maxLength = input[index].length();
+				maxString = input[index];
+			}
+		}
+		return maxString;
+	}
+	
+	void display(String[] input, int[] output) {
+		for(int index = 0; index < input.length; index++) {
+			System.out.println(input[index]+ " " + "-> " + output[index]);
+		}
+
 	}
 }
