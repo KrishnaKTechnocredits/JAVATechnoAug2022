@@ -1,3 +1,18 @@
+/*Assignment - 16 : 6th Sep'2022
+
+// 1. write a method to return length of the given name
+// int getNameLength(String name)
+
+
+//2. return middle character from given name.
+// Hint : char getMiddleChar(String name)
+
+// input : Maulik
+// output : Middle character in name Maulik is u
+
+// input : Technocredits
+// output : Middle character in name Technocredits is c
+*/
 package hindaviIngle;
 
 public class StringLength {
