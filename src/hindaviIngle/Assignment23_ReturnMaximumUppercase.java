@@ -1,7 +1,8 @@
-/*Program 4: Write a method to print all the words having no digits and uppercase.
-String input = "Good mor9ning techno fr3iends t2Hi2s is tEchnocredits";
-output : techno
-         is
+/*Program 3: Write a method to return word having maximum uppercase.
+
+String input = "Good Mor9niNg FR3ienDs t2hi2s Is tEchnocredits";
+output : FR3ienDs			 
+
          */
 package hindaviIngle;
 
