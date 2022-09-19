@@ -45,4 +45,5 @@ public class Secondhighestnumber {
 		System.out.println("Maximum number from array is:" +" "+output2);
 		
 		}
+
 }

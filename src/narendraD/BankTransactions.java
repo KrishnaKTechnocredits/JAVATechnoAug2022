@@ -34,7 +34,7 @@ class BankTransactions{
 	void printDetails(){
 		System.out.println("Total Debit Count is " + debitCount);
 		System.out.println("Total Credit Count is " + creditCount);
-		System.out.println("Available Balance is " + currentBal );	
+		System.out.println("Total Available Balance is " + currentBal );
 	}
 	
 	public static void main(String[] args){
