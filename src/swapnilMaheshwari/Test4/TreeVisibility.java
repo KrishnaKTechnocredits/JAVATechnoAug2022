@@ -9,7 +9,6 @@ public class TreeVisibility {
 				tempMaxHeight = arr[i];
 				count++;
 			}
-
 		}
 		return count;
 	}
@@ -20,5 +19,4 @@ public class TreeVisibility {
 		int[] input1 = { 3, 5, 11, 9, 10, 13 };
 		System.out.println("The visible tree are: " + new TreeVisibility().getCountOfVisibleTree(input1));
 	}
-
 }

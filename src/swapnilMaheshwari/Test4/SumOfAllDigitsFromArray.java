@@ -40,7 +40,7 @@ public class SumOfAllDigitsFromArray {
 
 		for (int i = 0; i < strInArray.length; i++) {
 			System.out.println(strInArray[i] + "->" + strOutPut[i]);
-		}
+		}	
 	}
 
 }
