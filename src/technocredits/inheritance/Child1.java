@@ -7,6 +7,7 @@ public class Child1 extends Parent1{
 	}
 	
 
+
 	public String toString() {
 		return "Hi";
 	}
