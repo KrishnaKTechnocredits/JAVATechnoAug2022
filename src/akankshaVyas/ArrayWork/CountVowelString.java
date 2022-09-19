@@ -19,6 +19,7 @@ public class CountVowelString {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("count of vowels in a given String");
 		System.out.println(new CountVowelString().getVowelCount("maulik"));
 		System.out.println(new CountVowelString().getVowelCount("aaradhy"));
 	}

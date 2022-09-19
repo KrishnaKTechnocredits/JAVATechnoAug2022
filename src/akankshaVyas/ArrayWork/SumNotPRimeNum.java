@@ -34,7 +34,7 @@ public class SumNotPRimeNum {
 
 	public static void main(String[] args) {
 		int[] input = { 11, 13, 17, 22, 44 };
-		System.out.println(new SumNotPRimeNum().sumofArray(input));
+		System.out.println("sum of all not prime numbers from given array - "+new SumNotPRimeNum().sumofArray(input));
 
 	}
 
