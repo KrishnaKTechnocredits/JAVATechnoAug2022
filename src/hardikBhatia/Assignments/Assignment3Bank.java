@@ -1,6 +1,6 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
-public class Bank {
+public class Assignment3Bank {
 	int totalDebit = 0; 
 	int totalCredits = 0;
 	int currentBalance = 3000;
@@ -25,7 +25,7 @@ public class Bank {
 	}
 	
 	public static void main(String[] args){
-		Bank bank  = new Bank();
+		Assignment3Bank bank  = new Assignment3Bank();
 		bank.debitAmount();
 		bank.debitAmount();
 		bank.printInfo();

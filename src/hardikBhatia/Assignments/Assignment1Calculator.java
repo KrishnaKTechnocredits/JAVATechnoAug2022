@@ -1,6 +1,6 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
-public class Calculator {
+public class Assignment1Calculator {
 	int number1 = 10;
 	int number2 = 5;
 	int ans = 0;
@@ -26,7 +26,7 @@ public class Calculator {
 	}
 	
 	public static void main(String[] args){
-		Calculator c1 = new Calculator();
+		Assignment1Calculator c1 = new Assignment1Calculator();
 		c1.add();
 		c1.sub();
 		c1.mul();

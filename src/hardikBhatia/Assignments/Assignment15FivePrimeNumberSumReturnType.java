@@ -1,6 +1,6 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
-public class FivePrimeNumberSumReturnType {
+public class Assignment15FivePrimeNumberSumReturnType {
 	boolean checkingPrimeNumber(int number) {
 		for(int index=2;index<=number/2;index++){
 			if(number%index==0){
@@ -23,7 +23,7 @@ public class FivePrimeNumberSumReturnType {
 	}
 	
 	public static void main(String[] args) {
-		FivePrimeNumberSumReturnType fivePrimeNumberSumReturnType = new FivePrimeNumberSumReturnType();
+		Assignment15FivePrimeNumberSumReturnType fivePrimeNumberSumReturnType = new Assignment15FivePrimeNumberSumReturnType();
 		fivePrimeNumberSumReturnType.gettingSumPrimeNumber(1);
 	}
 }

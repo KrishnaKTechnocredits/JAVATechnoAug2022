@@ -1,6 +1,6 @@
 package hardikBhatia.Assignments;
 
-public class Assignment7 {
+public class Assignment_6_7 {
 	void printAllEvenNumber(int startIndex, int endIndex){
 		System.out.println("Even numbers are:");
 		for(int i = startIndex; i<= endIndex; i++){
@@ -68,7 +68,7 @@ public class Assignment7 {
 
 	
 	public static void main(String[] args){
-		Assignment7 assignment7 =  new Assignment7();
+		Assignment_6_7 assignment7 =  new Assignment_6_7();
 		assignment7.printAllEvenNumber(10,15);
 		assignment7.printAllDivideBy5(10,30);
 		assignment7.printAllDivideBy5DivisibleBy7(5,18);

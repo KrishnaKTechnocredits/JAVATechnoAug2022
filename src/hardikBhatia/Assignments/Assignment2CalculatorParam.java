@@ -1,6 +1,6 @@
-package hardikBhatia;
+package hardikBhatia.Assignments;
 
-public class CalculatorParam {
+public class Assignment2CalculatorParam {
 	void add(int number1, int number2){
 		System.out.println("Addition is:" + (number1 + number2));
 	}
@@ -18,7 +18,7 @@ public class CalculatorParam {
 	}
 	
 	public static void main(String[] args){
-		CalculatorParam calculatorParam = new CalculatorParam();
+		Assignment2CalculatorParam calculatorParam = new Assignment2CalculatorParam();
 		calculatorParam.add(20,10);
 		calculatorParam.sub(20,10);
 		calculatorParam.mul(20,10);

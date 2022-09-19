@@ -1,4 +1,4 @@
-package hardikBhatia;
+package hardikBhatia.Test;
 
 //On User defined range, print first 3 numbers which are divisible by 3 and 7.
 public class ProgramTest1 {
