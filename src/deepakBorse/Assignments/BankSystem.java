@@ -32,7 +32,7 @@ public class BankSystem {
 	int balance,idebitCount,icreditCount,iprintbalcount;
 	String name;
 		
-	void Accountholder(String name, int ibalance) {
+	void accountholder(String name, int ibalance) {
 		balance=ibalance;
 		this.name=name;
 		System.out.println("Name of the Account holder: "+this.name);
@@ -77,14 +77,14 @@ public class BankSystem {
 		BankSystem BankSystem1=new BankSystem();
 		BankSystem BankSystem2=new BankSystem();
 		
-		BankSystem1.Accountholder("Haaresh", 10000);
+		BankSystem1.accountholder("Haaresh", 10000);
 		BankSystem1.creditAmount(20000);
 		BankSystem1.debitAmount(1000);
 		BankSystem1.debitAmount(3000);
 		BankSystem1.printBalance();
 		BankSystem1.IndTransSummary();
 		System.out.println("-------------------------------");
-		BankSystem2.Accountholder("Harsheel", 20000);
+		BankSystem2.accountholder("Harsheel", 20000);
 		BankSystem2.creditAmount(5000);
 		BankSystem2.debitAmount(10000);
 		BankSystem2.creditAmount(15000);
