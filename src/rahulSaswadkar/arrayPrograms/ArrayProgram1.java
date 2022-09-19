@@ -25,9 +25,12 @@ output : Ashish -> h
 		 Manjiri -> j
 		 Ankita -> k
  */
-package rahulSaswadkar;
+package rahulSaswadkar.arrayPrograms;
 
 import java.util.Arrays;
+
+import rahulSaswadkar.PrimeWithWhileAndReturn;
+import rahulSaswadkar.StringProgram1;
 
 public class ArrayProgram1 {
 	public static void main(String[] args) {

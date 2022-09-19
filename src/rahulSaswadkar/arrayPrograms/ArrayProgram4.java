@@ -21,7 +21,7 @@ input : {3,5,11,9,10,13}
 output : 4
  */
 
-package rahulSaswadkar;
+package rahulSaswadkar.arrayPrograms;
 
 import java.util.Arrays;
 
