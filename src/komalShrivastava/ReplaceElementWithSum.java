@@ -1,3 +1,7 @@
+/*Assignment - 24 : 17th Sep'2022 [program complexity : medium, expected time : 30 mins]
+
+Write a method to replace element with sum of other elements.*/
+
 package komalShrivastava;
 
 import java.util.Arrays;
