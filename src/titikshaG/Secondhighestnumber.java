@@ -1,5 +1,6 @@
 package titikshaG;
 import java.util.*;
+
 //Maximum number from array
 public class Secondhighestnumber {
 	int MaxNumber(int arr[])
@@ -44,5 +45,5 @@ public class Secondhighestnumber {
 		System.out.println("Maximum number from array is:" +" "+output2);
 		
 		}
-}
 
+}
