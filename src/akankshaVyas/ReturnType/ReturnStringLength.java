@@ -29,7 +29,7 @@ public class ReturnStringLength {
 	}
 	
 	char getMiddleChar(String name) {
-		getStringLength(name);
+		
 		int index = 0;
 		if (name.length() % 2 == 0) {
 			index = ((name.length() / 2) - 1);
