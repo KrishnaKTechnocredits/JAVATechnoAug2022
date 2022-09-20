@@ -26,11 +26,10 @@ public class ReturnPrimeNum {
 			getPrimeNum(num);
 			num++;
 		}
-		return sum;
+		System.out.println("Sum of first "+ n +" prime numbers is " + sum);
 	}
 
 	public static void main(String[] args) {
-		new ReturnPrimeNum().firstPrimeNum(5);
-		System.out.println(sum);
+		new ReturnPrimeNum().sumOfPrimeNum(5);
 	}
 }
