@@ -1,4 +1,4 @@
-package gauravSahu;
+package gauravSahu.Array;
 
 public class ArrayTest4 {
 	
