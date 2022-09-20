@@ -22,7 +22,7 @@ public class Assignment25 {
 		String[] inputArry=name.split(" ");
 		for(int i=0;i<inputArry.length;i++) {
 			for(int j=i+1;j<inputArry.length;j++) {
-			if(inputArry[i].equals(inputArry[j])&&(i!=j)) {
+			if(inputArry[i].equals(inputArry[j])) {
 				System.out.println(inputArry[i]);
 				break;
 				}
