@@ -37,7 +37,7 @@ public class Assignment25_PrintRepeatedWords {
 	}
 
 	public static void main(String[] args) {
-		String str = "Maulik Puja Hindavi Shubham Hindavi Shubham Titiksha Swati";
+		String str = "Maulik Puja Hindavi Shubham Hindavi Shubham \nTitiksha Swati";
 		Assignment25_PrintRepeatedWords printRepeat = new Assignment25_PrintRepeatedWords();
 		printRepeat.printRepeatWords(str);
 		printRepeat.printNonRepeatWords(str);
