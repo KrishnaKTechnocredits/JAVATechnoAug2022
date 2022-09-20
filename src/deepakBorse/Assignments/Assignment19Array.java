@@ -65,7 +65,7 @@ public class Assignment19Array {
 	void maxArray(int[] arry) {
 		int max = arry[0];
 		// System.out.println("Size of the Array :" + (arry.length));
-		for (int i = 0; i < arry.length; i++) {
+		for (int i = 1; i < arry.length; i++) {
 			if (max < arry[i]) {
 				max = arry[i];
 			}
@@ -77,7 +77,7 @@ public class Assignment19Array {
 	void minArray(int[] arry) {
 		int min = arry[0];
 		// System.out.println("Size of the Array :" + (arry.length));
-		for (int i = 0; i < arry.length; i++) {
+		for (int i = 1; i < arry.length; i++) {
 			if (min > arry[i]) {
 				min = arry[i];
 			}
