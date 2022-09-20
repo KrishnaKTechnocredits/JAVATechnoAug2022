@@ -4,7 +4,7 @@ public class MinNumberFromArray
 	int getMinNumFromArray(int[] number)
 	{
 		int min= number[0];
-		for(int index=0; index<number.length;index++)
+		for(int index=1; index<number.length;index++)
 		{
 			if (min>number[index])
 			{
