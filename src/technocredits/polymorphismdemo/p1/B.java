@@ -30,6 +30,6 @@ public class B extends A{
 		System.out.println(A.x);
 		C c1 = new C();
 		c1.processData();
-		System.out.println(C.x);
+		//System.out.println(C.x);
 	}
 }
