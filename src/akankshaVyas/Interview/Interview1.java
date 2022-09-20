@@ -23,7 +23,8 @@ public class Interview1 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("The reverse string is - " + new Interview1().getReverseString("Akanksha"));
+		String name ="Akanksha";
+		System.out.println("Given string is " + name + " and output reverse string is -\"" + new Interview1().getReverseString(name) + "\"");
 		new Interview1().getoddString("Akanksha");
 	}
 }
