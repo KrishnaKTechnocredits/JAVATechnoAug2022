@@ -12,7 +12,7 @@ public class ArrayOperations {
 		int maxLength = name[0].length();
 
 		String maxLengthName = name[0];
-		for (int index = 0; index < name.length; index++) {
+		for (int index = 1; index < name.length; index++) {
 			if (maxLength < name[index].length()) {
 				maxLengthName = name[index];
 

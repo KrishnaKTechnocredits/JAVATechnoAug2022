@@ -7,7 +7,7 @@ public class Assignment20 {
 		int sum = 0;
 		for (int index = 0; index < num.length; index++) {
 			if (num[index] > 0) {
-				for (int i = 2; i < num[index] / 2; i++) {
+				for (int i = 2; i <= num[index] / 2; i++) {
 					if (num[index] % i == 0) {
 						sum = sum + num[index];
 						break;
