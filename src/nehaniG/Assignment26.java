@@ -15,7 +15,7 @@ public class Assignment26 {
 			newLength = input.length();
 			frequency = originalLength - newLength;
 
-			System.out.println("\"" + ch + "\"" + " --> " + frequency);
+			System.out.println("\"" + ch + "\"" + " -> " + frequency);
 		}
 	}
 
