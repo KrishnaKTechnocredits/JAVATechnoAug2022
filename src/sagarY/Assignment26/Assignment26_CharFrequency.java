@@ -19,7 +19,7 @@ public class Assignment26_CharFrequency {
 			/*initialized newLength integer to capture string length after
 			string replacement*/
 			int newLength = str.length();
-			System.out.println(str1 + "--" + (originalLength - newLength));
+			System.out.println(" "+str1 + "--" + (originalLength - newLength));
 		}
 
 		System.out.println("\n--------------Thank You--------------" );
