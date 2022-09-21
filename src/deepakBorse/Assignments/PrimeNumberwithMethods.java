@@ -10,7 +10,7 @@ Create a class to satisfy below requirements.
 package deepakBorse.Assignments;
 
 public class PrimeNumberwithMethods {
-	int Primecount, SumPrime;
+	int primecount, Sumprime;
 
 	void checkPrimeNumber(int num) {
 		boolean primeFlag = true;
@@ -22,8 +22,8 @@ public class PrimeNumberwithMethods {
 		}
 		if (primeFlag == true) {
 			System.out.println(num + " Number is Prime");
-			Primecount++;
-			SumPrime = SumPrime + num;
+			primecount++;
+			Sumprime = Sumprime + num;
 		}
 
 	}
@@ -32,9 +32,9 @@ public class PrimeNumberwithMethods {
 		for (int num = startNum; num <= endNum; num++) {
 			checkPrimeNumber(num);
 		}
-		System.out.println("Total number of Prime numbers from range (" + startNum + "," + endNum + ") : " + Primecount);
-		System.out.println("Sum of Prime numbers from range (" + startNum + "," + endNum + ") : " + SumPrime);
-		System.out.println("Average of Prime numbers from range (" + startNum + "," + endNum + ") : " + (SumPrime / Primecount));
+		System.out.println("Total number of Prime numbers from range (" + startNum + "," + endNum + ") : " + primecount);
+		System.out.println("Sum of Prime numbers from range (" + startNum + "," + endNum + ") : " + Sumprime);
+		System.out.println("Average of Prime numbers from range (" + startNum + "," + endNum + ") : " + (Sumprime / primecount));
 	}
 
 	public static void main(String[] args) {

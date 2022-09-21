@@ -6,6 +6,7 @@ public class Child1 extends Parent1{
 		System.out.println(num);
 	}
 
+
 	public String toString() {
 		return "Hi";
 	}
