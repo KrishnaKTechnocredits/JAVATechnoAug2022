@@ -9,9 +9,7 @@ public class ReturnPrimeNum {
 		for (int index = 2; index <= (num / 2); index++) {
 			if (num % index == 0)
 				flag = false;
-		}
-			
-		
+		}		
 		if (flag) {
 			count++;
 			sum = sum + num;
@@ -23,13 +21,14 @@ public class ReturnPrimeNum {
 		int num = 2;
 		System.out.println("Sum of first " + N + " prime numbers are");
 		while (num >= 2 && count < N) {
-			getPrimeNum(num);
+			boolean flag = getPrimeNum(num);
 			num++;
 		}
-		System.out.println("Sum of first "+ n +" prime numbers is " + sum);
+		System.out.println("Sum of first "+ num +" prime numbers is " + sum);
+		return num;
 	}
 
 	public static void main(String[] args) {
-		new ReturnPrimeNum().sumOfPrimeNum(5);
+		new ReturnPrimeNum().firstPrimeNum(5);
 	}
 }
