@@ -4,12 +4,13 @@ Return second highest from given array.
 input : {10,99,33,44,89,76}
 output : 89*/
 
-package smitaVetal;
+package smitaVetal.Assignment20_30;
 
 import java.util.Arrays;
 
 public class Assignment21 {
 
+	//method to get the second highest integer from array
 	int getsecondHighestNum(int[] arr) {
 		int max = arr[0];
 		int secondmax = 0;
