@@ -8,23 +8,25 @@ package pujaSah.assignments20_30;
 
 public class FrequencyOfLetterInString {
 
-	// Method to get frequency of a character in a string
-	int getFrequencyOfLetter(String str) {
+	// Method to display frequency of each character in a string
+	void displayFrequencyOfLetters(String str) {
 		int length1 = str.length();
-		int newLength = 0;
-		for (int i = 0; i < str.length(); i++) {
-			str = str.replace("t", "");
+		while (length1 > 0) {
+			char ch = str.charAt(0);
+			String str2 = Character.toString(ch);
+			str = str.replace(str2, "");
 			int length2 = str.length();
-			newLength = length1 - length2;
+			int newLength = length1 - length2;
+			System.out.println(ch + " : " + newLength + " times");
+			length1 = str.length();
 		}
-		return newLength;
 	}
 
 	public static void main(String[] args) {
 		String inStr = "technocreditst";
 		System.out.println("Input String: " + inStr);
 
-		System.out.println("The frequency of letter t in " + inStr + " is "
-				+ new FrequencyOfLetterInString().getFrequencyOfLetter(inStr));
+		System.out.println("The frequency of each letters in " + inStr + " are: ");
+		new FrequencyOfLetterInString().displayFrequencyOfLetters(inStr);
 	}
 }
