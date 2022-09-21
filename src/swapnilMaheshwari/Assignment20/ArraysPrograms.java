@@ -9,7 +9,7 @@ package swapnilMaheshwari.Assignment20;
 
 import java.util.Arrays;
 
-import shridharKumbhar.assignment19Array.SumOfAllNum;
+
 
 public class ArraysPrograms {
 	boolean isNotPrime(int num) {
