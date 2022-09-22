@@ -49,7 +49,7 @@ public class StringProgram1 {
 		return firstCh;
 	}
 	
-	char getMiddleChar(String str) {
+	public char getMiddleChar(String str) {
 		int nameLength = str.length();
 		char middleCh = 0;
 			if(nameLength % 2 != 0) {
