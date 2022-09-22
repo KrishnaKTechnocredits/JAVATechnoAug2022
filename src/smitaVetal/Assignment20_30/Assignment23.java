@@ -30,6 +30,7 @@ package smitaVetal.Assignment20_30;
 
 public class Assignment23 {
 
+	// method to return maximum length word from given input.
 	String getMaxLengthWord(String name) {
 
 		String[] arr = name.split(" ");
@@ -43,6 +44,7 @@ public class Assignment23 {
 		return word;
 	}
 
+	// method returning TRUE/FALSE value for words containing digit
 	boolean isWordContainsDigit(String input) {
 		boolean flag = false;
 		// String name[] = input.split(" ");
@@ -55,6 +57,7 @@ public class Assignment23 {
 		return flag;
 	}
 
+	// method to print all the words having atleast one digit.
 	void getWordWithAtleast1Digit(String name) { // "Good mor9ning fr3iends t2hi2s is technocredits";
 		String arr[] = name.split(" ");
 
@@ -89,7 +92,7 @@ public class Assignment23 {
 	// method to print all the words having no digits and uppercase
 	void getWordWithNoDigitsNoUpCase(String input) {
 		String[] inputArray = input.split(" ");
-		System.out.print( "\nOutput :\n");
+		System.out.print("\nOutput :\n");
 		for (int index = 0; index < inputArray.length; index++) {
 			boolean flag = true;
 			for (int j = 0; j < inputArray[index].length(); j++) {
@@ -101,9 +104,7 @@ public class Assignment23 {
 			}
 			if (flag)
 				System.out.print(inputArray[index] + " \n");
-				
 		}
-
 	}
 
 	public static void main(String[] args) {

@@ -10,11 +10,11 @@ public class SumOfNumbersArray
 	{
 		int sum=0;
 		int temp=0;
-		System.out.print("Array elements are : ");
+		//System.out.print("Array elements are : ");
 		for (int index = 0; index<array.length; index++)
 		{
 			temp = array[index];
-			System.out.print(temp +" ");
+			//System.out.print(temp +" ");
 			sum = sum + temp;
 		}
 		return sum;		
