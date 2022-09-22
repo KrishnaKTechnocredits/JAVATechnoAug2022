@@ -58,7 +58,7 @@ public class ArrayActivity {
 
 	char middleCharacter(String[] name) {
 		int length = name.length;
-		for (int index = 0; index < length; index++) {
+		for (int index = 0; index <length; index++) {
 			int namLength = name[index].length();
 			int index1;
 			if (namLength % 2 == 0) {

@@ -12,6 +12,15 @@ public class SingleMethod {
 		return false;
 	}
 	
+
+	void m1(int i, short s) {
+		
+	}
+	
+	void m1(short a, int b) {
+		
+	}
+	
 	void printWordHavingDigitFromArray(String input) {
 		String[] arr = input.split("-");
 		for(int index=0;index<arr.length;index++) {
