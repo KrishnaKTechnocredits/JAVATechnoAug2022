@@ -6,12 +6,13 @@ int[] arr = {10,20,30,22,44,21,92,89};
 output : {10,20,0,22,0,21,0,89}
 */
 
-package smitaVetal;
+package smitaVetal.Assignment20_30;
 
 import java.util.Arrays;
 
 public class Assignment22 {
 
+	//method to Replace current index number with 0, if index+1 number is smaller then index number.
 	int[] getreplacement(int[] arr) {
 		for (int i = 0; i < arr.length - 1; i++) {
 			if (arr[i] > arr[i + 1]) {

@@ -11,12 +11,13 @@ Hint : 12 should be replaced with - 2+11+17
           11 should be replaced with - 12+2+17
           17 should be replaced with - 12+2+11 */
 
-package smitaVetal;
+package smitaVetal.Assignment20_30;
 
 import java.util.Arrays;
 
 public class Assignment24 {
 
+	//method to replace element with sum of other elements.
 	int[] getSumOfRestIntegers(int[] arr) {
 
 		int[] output = new int[arr.length];
