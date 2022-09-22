@@ -13,7 +13,7 @@ Hint : 12 should be replaced with - 2+11+17
 
  */
 
-package rahulSaswadkar;
+package rahulSaswadkar.arrayPrograms;
 
 import java.util.Arrays;
 

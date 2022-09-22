@@ -30,7 +30,7 @@ output : techno
          is
  */
 
-package rahulSaswadkar;
+package rahulSaswadkar.arrayPrograms;
 
 //import java.util.Arrays;
 
