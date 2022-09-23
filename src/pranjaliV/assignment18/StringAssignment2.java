@@ -60,9 +60,9 @@ public class StringAssignment2 {
 	
 	int getFrequencyOfChar(String input,char target) {
 		int count = 0;
-		input = input.toLowerCase();
 		for(int index=0; index<= input.length()-1; index++) {
 			char ch = input.charAt(index);
+			ch = Character.toLowerCase(ch);
 			if(ch==target) {
 				count++;
 			}
