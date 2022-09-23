@@ -1,6 +1,6 @@
 package nilamP;
 
-import basic.assignment26.StringOperations;
+
 
 public class StringOperations5 {
 	void getReplaceChar(String input) {
