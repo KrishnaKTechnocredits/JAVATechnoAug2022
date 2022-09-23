@@ -40,7 +40,9 @@ public class DifferenceNum {
 
 	public static void main(String[] args) {
 		int[] input = { 10, 11, 15, 6 };
-		System.out.println(new DifferenceNum().getDiffernceOfSumEvenOdd(input));
+		System.out.println("Difference of sum of all even numbers and odd numbers in given array:\n"
+
+				+ new DifferenceNum().getDiffernceOfSumEvenOdd(input));
 	}
 
 }

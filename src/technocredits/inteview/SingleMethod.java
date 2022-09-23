@@ -12,6 +12,7 @@ public class SingleMethod {
 		return false;
 	}
 	
+
 	void m1(int i, short s) {
 		
 	}
