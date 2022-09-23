@@ -4,7 +4,7 @@ input : {10,99,33,44,89,76}
 output : 89
  */
 
-package rahulSaswadkar;
+package rahulSaswadkar.arrayPrograms;
 
 import java.util.Arrays;
 
