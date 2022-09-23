@@ -16,7 +16,7 @@ public class ArrayProgram10 {
 	}
 	
 	void printRepeatWordInStr2(String str) {
-		System.out.println("Given word \"" + str + "\"" );
+		System.out.println("Given word : \"" + str + "\"" );
 		System.out.println("Frequency of each character in given word \"" + str + "\" is as follows :" );
 		
 		int index = 0, oldLen = 0, newLen = 0,occurence = 0;
