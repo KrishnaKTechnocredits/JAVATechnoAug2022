@@ -4,7 +4,6 @@ public class Assingnment26EachCharFreqString {
 
 	void getFreqofeachletter(String str) {
 		String ch = "";
-		int index = 0;
 		while (str.length() > 0) {
 			int orgLen = str.length();
 			ch = Character.toString(str.charAt(0));
@@ -12,7 +11,7 @@ public class Assingnment26EachCharFreqString {
 			int newLen = str.length();
 			int frequency = orgLen - newLen;
 			System.out.println(ch + "-> " + frequency);
-			index++;
+			
 		}
 	}
 
