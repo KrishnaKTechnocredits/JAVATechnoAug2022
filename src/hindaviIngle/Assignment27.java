@@ -45,7 +45,7 @@ public class Assignment27 {
 		}
 	}
 
-//find unique character in array 
+//find first unique character in array 
 	void firstOccurance(String[] nameArry) {
 		String name = "";
 		for (int i = 0; i < nameArry.length; i++) {
