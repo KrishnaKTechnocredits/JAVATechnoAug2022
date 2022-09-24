@@ -33,7 +33,7 @@ public class UniqueCharacterIntheArray {
 	}
 
 	public static void main(String[] args) {
-		String[] str = { "Maulik", "Swapnil", "aakansha", "KananiK" };
+		String[] str = { "Maulik", "Swapnil", "aakansha", "Kanani" };
 		new UniqueCharacterIntheArray().getUniqueChar(str);
 	}
 
