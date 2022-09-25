@@ -30,6 +30,6 @@ public class Assignment19_1 {
 		
 			int[] arr2= {11,14,17,22,44};
 			int temp2=obj2.getSUmOfAllPrimeNoInGivenArray(arr2);
-			System.out.println("Sum of all prime no. in givnr array"+temp2);
+			System.out.println("Sum of all prime no. in givnr array is "+temp2);
 		}
 }

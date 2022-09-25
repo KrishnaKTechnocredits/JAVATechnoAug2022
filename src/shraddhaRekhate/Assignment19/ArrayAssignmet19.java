@@ -15,6 +15,6 @@ public class ArrayAssignmet19 {
 		ArrayAssignmet19 obj1=new ArrayAssignmet19();
 		int[] arr= {10,11,15};
 		int arraySum=obj1.getSUmOfAllNumInGivenArray(arr);
-		System.out.println("Sum of all no. in given array"+arraySum);
+		System.out.println("Sum of all no. in given array is "+arraySum);
 	}
 }

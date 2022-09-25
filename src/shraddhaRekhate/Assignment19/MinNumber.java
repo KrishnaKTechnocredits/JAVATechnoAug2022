@@ -17,7 +17,7 @@ public class MinNumber {
 	public static void main(String[] args) {
 		MinNumber obj=new MinNumber();
 		int[] arr= {11,4,55,23,43};
-		System.out.println(obj.minNumber(arr));
+		System.out.println("min no in array is "+obj.minNumber(arr));
 	}
 
 }

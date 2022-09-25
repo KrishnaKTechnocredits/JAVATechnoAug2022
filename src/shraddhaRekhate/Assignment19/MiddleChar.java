@@ -9,6 +9,7 @@ public class MiddleChar {
 //			 Ankita -> k
   char getMiddleCharofAllArrayElements(String[] arr) {
 	  char ch=' ';
+	  System.out.println("Middle character in given array is:");
 	  for(int index =0;index<arr.length;index++) {
 		  for(int innerIndex=0;innerIndex<arr[index].length();innerIndex++) {
 			      if(arr[index].length()%2==0) {

@@ -18,7 +18,7 @@ public class MaxNum {
 		// TODO Auto-generated method stub
      MaxNum obj= new MaxNum();
      int[] arr= {11,2,55,23,43};
-     System.out.println("Max number in given array"+obj.maxNoFromArr(arr));
+     System.out.println("Max number in given array is "+obj.maxNoFromArr(arr));
 	}
 
 }
