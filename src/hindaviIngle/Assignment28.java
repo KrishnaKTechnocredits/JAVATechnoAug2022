@@ -79,7 +79,6 @@ public class Assignment28 {
 				return ch;
 			case 'e':
 				return ch;
-
 			case 'i':
 				return ch;
 
@@ -89,10 +88,8 @@ public class Assignment28 {
 			case 'u':
 				return ch;
 			}
-
 		}
 		return ' ';
-
 	}
 
 	void countOfEachVowel(String name) {
@@ -112,25 +109,19 @@ public class Assignment28 {
 			case 'e': {
 				countE++;
 				break;
-
 			}
 			case 'i': {
 				countI++;
 				break;
-
 			}
-
 			case 'o': {
 				countO++;
 				break;
-
 			}
 			case 'u': {
 				countU++;
 				break;
-
 			}
-
 			}
 		}
 		if (countA > 0) {
@@ -155,9 +146,7 @@ public class Assignment28 {
 		for (int index = 0; index < strArry.length; index++) {
 			System.out.println("Count of each vowel-->" + strArry[index]);
 			countOfEachVowel(strArry[index]);
-
 		}
-
 	}
 
 	public static void main(String[] args) {
