@@ -4,6 +4,17 @@ import java.util.Arrays;
 
 public class Assignment24 {
 	
+	/*Write a method to replace element with sum of other elements.
+
+input : {12,2,11,17}
+output : {30,40,31,25}
+
+Hint : 12 should be replaced with - 2+11+17
+          2 should be replaced with - 12 + 11+ 17
+          11 should be replaced with - 12+2+17
+          17 should be replaced with - 12+2+11 
+*/
+	
 	void getReplaceSumOfElements(int[] arr) {
 		
 		int [] output=new int[arr.length];
