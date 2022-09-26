@@ -18,7 +18,7 @@ e -> 2
  o -> 1
  i -> 1  
 
-Program 4: [15 mins] - 22.36
+Program 4: [15 mins] - 7mins
 Print count of each vowels in a given String Array using switch case.
 input : {"technocredits", "swati", "aashvi"}
 output : 
