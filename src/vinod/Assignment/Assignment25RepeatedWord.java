@@ -14,7 +14,6 @@ public class Assignment25RepeatedWord {
 			}
 		}
 	}
-
 	public static void main(String[] args) {
 		Assignment25RepeatedWord assignment25RepeatedWord = new Assignment25RepeatedWord();
 		String str = "Maulik Vinod Vinod Shubham Gopal Shubham Titiksha Gopal";
