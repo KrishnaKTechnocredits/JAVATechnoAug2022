@@ -2,6 +2,8 @@
 
 package komalShrivastava;
 
+import java.util.Arrays;
+
 public class SwitchCase {
 
 	//method to return first vowel or count of vowels in a given String using switch case.
@@ -82,6 +84,7 @@ public class SwitchCase {
 	
 	//count of each vowels in a given String Array
 	void printVowelCountOfStringArray(String[] arr) {
+		System.out.println("Vowel Count in array " + Arrays.toString(arr) + "\n");
 		for(int index=0; index<arr.length; index++) {
 			getCountofEachVowel(arr[index]);
 			System.out.println("- - - - - - - - - - - - - - -");
