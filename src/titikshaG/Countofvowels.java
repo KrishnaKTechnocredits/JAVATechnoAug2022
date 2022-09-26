@@ -113,13 +113,15 @@ public class Countofvowels {
 		System.out.println("--------------------"+"Program 1"+"-----------------------");
 		System.out.println("Input of program first is:"+input);
 		System.out.println();
-		
-		System.out.println("--------------------"+"Program 2"+"-----------------------");
 		System.out.println("Total number of vowels in string are:"+countofvowels.totalNumberOfVowels(input));
 		System.out.println();
 		
-		System.out.println("--------------------"+"Program 3"+"-----------------------");
+		System.out.println("--------------------"+"Program 2"+"-----------------------");
+		System.out.println("Input of program first is:"+input);
 		System.out.println("First vowel in string is:"+countofvowels.firstVowel(input));
+		
+		System.out.println("--------------------"+"Program 3"+"-----------------------");
+		System.out.println("Input of program first is:"+input);
 		System.out.println("Count of each chararcter is:");
 		countofvowels.countOfEachVowel(input);
 		System.out.println();
