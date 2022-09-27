@@ -13,6 +13,7 @@ import java.util.Arrays;
 
 public class ReplaceElementWithSumOfOtherElements {
 
+	//Replacing element with sum of the other elements 
 	int[] getSumOfArrayElementsIndex(int[] input) {
 		int[] outputArray = new int[input.length];
 
