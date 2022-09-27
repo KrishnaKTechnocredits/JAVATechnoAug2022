@@ -10,21 +10,21 @@ output : 6
 
 package smitaVetal;
 
-public class SumOfNumbers {	
-	
-	 void sumOfReqNo(int targetno) {
-		 
-		int count =0;
-		int sum =0;
-		int num1=1;
-		while(sum<=targetno) {
-			 sum =sum+num1;
-			 num1++;
-			 count++;			 
-		 }
+public class SumOfNumbers {
+
+	void sumOfReqNo(int targetno) {
+
+		int count = 0;
+		int sum = 0;
+		int num1 = 1;
+		while (sum <= targetno) {
+			sum = sum + num1;
+			num1++;
+			count++;
+		}
 		System.out.println(count);
 	}
-	 
+
 	public static void main(String[] args) {
 		SumOfNumbers S1 = new SumOfNumbers();
 		S1.sumOfReqNo(50);
