@@ -1,6 +1,7 @@
 package nehaniG;
 
 public class Assignment25 {
+
 	
 		void getRepeatedWord(String name) {
 			String[] input = name.split(" ");
@@ -44,4 +45,3 @@ public class Assignment25 {
 			assignment25.getNonRepeatedNames(input);
 		}
 	}
-
