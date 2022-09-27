@@ -12,10 +12,11 @@ output : Maulik
          Titiksha
          Swati */
 
-package smitaVetal;
+package smitaVetal.Assignment20_30;
 
 public class Assignment25 {
-
+	
+	//method to Print all the repeated word in given string.
 	void getRepeatedWords(String name) {
 		System.out.println("Input string is " + name + "\n\nRepeated words from given string are ");
 		String word[] = name.split(" ");
@@ -27,6 +28,7 @@ public class Assignment25 {
 		}
 	}
 
+	//method to Print all the non-repeated word in given string.
 	void getNonRepeatedWords(String name) {
 
 		String word[] = name.split(" ");

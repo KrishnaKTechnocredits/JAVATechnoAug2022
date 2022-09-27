@@ -23,6 +23,7 @@ public class NonRepetatedWord {
 				if (str[i].equals(str[j])&& i!=j)
 				{
 					flag=false;
+					break;
 				}
 
 			}
