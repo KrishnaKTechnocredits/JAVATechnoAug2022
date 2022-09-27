@@ -9,12 +9,14 @@ import java.util.Arrays;
 
 public class ShiftLeftZerosInArrays {
 	
+	
 	int[] getProcessedArray(int[] input) {
 		System.out.println("Input array is: " + Arrays.toString(input));
 		System.out.println("-------------------------------------------------------------------------------");
 		int[] output = new int[input.length];
 		int outIndex = 0;
 		
+		//To create output array with all zeros shifted to the Left
 		for (int index = 0; index < input.length; index++) {
 			if(input[index] != 0) {
 				output[outIndex] = input[index];
