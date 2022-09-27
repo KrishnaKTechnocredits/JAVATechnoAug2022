@@ -1,4 +1,3 @@
-
 /*Assignment - 28 : 25th Sep'2022
 
 Program 1 : [10 mins - 13 mins]
@@ -138,5 +137,6 @@ public class StringOperations5 {
 		System.out.println("Program 4 output :");
 		System.out.println("count of each vowel in given Array :");
 		so.getEachVowelCountArray(input);
+
 	}
 }

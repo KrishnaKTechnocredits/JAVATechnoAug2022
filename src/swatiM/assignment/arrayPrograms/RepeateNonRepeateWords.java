@@ -9,6 +9,7 @@ output : Hindavi
 
 public class RepeateNonRepeateWords {
 
+	//Print all the repeated word in given string.
 	void getRepeatedWords(String name) {
 		System.out.println("Input string is \n" + name + "\n\nRepeated words from given string are ");
 		String word[] = name.split(" ");
@@ -25,7 +26,8 @@ public class RepeateNonRepeateWords {
 	 * "Maulik Puja Hindavi Shubham hindavi Shubham Titiksha Swati"; output : Maulik
 	 * Puja Titiksha Swati
 	 */
-
+	
+	// Print all the non repeated word in given string
 	void getNonRepeatedWords(String name) {
 
 		String word[] = name.split(" ");
