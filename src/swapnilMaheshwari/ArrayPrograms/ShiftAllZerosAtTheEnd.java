@@ -8,6 +8,8 @@ output : {10,3,4,5,9,0,0,0}
 
 package swapnilMaheshwari.ArrayPrograms;
 
+import java.util.Arrays;
+
 public class ShiftAllZerosAtTheEnd {
 	int[] getShiftAllZerosAtTheEnd(int[] arr) {
 		int[] outputArr = new int[arr.length];
@@ -24,9 +26,6 @@ public class ShiftAllZerosAtTheEnd {
 	public static void main(String[] args) {
 		int[] input = { 10, 0, 0, 3, 4, 5, 0, 9 };
 		int[] output = new ShiftAllZerosAtTheEnd().getShiftAllZerosAtTheEnd(input);
-		for (int i = 0; i < input.length; i++) {
-			System.out.println(output[i]);
-
-		}
+		System.out.println("Shifting all zeros at the  End :"+ Arrays.toString(output));
 	}
 }

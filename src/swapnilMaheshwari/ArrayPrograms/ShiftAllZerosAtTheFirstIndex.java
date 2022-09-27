@@ -8,6 +8,8 @@ output : {0,0,0,10,3,4,5,9}
 
 package swapnilMaheshwari.ArrayPrograms;
 
+import java.util.Arrays;
+
 public class ShiftAllZerosAtTheFirstIndex {
 	int[] getShiftAllZerosAtTheFirstIndex(int[] arr) {
 		int[] outputArr=new int[arr.length];
@@ -29,9 +31,8 @@ public class ShiftAllZerosAtTheFirstIndex {
 	public static void main(String[] args) {
 		int[] input={10,0,0,3,4,5,0,9};
 		int[] output=new ShiftAllZerosAtTheFirstIndex().getShiftAllZerosAtTheFirstIndex(input);
-		for (int index=0; index<input.length;index++) {
-			System.out.println(output[index]);
+		System.out.println("Shifting all zeros at the First index :"+ Arrays.toString(output));
 		}
 	
-}
+
 }
