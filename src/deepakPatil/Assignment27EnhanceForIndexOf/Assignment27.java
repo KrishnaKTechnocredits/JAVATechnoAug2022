@@ -1,4 +1,32 @@
+/*Assignment-27 : 23rd Sep'2022?*
+ 
+Program - 1. Write a program to print unique character of each name in given string array.
+ 
+ String[] arr = {"Maulik", "Kanani","Mahesh", "Kanani"};
+  
+  Name is Maulik :
+  M
+  a
+  u
+  l
+  i
+  k
+  ----------------------
+  Name is Kanani : 
+  K
+  i
 
+Program - 2.  Write a program to print 1st unique character of each name in given string array.
+ 
+ String[] arr = {"Maulik", "KananiK", "akanksha"};
+ 
+ Name is Maulik : M
+ -------------------
+ Name is KananiK : i
+ -------------------
+ Name is akanksha : n 
+ */
+ 
 package deepakPatil.Assignment27EnhanceForIndexOf;
 
 import java.util.Arrays;
