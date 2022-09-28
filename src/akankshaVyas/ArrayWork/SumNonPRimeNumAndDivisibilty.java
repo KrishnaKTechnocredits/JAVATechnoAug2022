@@ -50,7 +50,7 @@ public class SumNonPRimeNumAndDivisibilty {
 
 	public static void main(String[] args) {
 		int[] input = { 11, 35, 17, 105, 44 };
-		System.out.println(new SumNonPRimeNumAndDivisibilty().sumofArray(input));
+		System.out.println("sum of all non prime numbers - " + new SumNonPRimeNumAndDivisibilty().sumofArray(input));
 
 	}
 

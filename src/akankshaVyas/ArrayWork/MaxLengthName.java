@@ -21,7 +21,7 @@ public class MaxLengthName {
 
 	public static void main(String[] args) {
 		String[] arr = { "Ashish", "Aditty", "Manjiri", "Ankita", "Credits" };
-		System.out.println(new MaxLengthName().getStringCount(arr));
+		System.out.println("The max length String is - " +new MaxLengthName().getStringCount(arr));
 
 	}
 }
