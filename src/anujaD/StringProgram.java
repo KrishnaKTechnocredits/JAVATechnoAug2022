@@ -1,3 +1,4 @@
+
 /*Assignment - 18 : 8th Sep'2022
 
 1) Write a program to rearrange String in given format. 
@@ -18,7 +19,7 @@ output : 4*/
 
 package anujaD;
 
-public class StringProgrm {
+public class StringProgram {
 
 	static String rearrangeString(String input) {
 		String letter = "";
@@ -71,9 +72,9 @@ public class StringProgrm {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(StringProgrm.rearrangeString("te2cH4no"));
-		System.out.println(StringProgrm.rearrangeString1("t8EcHNo5Cred3iTs"));
-		System.out.println(StringProgrm.findFrequency("TechnoTtcredits", 't'));
+		System.out.println(StringProgram.rearrangeString("te2cH4no"));
+		System.out.println(StringProgram.rearrangeString1("t8EcHNo5Cred3iTs"));
+		System.out.println(StringProgram.findFrequency("TechnoTtcredits", 't'));
 	}
 
 }
