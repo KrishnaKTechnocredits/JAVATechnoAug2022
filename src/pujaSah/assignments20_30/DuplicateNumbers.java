@@ -12,6 +12,7 @@ import java.util.Arrays;
 
 public class DuplicateNumbers {
 
+	// Method to display duplicate numbers from given array.
 	void displayDuplicateNumbers(int[] inArr) {
 		System.out.println("Input Array: " + Arrays.toString(inArr));
 		System.out.println("Duplicate numbers in the array are: ");
