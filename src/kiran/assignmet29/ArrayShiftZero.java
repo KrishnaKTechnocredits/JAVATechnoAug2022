@@ -13,18 +13,18 @@ public class ArrayShiftZero {
 				count++;
 		}
 		System.out.println("Zero count : "+count);
-		int j=0;
+		/*int j=0;
 		for(int i=0;i<input.length;i++) {
 			
 			if(i<count) {
 				output[j]=0;
 				j++;
 			}
-		}
+		}*/
 		for(int i=0;i<input.length;i++) {	
 			if(input[i]>0){
-				output[j]=input[i];
-				j++;
+				output[count]=input[i];
+				count++;
 			}
 		}
 			
