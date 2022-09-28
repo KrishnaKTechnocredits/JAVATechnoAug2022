@@ -33,9 +33,10 @@ public class Assignment27 {
 	}
 
 	public static void main(String[] args) {
-		String[] arr = { "Maulik", "Kanani", "Mahesh", "Kanani" };
+		String[] arr1 = { "Maulik", "Kanani", "Mahesh", "Kanani" };
+		String[] arr2 = {"Maulik", "KananiK", "akanksha"};
 		Assignment27 assignment27 = new Assignment27();
-		assignment27.printUniqueChar(arr);
-		assignment27.printFirstUniqueChar(arr);
+		assignment27.printUniqueChar(arr1);
+		assignment27.printFirstUniqueChar(arr2);
 	}
 }
