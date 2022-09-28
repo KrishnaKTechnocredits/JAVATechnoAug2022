@@ -5,10 +5,18 @@ output : 12
 
 package manjiri.arrayEx.assignment30;
 
+import java.util.Arrays;
+
 public class SearchDuplicateNumbers {
 	
 	void printDuplicateNumbersFromArray(int[] input){
 		int count = 0;
+		
+		System.out.println("Input Array is: " + Arrays.toString(input));
+		
+		System.out.println("-------------------------------------------------");
+		
+		System.out.println("Duplicate Numbers are: ");
 		
 		//Check if input array contains 0
 		for (int index = 0;  index < input.length; index++) {
