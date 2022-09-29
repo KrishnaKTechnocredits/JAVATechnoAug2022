@@ -22,7 +22,6 @@ output : radar
 
 package asthaSrivastava.string;
 
-import java.util.Arrays;
 
 public class Pallindrom {
 
