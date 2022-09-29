@@ -8,8 +8,6 @@ package manjiri.StringEx.assignment31;
 
 import java.util.Arrays;
 
-import manjiri.StringEx.assignment31.CheckPallindromWithoutReversingString;
-
 public class CheckPallindromFromArray {
 	
 	void getPallindromString(String[] input){
