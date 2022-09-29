@@ -37,15 +37,14 @@ public class Assignment29 {
 				count++;
 			}
 		}
-		for(int index1=count;index1<arr.length;index1++) {
-			if(arr[index1]!=0) {
-				output[count] = arr[index1];
+		for(int index=0;index<arr.length;index++) {
+			if(arr[index]!=0) {
+				output[count] = arr[index];
 				count++;
 			}
 		}
 		System.out.println("The output array is : "+Arrays.toString(output));
 	}
-
 	
 	public static void main(String[] args) {
 		Assignment29 assignment29 = new Assignment29();
