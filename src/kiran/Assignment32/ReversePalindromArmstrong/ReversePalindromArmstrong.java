@@ -4,7 +4,6 @@ public class ReversePalindromArmstrong {
 	
 	int reverse(int num) {
 		System.out.println("input: "+num);
-		//int orgnum=num;
 		int rev=0;
 		int rem;
 		while(num>0) {
@@ -12,9 +11,16 @@ public class ReversePalindromArmstrong {
 			rev=rev*10+rem;
 			num=num/10;
 		}
-		//System.out.println(rev);
 		return rev;
 	}
+	void palindrom1(int num) {
+		int rev=reverse(num);
+		if(rev==num)
+			System.out.println(num+" number is palindrom");
+		else
+			System.out.println(num+" number is not palindrom");
+	}
+	
 	void checkPalindromNumber(int num) {
 		System.out.println("input: "+num);
 		int orgnum=num;
@@ -29,13 +35,6 @@ public class ReversePalindromArmstrong {
 			System.out.println(orgnum+" is a palindrom number");
 	}
 	
-	void palindrom1(int num) {
-		int orgnum=num;
-		int rev=reverse(num);
-		if(rev==num)
-			System.out.println(num+" number is palindrom");
-		
-	}
 	void checkArmstrongNumber(int num) {
 		System.out.println("input: "+num);
 		int rem,armnum=0;
@@ -54,10 +53,11 @@ public class ReversePalindromArmstrong {
 
 	public static void main(String[] args) {
 		ReversePalindromArmstrong obj=new ReversePalindromArmstrong();
-		System.out.println("reverse is "+obj.reverse(12345));
-		obj.checkPalindromNumber(12321);
 		obj.checkArmstrongNumber(153);
-		obj.palindrom1(121);
+		obj.checkArmstrongNumber(123);
+		System.out.println("reverse is "+obj.reverse(123));
+		obj.checkPalindromNumber(1221);
+		obj.palindrom1(1231);
 
 	}
 
