@@ -18,7 +18,7 @@ public class Assignment_24 {
 	int[] getArraySum(int[] arr) {
 		
 		int[] arrsum = new int[arr.length];
-		for(int index = 0; index<arr.length; index++) {
+		for(int index = 0; index < arr.length; index++) {
 			int sum = 0;
 			for(int j = 0; j < arr.length; j++) {
 				
