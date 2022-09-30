@@ -56,10 +56,9 @@ public class PallindromNumbers {
 
 	// method to verify number is palindrome
 	void displayPallindromNumber(int num) {
-		int revNum = getReverseNumber(num);
-		if (num == revNum) {
+		if (num == getReverseNumber(num)) {
 			System.out.println(num + " is Pallindrom \n");
-		} else {
+		}else {
 			System.out.println(num + " is not Pallindrom \n");
 		}
 	}
