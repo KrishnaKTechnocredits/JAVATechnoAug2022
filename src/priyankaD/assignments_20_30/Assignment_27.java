@@ -15,8 +15,9 @@ public class Assignment_27 {
 	}
 	void getStringOfName(String[] arr) {
 		for(int index=0;index<arr.length;index++) {
+			String name=arr[index];
 			System.out.println("Name is -->"+arr[index]);
-			String name=printUniqueCharOfName(arr[index]);
+			name=printUniqueCharOfName(name);
 		}
 	}
 	/*2.  Write a program to print 1st unique character of each name in given string array.
@@ -34,8 +35,9 @@ public class Assignment_27 {
 	}
 	void getArrayStringOfName(String[] arr1) {
 		for(int index=0;index<arr1.length;index++) {
+			String name=arr1[index];
 			System.out.println("Name is -->"+arr1[index]);
-			String name=printFirstUniqueCharacterOfName(arr1[index]);
+		    name=printFirstUniqueCharacterOfName(name);
 		}
 	}
 	public static void main(String[]args) {
