@@ -3,7 +3,7 @@
 input : {12,2,11,17}
 output : {30,40,31,25}*/
 
-package gauravSahu;
+package gauravSahu.assignments;
 
 import java.util.Arrays;
 

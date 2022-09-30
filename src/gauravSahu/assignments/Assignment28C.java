@@ -6,7 +6,7 @@ output : e -> 2
          o -> 1
 		 i -> 1
  */
-package gauravSahu;
+package gauravSahu.assignments;
 
 public class Assignment28C {
 

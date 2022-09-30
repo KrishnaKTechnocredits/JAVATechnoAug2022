@@ -2,7 +2,7 @@
 String str = "technocreditst";
 */
 
-package gauravSahu;
+package gauravSahu.assignments;
 
 public class Assignment26 {
 	void getRepChar(String str) {

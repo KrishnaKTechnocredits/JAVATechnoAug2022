@@ -5,6 +5,7 @@ public class A {
 	int x = 10;
 	
 	void m1() {
+		final int x;
 		System.out.println("A m1");
 	}
 	

@@ -1,4 +1,4 @@
-package gauravSahu;
+package gauravSahu.assignments;
 
 import java.util.Arrays;
 
