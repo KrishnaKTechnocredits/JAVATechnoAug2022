@@ -8,7 +8,6 @@ package manjiri.assignment32;
 
 public class ArmstrongNumber {
 	
-	
 	boolean isArmstrongNumber(int num) {
 		//Store the original number
 		int number = num;
