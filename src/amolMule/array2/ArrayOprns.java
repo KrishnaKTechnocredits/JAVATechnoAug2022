@@ -11,9 +11,7 @@ public class ArrayOprns {
 	int getSumNP(int[] arr) {
 		int s = 0;
 		for (int i = 0; i < arr.length; i++) {
-
 		}
-
 		return s;
 	}
 
