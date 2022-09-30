@@ -11,8 +11,6 @@ input : abcabc
 output : abcabc is not a pallindrom*/
 package gauravSahu.assignments;
 
-import java.util.Arrays;
-
 public class Assignment31 {
 
 	boolean getPallindrom(String name) { // "radar","aabcbaa","abcabc"
@@ -28,7 +26,6 @@ public class Assignment31 {
 	public static void main(String[] args) {
 		Assignment31 a31 = new Assignment31();
 		String[] arr = { "radar", "aabcbaa", "abcabc" };
-		System.out.println("Given name array is : "+ Arrays.toString(arr));
 		for (String name : arr) {
 			boolean flag = a31.getPallindrom(name);
 			if (flag) 

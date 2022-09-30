@@ -13,7 +13,7 @@ output : vowel count in technocredits:
 		 a -> 2
          i -> 1 
 */
-package gauravSahu.assignments;
+package gauravSahu;
 
 import java.util.Arrays;
 

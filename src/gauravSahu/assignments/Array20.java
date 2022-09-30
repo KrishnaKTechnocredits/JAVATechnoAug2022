@@ -1,5 +1,5 @@
 
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class Array20 {
 

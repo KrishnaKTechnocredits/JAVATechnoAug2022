@@ -5,7 +5,7 @@ output : Maulik
          Titiksha
          Swati 
 */
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class Assignment25B {
 

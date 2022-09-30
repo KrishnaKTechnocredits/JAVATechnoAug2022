@@ -4,7 +4,7 @@ output : techno
          is
 */
 
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class Assignment23D {
 

@@ -2,7 +2,7 @@
 String str = "Maulik Maulik Hindavi Shubham Hindavi Shubham Titiksha Swati";
 output : Hindavi 
          Shubham*/
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class Assignment25 {
 

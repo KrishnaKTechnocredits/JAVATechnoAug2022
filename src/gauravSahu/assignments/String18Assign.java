@@ -1,4 +1,4 @@
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class String18Assign {
 

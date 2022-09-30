@@ -4,7 +4,7 @@ Return count of vowels in a given String using switch case.
 input : TechnOcredits
 output : 4*/
 
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class Assignment28A {
 

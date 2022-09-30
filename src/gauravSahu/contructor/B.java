@@ -2,10 +2,6 @@ package gauravSahu.contructor;
 
 public class B extends A{
 	
-	{
-		System.out.println("GAURAV");
-	}
-	
 	int a = 20;
 	int b = 30;
 	

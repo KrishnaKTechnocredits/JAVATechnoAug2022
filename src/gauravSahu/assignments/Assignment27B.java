@@ -1,4 +1,4 @@
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class Assignment27B {
 

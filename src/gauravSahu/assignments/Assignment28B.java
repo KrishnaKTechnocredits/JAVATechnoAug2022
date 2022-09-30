@@ -5,7 +5,7 @@ input : technocredits
 outout : e 
 */
 
-package gauravSahu.assignments;
+package gauravSahu;
 
 public class Assignment28B {
 
