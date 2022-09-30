@@ -2,8 +2,7 @@
 String str = "Maulik Maulik Hindavi Shubham Hindavi Shubham Titiksha Swati";
 output : Hindavi 
          Shubham*/
-package gauravSahu;
-
+package gauravSahu.assignments;
 public class Assignment25 {
 
 	void getRepWord(String[] name) {

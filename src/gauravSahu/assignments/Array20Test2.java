@@ -1,4 +1,4 @@
-package gauravSahu;
+package gauravSahu.assignments;
 
 public class Array20Test2 {
 

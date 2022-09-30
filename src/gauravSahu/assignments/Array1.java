@@ -1,7 +1,6 @@
-package gauravSahu;
+package gauravSahu.assignments;
 
 public class Array1 {
-
 	String[] arr2 = { "Gaurav", "Garvis", "Grand", "Scala" };
 
 	int sum(int[] num) {
