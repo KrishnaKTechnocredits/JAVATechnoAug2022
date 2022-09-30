@@ -6,8 +6,6 @@
 //Program2:
 //input : aabcbaa
 //output : aabcbaa is pallindrom
-
-
 package titikshaG;
 
 public class PalindromeString {
@@ -21,6 +19,7 @@ public class PalindromeString {
 			System.out.println("output : " + str + " is palindrome" + "\n");
 		else
 			System.out.println("output : " + str + " is  not a palindrome");}
+	
 	
 	public static void main(String[] args) {
 		PalindromeString palindromeString = new PalindromeString();
