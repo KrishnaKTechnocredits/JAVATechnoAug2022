@@ -59,7 +59,7 @@ public class Assignment31 {
 		if (ispallindromeflag == true) {
 			System.out.println("Stirng '" + inputstr + "' is palendrome");
 		}
-		if (ispallindromeflag == false) {
+		else {
 			System.out.println("Stirng '" + inputstr + "' is not palendrome");
 		}
 	}
