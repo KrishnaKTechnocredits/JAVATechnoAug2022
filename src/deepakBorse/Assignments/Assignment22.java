@@ -25,9 +25,9 @@ public class Assignment22 {
 		Assignment22 Assignment=new Assignment22();
 		
 		int[] input= {10,20,30,22,44,21,92,89};
-		System.out.println("Input -> "+Arrays.toString(input));
+		System.out.println("Input Array-> "+Arrays.toString(input));
 		int[] output=Assignment.processindex(input);
-		System.out.println("Output -> "+Arrays.toString(output));
+		System.out.println("Output Array-> "+Arrays.toString(output));
 	}
 
 }
