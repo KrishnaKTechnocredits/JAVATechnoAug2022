@@ -1,5 +1,5 @@
 /*
- * print unique numbers from given array (having freq 1). 
+ * Program 2 :print unique numbers from given array (having freq 1). 
 input : {10,20,10,44,33,55,33};
 output : 20
          44
