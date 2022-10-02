@@ -17,6 +17,7 @@ if(arr[i] == arr[j] && i!=j){
 package swatiM.assignment;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Assignment30_DuplicateNumbers {
 
@@ -39,7 +40,16 @@ public class Assignment30_DuplicateNumbers {
 			}
 		}
 		public static void main(String[] args) {
-			int[] arr = { 10, 12, 44, 12, 77, 67, 12, 44, 44, 33, 44, 12 };
+			//int[] arr = { 10, 12, 44, 12, 77, 67, 12, 44, 44, 33, 44, 12 };
+			Scanner sc = new Scanner(System.in); 
+			System.out.println("How many numbers you want to enter :");
+			int length = sc.nextInt();
+			int[] arr = new int[length];
+			for(int index = 0 ; index < arr.length ; index++ ) {
+				System.out.println("Please enter numbers :");
+				arr[index] = sc.nextInt();				
+			}
 			new Assignment30_DuplicateNumbers().displayDuplicateNumbers(arr);
+			//12System.out.println(Arrays.toString(arr));
 		}
 }
