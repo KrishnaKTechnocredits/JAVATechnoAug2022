@@ -45,10 +45,16 @@ public class Anagram {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter String 1 : ");
 		String str1 = sc.next();
+		System.out.println("Enter String 2 : ");
 		String str2 = sc.next();
 		sc.close();
 		isAnagram(str1, str2);
-		findAnagram(str1, str2);	
+		System.out.println("-----------------");
+		String input1 = "komal";
+		String input2 = "lmoka";
+		System.out.println("String 1 : \n" + input1 + "\nString 2: \n" + input2);
+		findAnagram(input1, input2);	
 	}
 }
