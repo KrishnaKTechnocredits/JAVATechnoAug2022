@@ -32,6 +32,7 @@ public class Assignment33_PrintNumWithFreq {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Assignment33_PrintNumWithFreq a=new Assignment33_PrintNumWithFreq();
+		System.out.println("print each number with its frequency.");
 		int[] numArry= {10,11,11,10,5,6,5,6,5,5,4};
 		System.out.println("Input Array"+Arrays.toString(numArry));
 		a.freqOfEachNumber(numArry);

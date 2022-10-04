@@ -12,7 +12,6 @@ import java.util.Arrays;
 public class Assignment33_uniqueNumFromArray {
 	
 	void printUniqueNumbers(int[] input){
-		System.out.println("Output:Unique numbers from array are: ");
 
 		for(int i=0; i<input.length;i++){
 			for(int j=i+1;j<input.length;j++){				
@@ -26,9 +25,9 @@ public class Assignment33_uniqueNumFromArray {
 
 	public static void main(String[] args){
 		Assignment33_uniqueNumFromArray a=new Assignment33_uniqueNumFromArray();
+		System.out.println("print unique numbers from given array (all content uniquely)");
 		int[] input = {10,20,10,44,33,55,33};
 		System.out.println("Input:" +Arrays.toString(input));
-		// System.out.println("--------------------------------------");
 		a.printUniqueNumbers(input);
 	}
 	

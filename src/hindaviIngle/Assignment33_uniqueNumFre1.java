@@ -10,6 +10,8 @@ output : 20
  */
 package hindaviIngle;
 
+import java.util.Arrays;
+
 public class Assignment33_uniqueNumFre1 {
 
 	void printUniqueNumFromArry(int[] numArray) {
@@ -32,7 +34,9 @@ public class Assignment33_uniqueNumFre1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Assignment33_uniqueNumFre1 a = new Assignment33_uniqueNumFre1();
+		System.out.println("Print unique numbers from given array (having freq 1)");
 		int[] arry = { 10, 20, 10, 44, 33, 55, 33 };
+		System.out.println("Input: "+Arrays.toString(arry));
 		a.printUniqueNumFromArry(arry);
 	}
 

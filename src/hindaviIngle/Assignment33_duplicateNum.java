@@ -67,6 +67,7 @@ public class Assignment33_duplicateNum {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Assignment33_duplicateNum a33 = new Assignment33_duplicateNum();
+		System.out.println("Print duplicate numbers from given array."); 
 		int[] numArry = { 10, 20, 10, 44, 33, 55, 33 };
 		System.out.println("Input " + Arrays.toString(numArry));
 		System.out.println("Output :");

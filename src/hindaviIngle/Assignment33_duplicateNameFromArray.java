@@ -31,6 +31,7 @@ public class Assignment33_duplicateNameFromArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Assignment33_duplicateNameFromArray a33=new Assignment33_duplicateNameFromArray();
+		System.out.println("print duplicate names from given array");
 		String[] strArry={"Hi","HELLO","Techno","Globant","ptc","Ptc","Hello"};
 		a33.duplicateString(strArry);
 	}

@@ -49,6 +49,7 @@ public class Assignment33_uniqueNamesFromArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Assignment33_uniqueNamesFromArray a = new Assignment33_uniqueNamesFromArray();
+		System.out.println("print unique names from given array");
 		String[] strArry = { "Hi", "Hello", "Hello", "Techno", "Credits", "Techno" };
 		 a.printUniqueNames(strArry);
 		//a.printUniqueNames1(strArry);

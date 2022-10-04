@@ -48,8 +48,9 @@ public class Assignment33_missingNum {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Assignment33_missingNum a33 = new Assignment33_missingNum();
+		System.out.println("print missing numbers from given array from range 1 to 10.");
 		int[] intArry = { 1, 2, 5, 3 };
-		System.out.println(Arrays.toString(intArry));
+		System.out.println("Input "+Arrays.toString(intArry));
 		a33.findExactOneMissingNum(1, 5, intArry);
 		System.out.println("=======================================");
 		int[] intArry1 = { 1, 3, 9, 5,6,10};
