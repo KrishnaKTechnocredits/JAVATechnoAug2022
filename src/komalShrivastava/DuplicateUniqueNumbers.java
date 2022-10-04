@@ -162,7 +162,7 @@ public class DuplicateUniqueNumbers {
 		duplicateUniqueNumbers.printDuplicateNames(input4);
 		
 		String[] input5 = {"Hi", "HELLO", "Techno", "Globant", "ptc", "Ptc","Hello"};
-		System.out.println("Unique Numbers \nInput : " + Arrays.toString(input5) + "\nOutput : ");
+		System.out.println("Unique Names \nInput : " + Arrays.toString(input5) + "\nOutput : ");
 		duplicateUniqueNumbers.printUniqueNames(input5);
 		
 		int[] input6 = {10,20,10,0,20,10,44,0,-1,55};
