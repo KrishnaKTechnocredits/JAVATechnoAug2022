@@ -1,3 +1,4 @@
+
 //Program 1 : 
 //Write a method to return reverse number.
 //input : 123
@@ -92,4 +93,5 @@ public class Reversenumber {
 		System.out.println("Input for Armstrome number is:" +" "+arminput2);
 		reversenumber.armstromeNumber(arminput2);}
 	}
+
 
