@@ -1,12 +1,12 @@
 /*
- Write a method to return sum of all the digits present in each elements from given array.
-input : {"Ma1he4sh","A9vni","P1uj3a5","Harshal","A4d4itty","Rahul"}
-output :  Ma1he4sh -> 5
-         A9vni -> 9
-         P1uj3a5 -> 9
-         Harshal -> 0
-         A4d4itty -> 8
-         Rahul -> 0
+ * Program 2 : Return count of visible trees. [15 - 20 mins, max - 30 mins]
+
+input : {3,7,5}
+output : 2
+
+input : {3,5,11,9,10,13}
+output : 4
+
  */
 package hindaviIngle;
 public class TreeProgramFromMastercard {
