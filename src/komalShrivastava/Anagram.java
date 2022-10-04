@@ -34,7 +34,7 @@ public class Anagram {
 				str1  =str1.replaceFirst(String.valueOf(ch), "");
 				str2  =str2.replaceFirst(String.valueOf(ch), "");
 			}
-			if(str1.length()==str1.length())
+			if(str1.length()==str2.length())
 				System.out.println("Anagram String");
 			else
 				System.out.println("Not Anagram String");
