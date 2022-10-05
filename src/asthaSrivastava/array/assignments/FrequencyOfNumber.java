@@ -33,6 +33,5 @@ public class FrequencyOfNumber {
 		System.out.println("Input array: " + Arrays.toString(num));
 		System.out.println("\nFrequency of each number is ");
 		new FrequencyOfNumber().getFreqOfNum(num);
-	
 	}
 }
