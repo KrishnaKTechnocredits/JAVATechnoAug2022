@@ -29,5 +29,4 @@ public class Anagram {
 		String str2 = "actc";
 		new Anagram().findAnagramString(str1, str2);
 	}
-
 }

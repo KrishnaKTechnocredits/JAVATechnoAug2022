@@ -25,12 +25,11 @@ public class FindAnagram{
 			if(arr1[index]!= arr2[index]){
 				return false;
 			}
-		
 		}
 		System.out.println("Given input is Anagram");
 		return true;
-		
 		}
+	
 	public static void main(String[] args) {
 		new FindAnagram().isAnagram();
 	}

@@ -9,24 +9,23 @@ import java.util.Scanner;
 public class Fibonacci {
 
 	void getFibSeries(int n) {
-		int num1 =0;
-		int num2=1;
-		
-		int count =0;
-		while(count < n) {
+		int num1 = 0;
+		int num2 = 1;
+		int count = 0;
+		while (count < n) {
 			System.out.println(num1);
-			int num3 = num2+num1;
-			num1= num2;
-			num2= num3;
+			int num3 = num2 + num1;
+			num1 = num2;
+			num2 = num3;
 			count++;
 		}
 	}
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Number ");
 		int num = sc.nextInt();
-		System.out.println("Fibonacci series of "+num+" is ");
+		System.out.println("Fibonacci series of " + num + " is ");
 		new Fibonacci().getFibSeries(num);
-		
 	}
 }

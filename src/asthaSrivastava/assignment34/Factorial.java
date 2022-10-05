@@ -19,11 +19,9 @@ public class Factorial {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number");
 		int num = sc.nextInt();
-		
-		Factorial test = new Factorial();
-		
-		int output = test.getFactorial(num);
-		System.out.println("Factorial of given number is " +output);
-	}
 
+		Factorial test = new Factorial();
+		int output = test.getFactorial(num);
+		System.out.println("Factorial of given number is " + output);
+	}
 }
