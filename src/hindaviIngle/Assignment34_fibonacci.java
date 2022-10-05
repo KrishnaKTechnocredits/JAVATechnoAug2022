@@ -1,5 +1,6 @@
 /*
  * Program 3 : Print fibonacci series till Nth number.
+ * 0,1,1,2,3,5,8,13=num3=num1+num2...
 input : 8
 output : 0 1 1 2 3 5 8 13
  */
@@ -27,8 +28,8 @@ public class Assignment34_fibonacci {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter number : ");
 		int input = scanner.nextInt();
+		System.out.println("Output :");
 		a34.findFibonacciSeries(input);
-
 	}
 
 }

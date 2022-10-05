@@ -1,10 +1,12 @@
 /*
  * Program 1 : How to check if two given String is the anagram of each other (using scanner class)?
-
+Anagram-count and frequency of each letter in both string should be same
 Input1: catc
 Input2: actc
 
 Output: anagram
+
+
  */
 package hindaviIngle;
 
