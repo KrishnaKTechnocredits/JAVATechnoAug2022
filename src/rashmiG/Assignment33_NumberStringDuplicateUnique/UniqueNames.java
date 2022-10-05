@@ -57,7 +57,9 @@ public class UniqueNames {
 			input[index] = sc.next();
 		}
 		System.out.println("\noutput");
+		System.out.println("\nApproach1");
 		displayAllUniqueNames(input);
+		System.out.println("\nApproach2");
 		UniqueNamesAnotherApproach(input);
 		sc.close();
 	}
