@@ -1,3 +1,6 @@
+// all zero element at start or end of array
+
+
 package akankshaVyas.Arraypkg;
 
 import java.util.Arrays;
@@ -41,9 +44,11 @@ public class ArrayNum {
 	
 	void display() {
 		int[] input = { 0, 10, 0, 0, 3, 4, 5, 0, 9, 0, 1, 0 };
+		//System.out.println(getZeroFirstArray(input));
 		System.out.println("Given array is - " + Arrays.toString(input)+ "\n");
 		System.out.println("Processed Array with all zero at end - " + Arrays.toString(getProcessArray(input))+ "\n");
 		System.out.println("Processed Array with all zero at start - " + Arrays.toString(getZeroFirstArray(input)));
+		//System.out.println(getZeroFirstArray(input));
 	}
 
 	public static void main(String[] args) {

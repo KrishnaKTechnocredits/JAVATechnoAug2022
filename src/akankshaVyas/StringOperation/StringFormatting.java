@@ -121,7 +121,7 @@ public class StringFormatting {
 	public static void main(String[] args) {
 		System.out.print(new StringFormatting().getDigitStringFormatting("te2cH4no"));
 		System.out.print("\n" + new StringFormatting().getUpperDigitLowerCaseArrangemnt("t8EcHNo5Cred3iTs"));
-		System.out.print("\n" + "TechnoTtcredits" + " frequency of character " + 't' + " is "
+		System.out.print("\n" + "TechnoT45tcredits" + " frequency of character " + 't' + " is "
 				+ new StringFormatting().getFrequencyOfTargetCharacter("TechnoT45tcredits", 't'));
 
 	}

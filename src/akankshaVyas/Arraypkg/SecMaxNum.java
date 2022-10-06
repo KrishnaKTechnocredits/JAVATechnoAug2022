@@ -13,9 +13,9 @@ public class SecMaxNum {
 		int secMax = arr[0];
 
 		for (int index = 0; index < arr.length; index++) {
-			if (arr[index] >= max)
+			if (arr[index] > max)
 				max = arr[index];
-			else if (arr[index] >= secMax)// && max>secMax)
+			else if (arr[index] > secMax)// && max>secMax)
 				secMax = arr[index];
 		}
 		return secMax;
