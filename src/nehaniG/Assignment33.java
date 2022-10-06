@@ -69,7 +69,7 @@ public class Assignment33 {
 
 	
 	void printUniqueName(String[] str) {
-		System.out.println("All Unique names");
+		
 		for (int i = 0; i < str.length; i++) {
 			for (int j = i + 1; j < str.length; j++) {
 				if (str[i].equals(str[j]) && !str[j].equals("")) {
@@ -85,7 +85,7 @@ public class Assignment33 {
 
 	
 	void printAllUniqueNum(int[] arr) {
-		System.out.println("All Unique number");
+		
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] == arr[j] && arr[j] != 0) {
@@ -100,7 +100,7 @@ public class Assignment33 {
 
 	
 	void printEachNumFrequency(int[] arr) {
-		System.out.println("Frequency of Each number");
+		
 		for (int i = 0; i < arr.length; i++) {
 			int count = 1;
 			for (int j = i + 1; j < arr.length; j++) {
@@ -110,7 +110,7 @@ public class Assignment33 {
 				}
 			}
 			if (count >= 1 && arr[i] != 0) {
-				System.out.println(arr[i] + " Frequency is => " + count);
+				System.out.println(arr[i] + " Frequency => " + count);
 			}
 		}
 	}
