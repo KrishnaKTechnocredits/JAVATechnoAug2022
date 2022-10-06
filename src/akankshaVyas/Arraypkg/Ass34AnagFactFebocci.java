@@ -52,13 +52,13 @@ boolean flag=true;
 	void printFabonacci(int n) {
 		System.out.println("Fabonacci series till " + n +" num");
 		int num1=0,num2=1;
-		System.out.println(num1);
-		System.out.println(num2);
+		System.out.print(num1 + " ");
+		System.out.print(num2 + " ");
 		for(int index=0;index<n-2;index++){
 			int temp=num2;
 			num2=num1+num2;
 			num1=temp;
-			System.out.println(num2);
+			System.out.print(num2 + " ");
 					}
 	}
 	
@@ -79,7 +79,7 @@ boolean flag=true;
 		System.out.println("Enter Nth 5num for Fabonacci : ");
 		 num=sc.nextInt();
 		ass34AnagFactFebocci.printFabonacci(num);
-		System.out.println("===================================================");
+		System.out.println("\n ===================================================\n");
 		System.out.println("Enter Strings 1,2,3,4 :");
 		String str1=sc.next();
 		String str2=sc.next();
