@@ -9,7 +9,7 @@ output : 4
 
  */
 package hindaviIngle;
-public class TreeProgramFromMastercard {
+public class Test4_TreeProgramFromMastercard {
 	
 	int getMaxNumber(int[] num) {
 		int maxNum=num[0];
@@ -29,7 +29,7 @@ public class TreeProgramFromMastercard {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		TreeProgramFromMastercard prg=new TreeProgramFromMastercard();
+		Test4_TreeProgramFromMastercard prg=new Test4_TreeProgramFromMastercard();
 		int [] num= {3,5,11,9,10,13};
 		System.out.println("No of visible trees : "+prg.getMaxNumber(num)+"\n");
 		int [] num1= {3,7,5};

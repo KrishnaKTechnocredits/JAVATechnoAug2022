@@ -1,6 +1,14 @@
+
+/*
+ * Assignment - 15 : 5th Sep'2022
+
+1. We need to do sum of first 5 prime number, using return keyword
+output: (2 + 3 + 5 + 7 + 11) = 28
+
+ */
 package hindaviIngle;
 
-public class SumOfFirst5PrimeReturn {
+public class Assignment15 {
 	int status = 0;
 
 	boolean getPrimeNumber(int num) {
@@ -41,7 +49,7 @@ public class SumOfFirst5PrimeReturn {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SumOfFirst5PrimeReturn sumOfFirst5PrimeReturn = new SumOfFirst5PrimeReturn();
+		Assignment15 sumOfFirst5PrimeReturn = new Assignment15();
 
 		int totalsum = sumOfFirst5PrimeReturn.sumOfPrimeNum(50, 500);
 

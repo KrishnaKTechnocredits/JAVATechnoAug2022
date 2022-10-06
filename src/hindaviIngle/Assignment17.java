@@ -1,6 +1,33 @@
+/*
+ * Assignment - 17 : 7th Sep'2022
+
+Program 1 : Write a method to return reverse name
+input : Maulik
+output : kiluaM
+
+Program 2 : Write a method to return even position characters from given String. 
+input : technocredits
+output : ehordt
+
+Program 3 : Write a method to return even position characters from given String in reverse.
+input : technocredits
+output : tdrohe
+
+Program 4 : Write a method to return count of digits in a given string.
+input : "Te8chno3cred7it9s"
+output : 4
+
+Program 5 : Write a method to return sum of digits in a given string.
+input : "Te8chno3cred7it9s"
+output : 27
+Hint : ch = Character.charAt(index);
+Character.isDigit(ch);
+int num = Character.getNumericValue(ch); '9'
+
+ */
 package hindaviIngle;
 
-public class StringOperation {
+public class Assignment17 {
 
 	String reverseString(String name) {
 		String reverseStr="";
@@ -53,7 +80,7 @@ public class StringOperation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		StringOperation so = new StringOperation();
+		Assignment17 so = new Assignment17();
 		String revstr=so.reverseString("Maulik");
 		System.out.println("Reverse of 'Maulik' is: "+revstr+"\n");
 		String evnPosStr =so.evenPosition("technocredits");

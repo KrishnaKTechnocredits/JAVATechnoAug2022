@@ -1,6 +1,12 @@
+/*Assignment - 21 : 14th Sep'2022
+
+Return second highest from given array.
+input : {10,99,33,44,89,76}
+output : 89*/
+
 package hindaviIngle;
 
-public class FindSecondHighestNumberArry {
+public class Assignment21 {
 	int findSecondHighest(int[] arry) {
 		int maxNum = arry[0];
 		int secondMax=0;
@@ -17,7 +23,7 @@ public class FindSecondHighestNumberArry {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		FindSecondHighestNumberArry f1 = new FindSecondHighestNumberArry();
+		Assignment21 f1 = new Assignment21();
 		int[] numbers = { 1000, 60, 200, 90, 65 };
 		System.out.println("Second highest salary is  ------" + f1.findSecondHighest(numbers));
 	}

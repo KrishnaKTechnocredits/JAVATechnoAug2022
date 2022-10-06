@@ -15,7 +15,7 @@
 */
 package hindaviIngle;
 
-public class StringLength {
+public class Assignment16 {
 
 	int getNameLength(String name) {
 		int length = name.length();
@@ -37,7 +37,7 @@ public class StringLength {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		StringLength stringlength = new StringLength();
+		Assignment16 stringlength = new Assignment16();
 		int length = stringlength.getNameLength("Technocredits");
 		System.out.println("Length of string is : " + length);
 		char ch = stringlength.getMiddleChar("Technocredits");
