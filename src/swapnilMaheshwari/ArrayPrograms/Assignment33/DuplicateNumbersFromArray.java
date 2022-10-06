@@ -1,13 +1,11 @@
 /*
- Find duplicate numbers from given array.
-input : {10,12,44,12,77,67,12,44};
-output : 12
-         44 
+ Program 1: print duplicate numbers from given array. 
 
-Hint : 2 for loop, think about replacement stretagy (the number you compare, replace that number with other number)
-  
+input : {10,20,10,44,33,55,33};
+output : 10
+		 33  
  */
-package swapnilMaheshwari.ArrayPrograms;
+package swapnilMaheshwari.ArrayPrograms.Assignment33;
 
 import java.util.Arrays;
 
@@ -24,13 +22,13 @@ public class DuplicateNumbersFromArray {
 					}
 				}
 			}
-				if (output[i]!=0)
-					System.out.println(+output[i]);
+			if (output[i] != 0)
+				System.out.println(+output[i]);
 		}
 	}
 
 	public static void main(String[] args) {
-		int[] inputArr = { 10, 12, 44, 12, 77, 67, 12, 44 };
+		int[] inputArr = { 10, 20, 10, 33, 55, 33, 12, 44 };
 		new DuplicateNumbersFromArray().getDuplicateNumberFromArray(inputArr);
 
 	}
