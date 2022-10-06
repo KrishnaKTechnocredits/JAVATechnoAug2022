@@ -7,6 +7,9 @@ output : 20
 
 package manjiri.arrayEx.assignment33;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class UniqueNumbers {
 	
 	void printUniqueNumbers(int[] numArr){
@@ -25,7 +28,19 @@ public class UniqueNumbers {
 	}
 	
 	public static void main(String[] args) {
-		int[] inputArr = {10,20,10,44,33,55,33};
+		Scanner sc = new Scanner(System.in);
+		System.out.println("How many elements you want to enter: ");
+		int length = sc.nextInt();
+
+		int[] inputArr = new int[length];
+		for (int index = 0; index < inputArr.length; index++) {
+			inputArr[index] = sc.nextInt();
+		}
+		sc.close();
+
+		System.out.println(Arrays.toString(inputArr));
+		System.out.println("=========================================================");
+		
 		new UniqueNumbers().printUniqueNumbers(inputArr);
 	}
 }

@@ -5,28 +5,43 @@ output : Hi
 		 Techno
 		 Credits*/
 
-
-
 package manjiri.arrayEx.assignment33;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class UniqueNames {
 	
 	void printUniqueNames(String[] input){
 		
 		for (int index = 0; index < input.length; index++) {
+			boolean flag = true;
 			//compare outer index with each inner index and check if match found
 			for (int innerIndex = 0; innerIndex < input.length; innerIndex++) {
-				if(input[index].equalsIgnoreCase(input[innerIndex])& index != innerIndex) {
-					input[innerIndex] = "";
+				if(input[index].equalsIgnoreCase(input[innerIndex])&& index != innerIndex) {
+					flag = false;
 				}
 			}
-			if(input[index] != "")
+			if(flag) {
 				System.out.println(input[index]);
+			}
 		}
 	}
 	
 	public static void main(String[] args) {
-		String[] inputArr = {"Hi", "Hello", "Hello","Techno","Credits","Techno"};
+		Scanner sc = new Scanner(System.in);
+		System.out.println("How many elements you want to enter: ");
+		int length = sc.nextInt();
+		
+		String[] inputArr = new String[length];
+		for (int index = 0; index < inputArr.length; index++) {
+			inputArr[index] = sc.next();
+		}
+		sc.close();
+		
+		System.out.println(Arrays.toString(inputArr));
+		System.out.println("=========================================================");
+		
 		new UniqueNames().printUniqueNames(inputArr);
 	}
 }
