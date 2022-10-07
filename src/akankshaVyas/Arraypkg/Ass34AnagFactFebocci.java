@@ -79,7 +79,7 @@ boolean flag=true;
 		System.out.println("Enter Nth 5num for Fabonacci : ");
 		 num=sc.nextInt();
 		ass34AnagFactFebocci.printFabonacci(num);
-		System.out.println("\n ===================================================\n");
+		System.out.println("\n ===================================================");
 		System.out.println("Enter Strings 1,2,3,4 :");
 		String str1=sc.next();
 		String str2=sc.next();
@@ -87,7 +87,7 @@ boolean flag=true;
 		String str4=sc.next();
 		ass34AnagFactFebocci.display(str1, str2);
 		System.out.println(ass34AnagFactFebocci.getAnagramString(str3, str4));
-		
+		sc.close();
 	}
 	
 }
