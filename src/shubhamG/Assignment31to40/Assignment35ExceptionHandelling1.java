@@ -1,7 +1,20 @@
-package shubhamG.Assignment21to30;
+package shubhamG.Assignment31to40;
 
+/*Assignment - 35 : 7th Oct'2022
+
+Program 1 : return sum of all the numbers from given String.
+input : i have 15 years and 3 months of experience.
+output : 18
+Hint : Exception handling, Interger.parseInt(string str) -> to convert string to int. 
+if we couldn't covert string to int for any word, it throws NumberFormatException.
+
+Program 2: return sum of all the digits from given String.
+input : i have 15 years and 3 months of experience.
+output : 9
+Hint : Using Exception handling
+*/
 public class Assignment35ExceptionHandelling1 {
-
+   //Program 1 : return sum of all the numbers from given String.
 	int getSumOfAllNumberFromString(String str) {
 		int sum = 0;
 		String[] arr = str.split(" ");
@@ -14,6 +27,7 @@ public class Assignment35ExceptionHandelling1 {
 		}
 		return sum;
 	}
+    //Program 2: return sum of all the digits from given String.
 
 	int getSumOfAlldigitsPresentInString(String str) {
 		int sum1 = 0;
