@@ -1,4 +1,4 @@
-package shubhamG.Assignment21to30;
+package shubhamG.Assignment31to40;
 
 /*Program 3 : 
 write a method to verify number is palindrome.

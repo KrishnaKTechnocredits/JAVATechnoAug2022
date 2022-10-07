@@ -1,4 +1,4 @@
-package shubhamG.Assignment21to30;
+package shubhamG.Assignment31to40;
 
 public class Assignment32ReverseNumber {
 
