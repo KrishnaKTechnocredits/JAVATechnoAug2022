@@ -29,6 +29,6 @@ public class SumOfDigitsFromString {
 	public static void main(String[] args) {
 		String input = "i have 15 years and 3 months of experience.";
 		int ans = new SumOfDigitsFromString().getSumOfDigitsFromString(input);
-		System.out.println("Sum of Numbers in "+input+" is: " + ans );
+		System.out.println("Sum of Digits in "+input+" is: " + ans );
 	}
 }
