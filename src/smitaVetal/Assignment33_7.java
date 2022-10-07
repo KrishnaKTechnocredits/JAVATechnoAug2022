@@ -35,6 +35,7 @@ public class Assignment33_7 {
 		System.out.println("Print frequency of each number from array");
 		System.out.println("\nInput array: " + Arrays.toString(arr));
 		System.out.println("\nFrequency of each number from array: ");
-		prog.printFrequencyOfEachNumberFromArray(arr);
+		prog
+		.printFrequencyOfEachNumberFromArray(arr);
 	}
 }
