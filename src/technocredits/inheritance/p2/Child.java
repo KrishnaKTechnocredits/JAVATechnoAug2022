@@ -7,6 +7,7 @@ public class Child extends Parent{
 	Child(){
 		super();
 	}
+	
 	public static void main(String[] args) {
 		
 	}
