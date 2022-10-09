@@ -111,10 +111,10 @@ public class Assignment36Program1 {
 		String output = "";
 		for(int index=0;index<input.length();index++) {
 			char ch = input.charAt(index);
-			if(input.charAt(index) == 'Z') {
+			if(ch == 'Z') {
 				output = output + 'A'; //A
 			}
-			else if(input.charAt(index) == 'z') {
+			else if(ch == 'z') {
 				output = output + 'a'; //a //bQe%3a
 			}
 			else 
