@@ -12,56 +12,52 @@ Hint : Using Exception handling
  */
 package harshalRane.Assignments.assignment35exceptionhandling;
 
-import java.util.Arrays;
-
 public class ExceptionHandlingReturnSumOfNumbers {
-	//Program 1
+	// Program 1
 	int returnSumOfNumbers(String input) {
 		String[] inputArr = input.split(" ");
-		int sum=0;
-		int num=0;
+		int sum = 0;
+		int num = 0;
 		System.out.print("Sum of Numbers: --->  ");
-		for(int index=0;index<inputArr.length;index++) {
+		for (int index = 0; index < inputArr.length; index++) {
 			try {
 				num = Integer.parseInt(inputArr[index]);
-				System.out.print("\""+num+"\""+ " ");
+				System.out.print("\"" + num + "\"" + " ");
 				sum = sum + num;
-			}
-			catch(NumberFormatException ne) {
+			} catch (NumberFormatException ne) {
 			}
 		}
 		System.out.print(" is --> ");
 		return sum;
 	}
-	
-	//Program 2:
+
+	// Program 2:
 	int returnSumOfAllDigits(String input) {
 		String[] inputArr = input.split(" ");
-		int sum=0;
-		int num=0;
+		int sum = 0;
+		int num = 0;
 		System.out.print("Sum of Digits: ---> ");
-		//Outer for loop to traverse through the array
-		for(int index=0;index<inputArr.length;index++) {
-			//Inner for loop to find the digits in the array
-			for(int innerIndex=0;innerIndex<inputArr[index].length();innerIndex++) {
+		// Outer for loop to traverse through all elements in array
+		for (int index = 0; index < inputArr.length; index++) {
+			// Inner for loop to find the digits in every array element
+			for (int innerIndex = 0; innerIndex < inputArr[index].length(); innerIndex++) {
 				try {
-				char ch = inputArr[index].charAt(innerIndex);
-				num = Integer.parseInt(String.valueOf(ch));
-				System.out.print("\""+num+"\""+ " ");
-				sum = sum + num;
-				}
-				catch(NumberFormatException ne) {
+					char ch = inputArr[index].charAt(innerIndex);
+					num = Integer.parseInt(String.valueOf(ch));
+					System.out.print("\"" + num + "\"" + " ");
+					sum = sum + num;
+				} catch (NumberFormatException ne) {
 				}
 			}
 		}
 		System.out.print(" is --> ");
 		return sum;
 	}
-	
+
 	public static void main(String[] args) {
 		ExceptionHandlingReturnSumOfNumbers assignment35 = new ExceptionHandlingReturnSumOfNumbers();
 		String input = "I have 15 years and 3 months of experience";
-		System.out.println("Input String: ---> "+input);
+		System.out.println("Input String: ---> " + input);
 		System.out.println("------------------------------------------------------------");
 		System.out.println(assignment35.returnSumOfNumbers(input));
 		System.out.println("------------------------------------------------------------");
