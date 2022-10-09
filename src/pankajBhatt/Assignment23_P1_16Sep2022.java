@@ -20,6 +20,7 @@ public class Assignment23_P1_16Sep2022 {
 		String[] arr = input.split(" ");
 		int length = 0;
 		String maxString = null;
+		
 		for(int index = 0; index < arr.length; index++) {
 			if(arr[index].length() > length) {
 				length = arr[index].length();
