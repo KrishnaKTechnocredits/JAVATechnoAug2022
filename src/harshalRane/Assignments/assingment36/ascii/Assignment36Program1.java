@@ -111,16 +111,19 @@ public class Assignment36Program1 {
 		String output = "";
 		for(int index=0;index<input.length();index++) {
 			char ch = input.charAt(index);
-			if(ch == 'Z') {
+			if(input.charAt(index) == 'Z') {
 				output = output + 'A'; //A
 			}
-			else if(ch == 'z') {
+			else if(input.charAt(index) == 'z') {
 				output = output + 'a'; //a //bQe%3a
 			}
-			else if((ch>=65 && ch<=90) || (ch>=97 && ch<=122)) {
-				ch = (char) (ch + 1);
-			}
+			else 
+				{
+					if((ch>=65 && ch<=90) || (ch>=97 && ch<=122)) {
+					ch = (char) (ch + 1);
+					}
 			output = output + ch;
+				}
 		}
 		return output; //bQe%3azAZ
 	}
