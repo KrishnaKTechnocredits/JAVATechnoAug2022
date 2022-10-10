@@ -1,3 +1,4 @@
+
 /*
  * Write a method to return sum of all the digits present in each elements from given array.
 input : {"Ma1he4sh","A9vni","P1uj3a5","Harshal","A4d4itty","Rahul"}

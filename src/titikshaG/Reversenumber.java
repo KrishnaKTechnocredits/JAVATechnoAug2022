@@ -1,88 +1,97 @@
+
+//Program 1 : 
+//Write a method to return reverse number.
+//input : 123
+//output : 321
+
 package titikshaG;
 
 public class Reversenumber {
-	String reverName(String name) {
-	String revName="";
-	for(int index=name.length()-1;index>=0;index--)
-		{
-		revName=revName+name.charAt(index);
+	void numberReverse(int number) {
+		
+		int reverNumber=0;;
+		int reminder=0;;
+		while(number>0) {
+			reminder=number % 10;//remainder = 1234 % 10 = 4
+			reverNumber=reverNumber*10+reminder;//reverse = 0 * 10 + 4 = 0 + 4 = 4
+			number=number/10;//number = 1234 / 10 = 123
+			}
+			System.out.println("Reverse of number is "+ " " + reverNumber);
 		}
-	return revName;
-
+//Program 2 : 
+//write a method to verify number is palindrome.
+//input : 1221
+//output : 1221 is a palindrome number
+//input : 1231
+//output : 1231 is not a palindrome number
+	
+	void checkingPalindromeNumber(int number) {
+		int originalnumber=number;
+		int reverNumber=0;
+		int reminder=0;
+		while(number>0) {
+			reminder=number % 10;
+			reverNumber=reverNumber * 10 + reminder;
+			number=number / 10;
+		}
+			if(originalnumber==reverNumber) 
+			System.out.println(originalnumber +" "+"Number is palindrome");
+			else 
+			System.out.println(originalnumber +" "+"number is not palindrome");}
+//Program 3:
+//Program 3.1 : 
+//Write a method to verify number is Armstrong or not.
+//input : 153
+//output : 153 is an Armstrong number
+//input : 123x
+//output : 123 is not an Armstrong number
+	void armstromeNumber(int number)
+	{
+		int OriginalNumber=number;
+		int remainder=0;
+		int sumOfDigit=0;
+		while(number>0) {
+			remainder=number%10;//It will give output as 3 for input 153
+			sumOfDigit=sumOfDigit+remainder*remainder*remainder;//0+3*3*3
+			number=number/10;//153/10=15
+			}
+		if(OriginalNumber==sumOfDigit) {
+			System.out.println(OriginalNumber +" "+"Number is armstrome");}
+		else {
+			System.out.println(OriginalNumber +" "+"Number is not armstrome");}
 	}
 	
-	String modularWithTwo(String name) {
-		String odIndex="";
-		for(int index=name.length()/2;index>0;index = index-2)
-			{
-			odIndex=odIndex+name.charAt(index);
-			}
-		return odIndex;
-		}
-	
-	String oddIndexPosition(String name) {
-		String odIndex="";
-		for(int index=1;index<name.length();index = index+2)
-			{
-			odIndex=odIndex+name.charAt(index);
-			}
-		return odIndex;
-		}
-	
-	String reverseOfOddIndex(String name) {
-		String odIndex="";
-		for(int index=name.length()-1;index>0;index = index-2)
-			{
-			odIndex=odIndex+name.charAt(index);
-			}
-		return odIndex;
-		}
-	
-	int countOfNumbers(String name) {
-		int count = 0;
-		for (int index = 0; index < name.length(); index++) {
-			if (Character.isDigit(name.charAt(index))) {
-				count++;
-			}
-		}
-		return count;
-		}
-	
-	int SumOfNumbers(String name) {
-		int sum = 0;
-		for (int index = 0; index < name.length(); index++) {
-			if (Character.isDigit(name.charAt(index))) {
-				sum=sum+Character.getNumericValue(name.charAt(index));
-			}
-		}
-		return sum;
-		}
-	
-	public static void main(String[] a)
-		{
-		String output=new Reversenumber().reverName("Technocredit");
-		System.out.println("Reverse of string is:" +" " +output);
-		System.out.println();
-	
-		String modular=new Reversenumber().modularWithTwo("Technocredit");
-		System.out.println("Index modular with 2 contain character:" +" " +modular);
-		System.out.println();
-	
-		String odd=new Reversenumber().oddIndexPosition("Technocredit");
-		System.out.println("Chararcters on odd position of index are:" +" " +odd);
-		System.out.println();
-	
-		String reverseodd=(new Reversenumber().reverseOfOddIndex("Technocredit"));
-		System.out.println("Reverse of odd Index chararcter are:" +" " +reverseodd);
-		System.out.println();
-	
-		int count=new Reversenumber().countOfNumbers("Te7chn2ocre1dit0");
-		System.out.println("Count of numeric digit in strin are::" +" " +count);
+
+	public static void main(String[] args) {
+		Reversenumber reversenumber=new Reversenumber();
+		int input=1234;
+		System.out.println("-------------Program 1-REVERSE NUMBER-----------------");
+		System.out.println("Input is "+ input);
+		reversenumber.numberReverse(input);
 		System.out.println();
 		
-		int sum=new Reversenumber().SumOfNumbers("Te7chn2ocre1dit0");
-		System.out.println("Sum of numeric digit in strin are::" +" " +sum);
+		System.out.println("-------------Program 2-PALINDROME-----------------");
+		int input2=1221;
+		int input3=1231;
+		int input4=1234;
+		System.out.println("Input is "+ input2);
+		reversenumber.checkingPalindromeNumber(input2);
+		System.out.println();
+		System.out.println("Input is "+ input3);
+		reversenumber.checkingPalindromeNumber(input3);
+		System.out.println();
+		System.out.println("Input is "+ input4);
+		reversenumber.checkingPalindromeNumber(input4);
 		System.out.println();
 		
-		}
-}
+		System.out.println("-------------Program 3-ARMSTROME-----------------");
+		int arminput1=153;
+		System.out.println("Input for Armstrome number is:" +" "+arminput1);
+		reversenumber.armstromeNumber(arminput1);
+		System.out.println();
+		int arminput2=123;
+		System.out.println("Input for Armstrome number is:" +" "+arminput2);
+		reversenumber.armstromeNumber(arminput2);}
+	}
+
+
