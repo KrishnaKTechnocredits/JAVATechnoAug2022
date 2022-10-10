@@ -1,19 +1,19 @@
 package deepakBorse.Polymorphism;
 
 public class Child extends Parent{
-	void m1(){
-		
-	}
-	
-	void m2() {
-		
-	}
 
 	public static void main(String[] args) {
-		Child c=new Child();
-		c.m3();
+		Parent a=new Child();
+		Child child = new Child();
+		child.m1();
 		
 
 	}
 
+	 public void m1() {
+		//System.out.println("BB m1");
+	}
+	public void m1(int i) {
+		System.out.println("HP m1"+i);
+	}
 }
