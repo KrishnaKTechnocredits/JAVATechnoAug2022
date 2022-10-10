@@ -2,7 +2,7 @@ package avni.returnTypeExample;
 
 public class LengthOfString {
 
-	int getLength(String st) { 
+	int Length(String st) { 
 	return (st.length());
  }
 	
@@ -17,7 +17,7 @@ char getMiddlechar(String str) {
 	}
 	public static void main (String[] args) {
 		LengthOfString l = new LengthOfString();
-		int length = l.getLength("avani");
+		int length = l.Length("avani");
 		System.out.println("Length of given string is - " + length);
 		System.out.println("middle character of given name is "+ l.getMiddlechar("DalsaniyaAvani"));
 	}
