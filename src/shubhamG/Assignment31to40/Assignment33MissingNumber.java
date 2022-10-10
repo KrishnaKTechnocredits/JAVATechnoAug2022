@@ -1,4 +1,4 @@
-package shubhamG.Assignment21to30;
+package shubhamG.Assignment31to40;
 
 import java.util.Arrays;
 /*program 3 : print missing numbers from given array from range 1 to 10. 
