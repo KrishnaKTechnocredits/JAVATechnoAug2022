@@ -16,9 +16,8 @@ if(arr[i] == arr[j] && i!=j){
 
 package akankshaVyas.Arraypkg;
 
-import java.util.Arrays;
 
-import basic.ArrayNumDuplicate;
+import java.util.Arrays;
 
 public class Assignment30_ArrayDupNum {
 
