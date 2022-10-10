@@ -1,6 +1,17 @@
+
+/*
+ * Assignment - 10 : 30th Aug'2022
+Find the last 3 numbers divisible by 3 and 7.
+
+Input : 10 to 200
+Output : 189
+              168
+              147   
+
+ */
 package hindaviIngle;
 
-public class NoisDivisible3and7 {
+public class Assignment10 {
 
 	int count;
 
@@ -17,7 +28,7 @@ public class NoisDivisible3and7 {
 	}
 
 	public static void main(String[] args) {
-		NoisDivisible3and7 noisDivisible3and7 = new NoisDivisible3and7();
+		Assignment10 noisDivisible3and7 = new Assignment10();
 		noisDivisible3and7.noDivisibility(20, 100);
 	}
 }

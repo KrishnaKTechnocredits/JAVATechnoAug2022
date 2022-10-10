@@ -1,6 +1,6 @@
 package hindaviIngle;
 
-public class BankingSystem {
+public class Assignment13 {
 	int balance;
 	int debitCount;
 	int creditCount;
@@ -49,7 +49,7 @@ public class BankingSystem {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BankingSystem bankingSystem1 = new BankingSystem();
+		Assignment13 bankingSystem1 = new Assignment13();
 		bankingSystem1.setUserDetails("User1", 500);
 		bankingSystem1.creditAmount(100);
 		bankingSystem1.debitAmount(300);
@@ -67,7 +67,7 @@ public class BankingSystem {
 		bankingSystem1.creditAmount(100);
 		bankingSystem1.individualTransactionSummary();
 
-		BankingSystem bankingSystem2 = new BankingSystem();
+		Assignment13 bankingSystem2 = new Assignment13();
 		bankingSystem2.allTransactionSummary();
 	}
 

@@ -1,5 +1,5 @@
 package hindaviIngle;
-class BankDetails
+class Assignment3
 {
 	int bal=1000;
 	int debitCount;
@@ -31,7 +31,7 @@ class BankDetails
 	
 public static void main(String[] a)
 {
-	BankDetails bankdetails = new BankDetails();
+	Assignment3 bankdetails = new Assignment3();
 	bankdetails.debitAmt(500); //500
 	bankdetails.debitAmt(100);//400
 	bankdetails.creditAmt(500);//900

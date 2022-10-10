@@ -6,7 +6,7 @@ output : c
  */
 package hindaviIngle;
 
-public class MiddleCharOfMaxLength {
+public class Test3_MiddleCharOfMaxLength {
 
 	String getMaxLength(String[] strArr) {
 		int maxLength=strArr[0].length();
@@ -39,7 +39,7 @@ public class MiddleCharOfMaxLength {
 	
 public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	MiddleCharOfMaxLength mc=new MiddleCharOfMaxLength();
+	Test3_MiddleCharOfMaxLength mc=new Test3_MiddleCharOfMaxLength();
 	String[] s={"Krishna","Maulik","Aashvi","Technocredits","Harsh"};
 	String s1=mc.getMaxLength(s);
 	System.out.println("Max length of String is : "+mc.getMaxLength(s)+"\n");

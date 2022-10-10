@@ -11,7 +11,7 @@ output : Mahesh -> 5
  */
 package hindaviIngle;
 
-public class SumOfDigitArray {
+public class Test4 {
 
 	int sumOfDigits(String name) {
 		int sum = 0;
@@ -34,7 +34,7 @@ public class SumOfDigitArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SumOfDigitArray s1 = new SumOfDigitArray();
+		Test4 s1 = new Test4();
 		String[] str = { "Ma1he4sh", "A9vni", "P1uj3a5", "Harshal", "A4d4itty", "Rahul" };
 		String[] strOut = s1.getStringDigit(str);
 		System.out.println("Output : \n");

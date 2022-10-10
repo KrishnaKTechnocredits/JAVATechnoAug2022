@@ -11,7 +11,7 @@ output : Mahesh -> h
  */
 package hindaviIngle;
 
-public class FindMiddleCharacter {
+public class Test3_FindMiddleCharacter {
 	char[] middleCharOfArrya(String[] strArr) {
 		char[] returnCharArray = new char[strArr.length];
 		for (int index = 0; index < strArr.length; index++) {
@@ -30,7 +30,7 @@ public class FindMiddleCharacter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		FindMiddleCharacter middleCharcter=new FindMiddleCharacter();
+		Test3_FindMiddleCharacter middleCharcter=new Test3_FindMiddleCharacter();
 		String[] strArr={"Mahesh","Avni","Puja","Harshal","Aditty","Rahul"};
 		char[] myArr = middleCharcter.middleCharOfArrya(strArr);
 		//System.out.println(myArr);

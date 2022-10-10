@@ -28,7 +28,7 @@ output : Ashish -> h
  */
 package hindaviIngle;
 
-public class ArrayOperations {
+public class Assignment19 {
 
 	int getSum(int[] arry) {
 		int sum = 0;
@@ -111,7 +111,7 @@ public class ArrayOperations {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ArrayOperations ao = new ArrayOperations();
+		Assignment19 ao = new Assignment19();
 		int[] num = { 10, 20, 10 };
 		System.out.println("Sum of array is :" + ao.getSum(num)+"\n");
 		int[] num1 = { 17, 53, 20 };

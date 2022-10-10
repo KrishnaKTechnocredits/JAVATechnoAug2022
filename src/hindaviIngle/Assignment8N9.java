@@ -1,5 +1,5 @@
 package hindaviIngle;
-class PrimeExample5 {
+class Assignment8N9 {
 
 	void isPrime(int num) {
 		if (num <=0) {
@@ -21,7 +21,7 @@ class PrimeExample5 {
 	}
 
 	public static void main(String[] args) {
-		PrimeExample5 primeExample = new PrimeExample5();
+		Assignment8N9 primeExample = new Assignment8N9();
 		primeExample.isPrime(15);
 		primeExample.isPrime(17);
 		primeExample.isPrime(-90);

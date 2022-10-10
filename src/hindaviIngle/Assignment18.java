@@ -1,6 +1,27 @@
+/*
+ * Assignment - 18 : 8th Sep'2022
+
+1) Write a program to rearrange String in given format. 
+String str = "te2cH4no";
+output : "24tecHno";
+Hint : AllDigitAllCharacter
+
+2) Write a program to rearrange String in given format. 
+Hint : Uppercase letters + digits + LowerCase letter
+input = "t8EcHNo5Cred3iTs";
+output : EHNCT853tcoredis 
+// Character.isUpperCase(ch), Character.isLowerCase(ch)
+
+3) Find frequency of given character from given String. 
+String str = "TechnoTtcredits";
+char targetChar = 't';
+output : 4
+
+
+ */
 package hindaviIngle;
 
-public class StringOperation2 {
+public class Assignment18 {
 	String rearrangeString(String name) {
 		String str1 = "";
 		String str2 = "";
@@ -55,7 +76,7 @@ public class StringOperation2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		StringOperation2 strOp = new StringOperation2();
+		Assignment18 strOp = new Assignment18();
 
 		// strOp.rearrangeString("te2ch4no");
 		strOp.rearrangeString("te2ch4no");
