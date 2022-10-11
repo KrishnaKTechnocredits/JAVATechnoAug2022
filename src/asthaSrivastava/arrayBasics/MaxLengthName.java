@@ -23,7 +23,6 @@ public class MaxLengthName {
 			}
 		}
 		return maxLengthWord;
-
 	}
 
 	public static void main(String[] args) {
