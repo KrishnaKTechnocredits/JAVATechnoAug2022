@@ -17,15 +17,15 @@ public class Assignment_26_TejasP {
 			string replacement*/
 			int newLength = str.length();
 			
-			System.out.println(" "+str1 + "--" + (originalLength - newLength));
+			System.out.println(" "+str1 + "-" + (originalLength - newLength));
 		}
 
 	}
 	public static void main(String[] args) {
 		
-		System.out.println("Assignment - 26 : 21st Sep'2022\r\n"
-				+ "find out frequency of each character from \ngiven input using single while loop.\r\n"
-				+ "\nString str = \"technocreditst\"\n");
+		System.out.println("Problem statement:\n"
+				+ "Find out frequency of each character from \ngiven input using single while loop:\r\n"
+				+ "\nString = \"technocreditst\"\n");
 		
 		Assignment_26_TejasP charFrequency = new Assignment_26_TejasP();
 		
