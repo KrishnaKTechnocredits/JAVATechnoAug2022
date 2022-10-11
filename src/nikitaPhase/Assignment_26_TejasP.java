@@ -1,12 +1,11 @@
 package nikitaPhase;
 
-
 public class Assignment_26_TejasP {
 	
 	void charFrequency(String str) {
 		
 		//iterate the loop until string length becomes 1:
-		while (str.length() >=1) {
+		while (str.length() >= 1) {
 			char ch = str.charAt(0);
 			
 			// convert above char into below string for replacement method:
