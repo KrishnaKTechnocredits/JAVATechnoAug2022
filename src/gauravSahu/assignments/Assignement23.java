@@ -7,7 +7,7 @@ String getMaxLengthWord(String input){
 }
 String[] arr = input.split(" ");*/
 
-package gauravSahu;
+package gauravSahu.assignments;
 
 import java.util.Arrays;
 

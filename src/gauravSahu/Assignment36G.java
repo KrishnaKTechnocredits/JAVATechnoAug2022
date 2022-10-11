@@ -35,7 +35,7 @@ public class Assignment36G {
 	System.out.println("Give input : ");
 	String input = sc.next();
 	String output = a36.encryptChar(input);
-	System.out.println(output);
+	System.out.println("Output : " + output);
 	
 	}
 }
