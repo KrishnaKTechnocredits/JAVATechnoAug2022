@@ -34,6 +34,6 @@ public class Assignment36A {
 		String input = sc.next();
 		//String input = "apdz";
 		String output  = a36.getAscii(input);
-		System.out.println(output);
+		System.out.println("Output : " + output);
 	}
 }

@@ -3,7 +3,7 @@
 String input = "Good Mor9niNg FR3ienDs t2hi2s Is tEchnocredits";
 output : FR3ienDs			 
  */
-package gauravSahu;
+package gauravSahu.assignments;
 
 public class Assignment23C {
 

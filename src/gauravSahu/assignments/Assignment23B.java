@@ -5,7 +5,7 @@ output : mor9ning
          fr3iends
          t2hi2s	*/
 
-package gauravSahu;
+package gauravSahu.assignments;
 
 public class Assignment23B {
 
