@@ -15,7 +15,7 @@ public class Array20Test2 {
 
 	char[] getString(String[] name) {
 		int length = name.length;
-		char[] charstr = new char[length];
+		char[] charstr = new char[name.length];
 		for (int index = 0; index < length; index++) {
 			charstr[index] = getmiddlechar(name[index]);
 		}
