@@ -22,4 +22,5 @@ class Example4{
 				example4.display();
 				
 		}
-	}
+	
+}
