@@ -22,7 +22,7 @@ input : {3,5,11,9,10,13}
 output : 4              
  * ***/
 
-package mohiniA;
+package mohiniA.Tests;
 import java.util.Arrays;
 
 public class ArrayOprationTest4 {
