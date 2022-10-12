@@ -12,7 +12,7 @@ output : 9
 Hint : Using Exception handling
 */
 
-package apurvaBabel;
+package apurvaBabel.Assignment31to40;
 
 public class Assignment35 {
 

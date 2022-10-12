@@ -39,7 +39,7 @@ input : aPd%3zZ
 output : bQe%3aA
 */
 
-package apurvaBabel;
+package apurvaBabel.Assignment31to40;
 
 public class Assignment36_Ascii {
 
