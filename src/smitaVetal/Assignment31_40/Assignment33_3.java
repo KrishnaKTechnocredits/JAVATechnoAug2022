@@ -6,7 +6,7 @@ output : 2
 		 7
 		 8*/
 
-package smitaVetal;
+package smitaVetal.Assignment31_40;
 
 import java.util.Arrays;
 

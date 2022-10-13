@@ -4,7 +4,7 @@ input : {10,20,10,44,33,55,33};
 output : 10
 		 33
 */
-package smitaVetal;
+package smitaVetal.Assignment31_40;
 
 import java.util.Arrays;
 

@@ -4,7 +4,7 @@ output : hello
          ptc
 */
 
-package smitaVetal;
+package smitaVetal.Assignment31_40;
 
 import java.util.Arrays;
 
