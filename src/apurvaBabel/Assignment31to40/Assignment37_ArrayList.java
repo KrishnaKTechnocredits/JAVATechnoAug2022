@@ -68,6 +68,7 @@ public class Assignment37_ArrayList {
 
 			if (FirstIndex != lastIndex) {
 				listOfNames3.remove(lastIndex);
+				index--;
 			}
 		}
 		System.out.println("Output ArrayList : " + listOfNames3);
