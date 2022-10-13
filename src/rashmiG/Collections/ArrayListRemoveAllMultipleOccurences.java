@@ -13,9 +13,6 @@ listOfName.remove(index);*/
 package rashmiG.Collections;
 
 import java.util.ArrayList;
-import java.util.ConcurrentModificationException;
-
-import hemanshi.Last3Digit;
 
 public class ArrayListRemoveAllMultipleOccurences {
 
