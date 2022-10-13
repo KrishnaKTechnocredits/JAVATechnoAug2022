@@ -17,14 +17,14 @@ import java.util.ArrayList;
 
 public class RemMulipleOccOfName {
 	void printRemMulpleOccOfName(ArrayList<String> listOfName, String name) {
-		
-			int index=listOfName.indexOf(name);
-			int lastIndex=listOfName.lastIndexOf(name);
-			while (index!=lastIndex) {
+
+		int index = listOfName.indexOf(name);
+		int lastIndex = listOfName.lastIndexOf(name);
+		while (index != lastIndex) {
 			listOfName.remove(lastIndex);
-			lastIndex=listOfName.lastIndexOf(name);
+			lastIndex = listOfName.lastIndexOf(name);
 		}
-		System.out.println("Output:"+listOfName);
+		System.out.println("Output:" + listOfName);
 	}
 
 	public static void main(String[] args) {
