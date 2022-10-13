@@ -34,8 +34,7 @@ public class Assignment_35 {
 	input : i have 15 years and 3 months of experience.
 	output : 9
 	Hint : Using Exception handling*/
-	
-	
+
 	int getSumOfAllDigitFromStringUsingException(String input) {
 		System.out.println("Input String : "+input);
 		String[] arr = input.split(" ");
