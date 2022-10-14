@@ -21,7 +21,7 @@ public class RemoveMultipleOccurance {
 				listOfNames.remove(index1);// remove element in lastIndexOf
 			}
 		}
-		System.out.println(listOfNames);
+		System.out.println("Processed ArrayList is: " + listOfNames);
 	}
 
 	public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class RemoveMultipleOccurance {
 		listOfNames.add("Sagar");
 		listOfNames.add("Gaurav");
 
-		System.out.println(listOfNames);
+		System.out.println("Input ArrayList is: " + listOfNames);
 
 		RemoveMultipleOccurance removeMultipleOccurance = new RemoveMultipleOccurance();
 		removeMultipleOccurance.removeMultipleOccuranceFromArrayList(listOfNames);

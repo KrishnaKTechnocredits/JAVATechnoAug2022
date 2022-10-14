@@ -18,7 +18,7 @@ public class RemoveMultipleOccurancesFromArrayList {
 			int index = listOfNames.lastIndexOf(str);
 			listOfNames.remove(index);//remove element in lastIndexOf
 		}
-		System.out.println(listOfNames);
+		System.out.println("Processed List is: " + listOfNames);
 	}
 	
 	
@@ -33,7 +33,7 @@ public class RemoveMultipleOccurancesFromArrayList {
 		listOfNames.add("Deepak");
 		listOfNames.add("Rashmi");
 		
-		System.out.println(listOfNames);
+		System.out.println("Input ArrayList is:" + listOfNames);
 		String input = "Sagar";
 		
 		RemoveMultipleOccurancesFromArrayList removeMultipleOccurance = new RemoveMultipleOccurancesFromArrayList();
