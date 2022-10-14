@@ -18,7 +18,7 @@ public class Assignment37B {
 		while(array.lastIndexOf(name)!= array.indexOf(name)) {
 			array.remove(array.lastIndexOf(name));
 		}
-			System.out.println(array);
+			System.out.println("Output : " + array);
 		}
 	
 	void removeMultipleOccurance2(ArrayList<String> array) {
@@ -32,6 +32,7 @@ public class Assignment37B {
 		for(String name : input) {
 			array.add(name);
 		}
+		System.out.println("Input : " + array);
 		Assignment37B a37 = new Assignment37B();
 		a37.removeMultipleOccurance(array,"Sagar");
 		

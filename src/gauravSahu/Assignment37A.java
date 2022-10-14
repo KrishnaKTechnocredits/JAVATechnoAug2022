@@ -35,7 +35,8 @@ public class Assignment37A {
 		while (al.contains(name)) {
 			al.remove(name);
 		}
-		System.out.println(al);
+		System.out.println("Output  : " + al);
+		System.out.println(" --------------------------------------------------------   ");
 	}
 	
 	void removeMultipleName(ArrayList<String> array, String name2 ) {
@@ -45,7 +46,8 @@ public class Assignment37A {
 			if(firstIndex != lastIndex) {
 				array.remove(lastIndex);
 			}
-		}System.out.println(array);
+		}	System.out.println("Output  : " + array);
+		
 	}
 	
 	public static void main(String[] args) {
@@ -59,6 +61,7 @@ public class Assignment37A {
 		al.add("Deepak");
 		al.add("Rashmi");
 		String name = "Sagar";
+		System.out.println("Input  : " + al);
 		a37.removeName(al, name);
 		
 		ArrayList<String> al2 = new ArrayList<String>();
@@ -71,6 +74,7 @@ public class Assignment37A {
 		al2.add("Deepak");
 		al2.add("Rashmi");
 		String name2 = "Sagar";
+		System.out.println("Input  : " + al2);
 		a37.removeMultipleName(al2, name2);
 	
 	}
