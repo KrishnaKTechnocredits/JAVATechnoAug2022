@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 public class ArrayListVowelDigitUpperCase {
 
-	boolean getNameStartingWithVowel(String input) {
+	boolean isNameStartsWithVowel(String input) {
 		char ch = input.charAt(0);
 		switch (ch) {
 		case 'a':
@@ -40,7 +40,7 @@ public class ArrayListVowelDigitUpperCase {
 			}
 		}
 		if (count > 0) {
-			boolean vowelFlag = getNameStartingWithVowel(input);
+			boolean vowelFlag = isNameStartsWithVowel(input);
 			if (vowelFlag)
 				return true;
 		}
