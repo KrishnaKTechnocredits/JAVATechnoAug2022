@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Assignment38 {
-	void removeAllDeepakWithShivani(ArrayList<String> listOfNames, String name, String targetName) {
+	void removeTargetName(ArrayList<String> listOfNames, String name, String targetName) {
 		{
 			while (listOfNames.contains(name)) {
 				int index = listOfNames.indexOf(name);
@@ -90,7 +90,7 @@ public class Assignment38 {
 		ArrayList<String> listOfNames = new ArrayList<String>(Arrays.asList(input));
 		String name = "Deepak";
 		String targetName = "Shivani";
-		assignment38.removeAllDeepakWithShivani(listOfNames, name, targetName);
+		assignment38.removeTargetName(listOfNames, name, targetName);
 
 		Integer[] marks = { 23, 55, 34, 88, 58, 81 };
 		ArrayList<Integer> listOfMarks = new ArrayList<Integer>(Arrays.asList(marks));
