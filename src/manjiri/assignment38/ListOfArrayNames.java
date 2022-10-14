@@ -9,7 +9,7 @@ package manjiri.assignment38;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ListOfNames {
+public class ListOfArrayNames {
 
 	boolean isFirstCharVowel(String str) {
 		char ch = str.toLowerCase().charAt(0);
@@ -59,7 +59,7 @@ public class ListOfNames {
 	}
 	
 	public static void main(String[] args) {
-		ListOfNames listOfNames = new ListOfNames();
+		ListOfArrayNames listOfNames = new ListOfArrayNames();
 		
 		String[] input = {"Aa3shvi", "is4h4a", "i5Sha4n","nUpur3"};
 		System.out.println("Input Array is: ");
