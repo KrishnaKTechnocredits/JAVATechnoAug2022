@@ -5,13 +5,13 @@ public class Assignment_35 {
 input : i have 15 years and 3 months of experience.
 output : 18*/
 	  int processData(String input) {
-			String[] input1=input.split(" ");
-			int ans=0;
-			for(int i=0;i<input1.length;i++) {
-		try{
+		String[] input1=input.split(" ");
+	    int ans=0;
+		for(int i=0;i<input1.length;i++) {
+		 try{
 			int out=Integer.parseInt(String.valueOf(input1[i]));
 			ans=ans+out;
-		}catch(NumberFormatException nfe) {
+		  }catch(NumberFormatException nfe) {
 			
 		  }	
 		}
@@ -21,15 +21,15 @@ output : 18*/
 input : i have 15 years and 3 months of experience.
 output : 9*/
 	  int processData1(String input) {
-			String[] input1=input.split(" ");
-			int ans1=0;
-			for(int i=0;i<input1.length;i++) { 
+		String[] input1=input.split(" ");
+		int ans1=0;
+		for(int i=0;i<input1.length;i++) { 
 			for(int j=0;j<input1[i].length();j++) {
-		try{
-			char ch=input1[i].charAt(j);
-			int out=Integer.parseInt(String.valueOf(ch));
-			ans1=ans1+out;
-		}catch(NumberFormatException nfe) {
+		    try{
+			    char ch=input1[i].charAt(j);
+			    int out=Integer.parseInt(String.valueOf(ch));
+			    ans1=ans1+out;
+		     }catch(NumberFormatException nfe) {
 			
 		   }	
 		 }
