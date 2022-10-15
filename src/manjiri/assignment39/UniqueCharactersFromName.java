@@ -6,7 +6,7 @@ Set<Character> getUniqueCharacter(String name){
 
 package manjiri.assignment39;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class UniqueCharactersFromName {
@@ -16,7 +16,7 @@ public class UniqueCharactersFromName {
 		System.out.println("-------------------------");
 		
 		char[] chArr = name.toCharArray();
-		Set<Character> setChar = new HashSet<Character>();
+		Set<Character> setChar = new LinkedHashSet<Character>();
 		for(Character ch : chArr) {
 			setChar.add(ch);
 		}
