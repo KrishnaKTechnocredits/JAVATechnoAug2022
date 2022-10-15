@@ -1,25 +1,18 @@
 package technocredits.exception.throwdemo;
 
-import java.io.FileNotFoundException;
-
 public class Pub {
 
-	void pubEntry(int age) throws FileNotFoundException{
+	void pubEntry(int age){
 		if(age >=18) {
 			System.out.println("Welcome sir");
 		}else {
-			System.out.println("Let me call your momma");				
-			throw new FileNotFoundException();
+			throw new InvalidAgeException("Let me call your momma");
 		}
 	}
 	
 	public static void main(String[] args) {
 		Pub pub = new Pub();
-		try {
-			pub.pubEntry(16);
-		} catch (FileNotFoundException e) {
-			System.out.println("In catch");
-		}
+		pub.pubEntry(16);
 		System.out.println("End");
 	}
 }

@@ -33,8 +33,7 @@ public class StringOpration18 {
 				Dstring = Dstring + name.charAt(index);
 			else
 				Lstring = Lstring + name.charAt(index);
-
-			// tring = Dstring + Lstring;
+			
 		}
 
 		return (Dstring + Lstring);

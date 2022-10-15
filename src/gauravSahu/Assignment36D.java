@@ -2,7 +2,7 @@
 Program 4 :
 Return count of digits from given String without using isDigit method of Character class..
 
-input : te1chno2cre4di6ts 
+input : d
 output : 4
 */
 
