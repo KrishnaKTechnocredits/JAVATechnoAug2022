@@ -7,15 +7,15 @@ output : [10,12,55,11] in any order*/
 package pujaSah.ArrayListAssignments;
 
 import java.util.Arrays;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 class RemoveDuplicateNumbersUsingSet {
 
 	// method to remove duplicates from array containing numbers using Set
 	void displayListWithDuplicateNumbers(Integer[] num) {
 
-		HashSet<Integer> listOfNum = new HashSet<Integer>();
-		HashSet<Integer> outList = new HashSet<Integer>();
+		LinkedHashSet<Integer> listOfNum = new LinkedHashSet<Integer>();
+		LinkedHashSet<Integer> outList = new LinkedHashSet<Integer>();
 
 		System.out.println("Original list of numbers: " + Arrays.toString(num));
 		for (int number : num) {
