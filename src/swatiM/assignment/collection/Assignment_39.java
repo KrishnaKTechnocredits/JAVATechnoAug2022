@@ -38,9 +38,6 @@ import java.util.TreeSet;
 
 public class Assignment_39 {
 
-	
-	
-	
 	void printAllDuplicateNames(String[] input) {
 		System.out.println("Program 1 : Method to print all duplicate names from given Array ");
 		System.out.println("Duplicate names from given array : ");
@@ -55,7 +52,6 @@ public class Assignment_39 {
 		System.out.println("Output : " + setOfNames2);
 	}
 
-	
 	LinkedHashSet<String> getUniqueNames(String[] input) {
 		System.out.println("\nProgram 2 : Method to return unique names from given Array");
 		System.out.println("Unique names from array : ");
@@ -64,7 +60,6 @@ public class Assignment_39 {
 		return setOfNames;
 	}
 
-	
 	LinkedHashSet<Character> getUniqueCharacters(String input) {
 		System.out.println("\nProgram 3 : Method to return unique characters from given name");
 		System.out.println("Unique characters from given name : ");
@@ -77,7 +72,6 @@ public class Assignment_39 {
 		return setOfCharacters;
 	}
 
-	
 	// [insertion order]
 	LinkedHashSet<Integer> getUniqueNumbers1(Integer[] input) {
 		System.out.println("\nProgram 4 : Method to remove duplicates from array containing numbers");
@@ -87,7 +81,6 @@ public class Assignment_39 {
 		return setOfNumbers;
 	}
 
-	
 	// [natural order]
 	TreeSet<Integer> getUniqueNumbers2(Integer[] input) {
 		System.out.println("\nProgram 5 : Method to remove duplicates from array containing numbers");
@@ -96,7 +89,6 @@ public class Assignment_39 {
 		TreeSet<Integer> setOfNumbers = new TreeSet<Integer>(Arrays.asList(input));
 		return setOfNumbers;
 	}
-
 
 	// Set
 	LinkedHashSet<Integer> getDuplicateNumbersUsingSet(Integer[] input) {
@@ -113,7 +105,6 @@ public class Assignment_39 {
 		return setOfNumbers2;
 	}
 
-	
 	// List
 	ArrayList<Integer> getDuplicateNumbersUsingList(Integer[] input) {
 		System.out.println("\nProgram 7 : Method to return duplicates from array containing numbers using");
