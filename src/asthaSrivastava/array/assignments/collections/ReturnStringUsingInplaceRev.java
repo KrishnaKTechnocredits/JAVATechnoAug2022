@@ -12,7 +12,7 @@ public class ReturnStringUsingInplaceRev {
 			else
 				input = input.substring(0, i) + ch2 + input.substring(i + 1, j) + ch1 + input.substring(j + 1);
 		}
-		System.out.println("Reverse String of given string " + input + " is : " + input);
+		System.out.println("Reverse String of given string is :"  + input);
 		return input;
 	}
 

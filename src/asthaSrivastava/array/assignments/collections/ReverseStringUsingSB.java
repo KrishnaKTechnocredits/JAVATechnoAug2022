@@ -6,7 +6,7 @@ public class ReverseStringUsingSB {
 
 	String reverseStringUsingStringBuffer(String str) {
 		StringBuffer sb = new StringBuffer(str);
-		System.out.println("Reverse of given String " + str + " is " + sb.reverse().toString());
+		System.out.println("Reverse of given String using String Buffer" + str + " is " + sb.reverse().toString());
 		return str;
 	}
 
