@@ -48,7 +48,6 @@ public class Assignment_37 {
 		for(int index=0;index<listOfName.size();index++) {
 			int firstIndex = listOfName.indexOf(name);
 			int lastIndex = listOfName.lastIndexOf(name);
-
 			if(firstIndex!=lastIndex) {
 				listOfName.remove(lastIndex);
 			}
