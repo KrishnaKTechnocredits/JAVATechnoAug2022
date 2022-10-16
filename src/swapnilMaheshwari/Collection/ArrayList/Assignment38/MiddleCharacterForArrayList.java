@@ -1,3 +1,12 @@
+/*
+ Program 3 : 
+Return list of Middle character from given name if length of the name is more than 6 characters.
+
+input : {"Manjiri", "Anuja", "Deepak", "Sagar", "AKanksha", "Amol", "Deepak", "Deepak"}
+output : ['j','n']
+
+ */
+
 package swapnilMaheshwari.Collection.ArrayList.Assignment38;
 
 import java.util.ArrayList;

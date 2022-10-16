@@ -1,3 +1,12 @@
+/*
+ Program 4 : 
+Return list of name if name starts with Vowel, contains atleast one digit and having exactly 1 uppercase.
+
+input : {"Aa3shvi", "is4h4a", "i5Sha4n","nUpur3"}
+output : ["Aa3shvi", "i5Sha4n"]
+
+ */
+
 package swapnilMaheshwari.Collection.ArrayList.Assignment38;
 
 import java.util.ArrayList;

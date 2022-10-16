@@ -1,3 +1,10 @@
+/*Program 2: 
+Increse student marks by 10 if marks is less than 35.
+
+input : [23,55,34,88,58,81]
+output : [33,55,44,88,58,81]
+*/
+
 package swapnilMaheshwari.Collection.ArrayList.Assignment38;
 
 import java.util.ArrayList;
