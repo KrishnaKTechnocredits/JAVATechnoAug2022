@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 
 public class ArrayListMapPrograms {
@@ -94,8 +95,8 @@ public class ArrayListMapPrograms {
 	
 	//Program 7 : WAP to find frequency of each word in a given String using Map
 	
-	LinkedHashMap<Integer, Integer> getFreqOfNumberMap(int[] inputArr){
-		LinkedHashMap<Integer, Integer> freqOfNum = new LinkedHashMap<Integer, Integer>();
+	TreeMap<Integer, Integer> getFreqOfNumberMap(int[] inputArr){
+	TreeMap<Integer, Integer> freqOfNum = new TreeMap<Integer, Integer>();
 		for(int num : inputArr) {
 			if(freqOfNum.containsKey(num))
 				freqOfNum.put(num, freqOfNum.get(num)+1);
