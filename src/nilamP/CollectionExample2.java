@@ -1,47 +1,42 @@
-/*Assignment 40 : 16th Oct'2022
+/*Assignment 39 : 15th Oct'2022
 
-Program 1 : Find frequency of each number using array and single while loop.
-input : {3,5,33,3,55,3,11,11}
-output : 3--->3
-		5--->1
-		33--->1
-		55--->1
-		11--->2
+Program 1: Print all duplicate names from given Array.
 
-Program 2 : Find missing numbers from give array from 50 to 60.
-input : {60,54,51,57}
-output : [50,52,53,55,56,58,59]
+input : {"Maulik", "Umesh", "Saroj", "Umesh"};
+output : ["Umesh"] 
 
-Hint : removeAll
+Program 2 : Return unique names from given Array.
+String[] arr = {"Maulik", "Umesh", "Saroj", "Umesh","Umesh","Saroj"};
+output : ["Maulik", "Umesh", "Saroj"]
 
-Program 3 : Return a reverse String [Method : inplace reverse].
+Program 3 : Write a program to return unique characters from given name.
 
-Program 4 : Return a reverse String [Use : StringBuilder].
-
-Program 5 : WAP to find frequence of each character using Map.
 input : technocredits
-output : {r=1, c=2, s=1, t=2, d=1, e=2, h=1, i=1, n=1, o=1}
-          r --> 1
-		  c --> 2
-          s --> 1
-          t --> 2
-          ..... so on		  
+output : [t,e,c,h,n,o,r,d,i,s]
 
-Program 6 : WAP to find frequence of each word in a given String using Map.
-input : "Hi Hello Techno Techno Hi"
-output : Hi -> 2
-         Hello -> 1
-		 Techno -> 2
+Set<Character> getUniqueCharacter(String name){
 
-Program 7 : WAP to find frequence of each word in a given String using Map.
-input : {10,2,5,2,3,3,3,10,11,8,8,8};
-output : 2 -> 2
-         3 -> 3
-         5 -> 1
-         8 -> 3
-         10 -> 2
-         11 -> 1  */
+}
 
+Program 4 : Remove duplicates from array containing numbers [insertion order].
+
+input : {10,10,13,12,12,10,55,66,55,11}
+output : [10,13,12,55,66,11]
+
+Program 5 : Remove duplicates from array containing numbers [natural order].
+
+input : {10,10,13,12,12,10,55,66,55,11}
+output : [10,11,12,13,55,66]
+
+Program 6 : Remove duplicates from array containing numbers using Set.
+
+input : {10,10,13,12,12,10,55,66,55,11,11}
+output : [10,12,55,11]
+
+Program 7 : Remove duplicates from array containing numbers using List.
+
+input : {10,10,13,12,12,10,55,66,55,11,11}
+output : [10,12,55,11]*/
 package nilamP;
 
 import java.util.ArrayList;

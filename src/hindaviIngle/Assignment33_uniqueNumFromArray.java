@@ -14,12 +14,19 @@ public class Assignment33_uniqueNumFromArray {
 	void printUniqueNumbers(int[] input){
 
 		for(int i=0; i<input.length;i++){
+			int count=0;
+			if(input[i]!=0) {
 			for(int j=i+1;j<input.length;j++){				
-				if(input[i]==input[j])
+				if(input[i]==input[j]) {
+					count++;
 					input[j]=0;
+				}
 			}
-			if(input[i]!=0)
+			//if(input[i]!=0)
+			if(count==0) {
 			System.out.println(input[i]);
+			}
+		}
 		}
 	}
 
