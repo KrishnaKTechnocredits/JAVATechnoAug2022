@@ -1,3 +1,10 @@
+/*
+ * Program 2 : 
+Write a method to return reverse number.
+input : 123
+output : 321
+
+ */
 package hindaviIngle;
 
 public class Assignment32_reverseNum {
