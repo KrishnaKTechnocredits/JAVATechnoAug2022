@@ -2,12 +2,12 @@ package shubhamG.Assignment31to40;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
 import java.util.TreeSet;
 
-import jagruti.Assignment22new.Assignment22new;
-
+/*Program 2 : Find missing numbers from give array from 50 to 60.
+input : {60,54,51,57}
+output : [50,52,53,55,56,58,59]
+*/
 public class Assignment40Program2 {
 
 	TreeSet<Integer> getMissingNumberInRange(int startIndex, int endIndex,Integer[] arr){
