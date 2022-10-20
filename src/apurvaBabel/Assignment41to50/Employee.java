@@ -5,7 +5,7 @@ Print all instance variable of employee after sorting.
 */
 package apurvaBabel.Assignment41to50;
 
-public class Employee implements Comparable<Employee> { // Pojo class of emloyee
+public class Employee implements Comparable<Employee> { // Pojo class of employee
 
 	private String empName;
 	private int empId;
