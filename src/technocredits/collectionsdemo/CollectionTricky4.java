@@ -29,8 +29,6 @@ public class CollectionTricky4 {
 			listOfEmp.add(e);
 			hm.put("7001-Admin", listOfEmp);
 		}
-		
-		
 	}
 }
 
