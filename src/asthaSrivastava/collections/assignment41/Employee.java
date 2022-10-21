@@ -11,12 +11,11 @@ public class Employee implements Comparable<Employee> {
 		this.empId = empId;
 		this.empSalary = empSalary;
 		this.empDeptId = empDeptId;
-
 	}
 
 	private String empName;
-	private int empId, empSalary,empDeptId;
-	
+	private int empId, empSalary, empDeptId;
+
 	public String getEmpName() {
 		return empName;
 	}
@@ -38,5 +37,4 @@ public class Employee implements Comparable<Employee> {
 		// TODO Auto-generated method stub
 		return (int) (this.empSalary - o.empSalary);
 	}
-
 }
