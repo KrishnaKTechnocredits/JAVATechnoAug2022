@@ -1,4 +1,4 @@
-package swapnilMaheshwari.Collection.Employee;
+package swapnilMaheshwari.Collection.Comparable.Assignment41;
 
 import java.util.TreeSet;
 
