@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import harshalRane.practise.collections.Consumer;
-import harshalRane.practise.collections.Product;
-
 public class Admin {
 	List<Employee> getEmployeeDetails(){
 	Employee emp1 = new Employee("Harshal",15,800000,12);
@@ -19,8 +16,8 @@ public class Admin {
 	listOfEmployee.add(emp3);
 	
 	//Collections.sort(listOfEmployee, new EmployeeNameComparator());
-	Collections.sort(listOfEmployee, new EmployeeIDComparator());
-	//Collections.sort(listOfEmployee, new EmployeeSalaryComparator());
+	//Collections.sort(listOfEmployee, new EmployeeIDComparator());
+	Collections.sort(listOfEmployee, new EmployeeSalaryComparator());
 		return listOfEmployee;
 	}
 	
