@@ -55,6 +55,6 @@ public class Employee {
 	}
 	
 	public String toString() {
-		return empName + "-->" +empSalary;
+		return empName + "-->" +empId+ "-->" +empSalary+ "-->" +empDeptId;
 	}
 }
