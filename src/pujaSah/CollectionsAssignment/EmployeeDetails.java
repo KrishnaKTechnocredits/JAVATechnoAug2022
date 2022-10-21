@@ -28,15 +28,15 @@ class EmployeeDetails {
 
 	public String getEmpName() {
 		return this.empName;
-	};
+	}
 
 	public int getEmpId() {
 		return this.empId;
-	};
+	}
 
 	public int getEmpSalary() {
 		return this.empSalary;
-	};
+	}
 
 	public int getEmpDepId() {
 		return this.empDeptId;
