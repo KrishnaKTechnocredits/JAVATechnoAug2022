@@ -26,7 +26,7 @@ public class Admin {
 		List<Employee> listOfEmployee = admin.getEmployeeDetails();
 		for(Employee e : listOfEmployee) {
 			admin.getEmployeeDetails();
-			System.out.println(e.getEmpName() + "-->" + e.getEmpId()+ "-->" + e.getEmpSalary());
+			System.out.println(e.getEmpName() + " --> " + e.getEmpId()+ " --> " + e.getEmpSalary()+" --> "+e.getEmpDeptId());
 		}
 	}
 }
