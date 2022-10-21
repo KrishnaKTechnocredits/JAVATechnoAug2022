@@ -17,7 +17,7 @@ class EmployeeDetails {
 		empSalary = salary;
 		empDeptId = deptId;
 		empDoj = doj;
-		SimpleDateFormat sdateFormat = new SimpleDateFormat("YYYY-MM-dd");
+		SimpleDateFormat sdateFormat = new SimpleDateFormat("dd-MM-yyyy");
 
 		try {
 			empDateOfJoining = sdateFormat.parse(empDoj);
@@ -42,8 +42,8 @@ class EmployeeDetails {
 		return this.empDeptId;
 	}
 
-	public String getEmpDateOfJoining() {
-		return this.empDoj;
+	public Date getEmpDateOfJoining() {
+		return this.empDateOfJoining;
 	}
 
 }
