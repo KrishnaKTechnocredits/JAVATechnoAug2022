@@ -24,32 +24,16 @@ public class Employee implements Comparable<Employee> { // Pojo class of employe
 		return empName;
 	}
 
-	public void setEmpName(String empName) {
-		this.empName = empName;
-	}
-
 	public int getEmpId() {
 		return empId;
-	}
-
-	public void setEmpId(int empId) {
-		this.empId = empId;
 	}
 
 	public int getEmpSalary() {
 		return empSalary;
 	}
 
-	public void setEmpSalary(int empSalary) {
-		this.empSalary = empSalary;
-	}
-
 	public int getEmpDeptId() {
 		return empDeptId;
-	}
-
-	public void setEmpDeptId(int empDeptId) {
-		this.empDeptId = empDeptId;
 	}
 
 	// Overridden method from comparable interface 
