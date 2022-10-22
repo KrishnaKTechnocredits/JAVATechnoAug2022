@@ -39,6 +39,7 @@ public class Assignment40_1 {
 	public static void main(String[] args) {
 		
 		Integer[] numArray = {3,5,33,3,55,3,11,11};
+		System.out.println("Given Array: "+Arrays.toString(numArray));
 		System.out.println("frequency of each element form given array as below:");
 		new Assignment40_1().findFrequencyOfNumber(numArray);
 	}
