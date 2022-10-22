@@ -12,7 +12,7 @@ public class Assignment41_Client {
 		listOfEmployee.add(new Assignment_41_Employee("Kajal", "YHNB", "LK876", 370500));
 		listOfEmployee.add(new Assignment_41_Employee("Nishant", "UYTR", "JH765", 103500));
 		for (Assignment_41_Employee e : listOfEmployee) {
-			System.out.println(e.getEmpName() + "-" + e.getEmpSalary() + "-" + e.getEmpDeptId() + "-" + e.getEmpId());
+			System.out.println(e.getEmpName() + "-->" + e.getEmpSalary() + "--->" + e.getEmpDeptId() + "--->" + e.getEmpId());
 		}
 	}
 
