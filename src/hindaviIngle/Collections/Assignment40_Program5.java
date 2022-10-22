@@ -33,11 +33,11 @@ public class Assignment40_Program5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Assignment40_Program5 findFreqUsingMap = new Assignment40_Program5();
+		Assignment40_Program5 p5 = new Assignment40_Program5();
 		String input = "technocredits";
 		System.out.println("Frequency of each character using Map");
 		System.out.println("Input: " + input);
-		findFreqUsingMap.getFrequencyUsingMap(input);
+		p5.getFrequencyUsingMap(input);
 	}
 
 }

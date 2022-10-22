@@ -33,11 +33,11 @@ public class Assignment40_Program7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Assignment40_Program7 findFreqUsingMap = new Assignment40_Program7();
+		Assignment40_Program7 p7 = new Assignment40_Program7();
 		Integer[] input = { 10, 2, 5, 2, 3, 3, 3, 10, 11, 8, 8, 8 };
 		System.out.println("Frequency of each number using Map");
 		System.out.println("Input: " + Arrays.toString(input));
-		findFreqUsingMap.getFrequencyOfNumUsingMap(input);
+		p7.getFrequencyOfNumUsingMap(input);
 	}
 
 }
