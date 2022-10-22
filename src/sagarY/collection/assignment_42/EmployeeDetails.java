@@ -10,21 +10,36 @@ Hint : Use Comparator.
 
 package sagarY.collection.assignment_42;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Comparator;
 
-public class EmployeeDetails implements Comparator<EmployeeDetails>{
+public class EmployeeDetails{
 	
-	private  String empName;
 	private int empId;
+	private String empJoiningDate;
+	private  String empName;
 	private int empSalary;
 	private String empDeptId;
 	
-	public EmployeeDetails(String empName, int empId, int empSalary, String empDeptId) {
+	public EmployeeDetails( int empId, String empJoiningDate, String empName,int empSalary, String empDeptId) {
 		super();
 		this.empName = empName;
 		this.empId = empId;
 		this.empSalary = empSalary;
 		this.empDeptId = empDeptId;
+		this.empJoiningDate = empJoiningDate;
+		
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		try {
+			dateFormat.parse(empJoiningDate);
+		} catch (ParseException e) {
+			System.out.println("Invalid Date Format");
+		}
+	}
+
+	public String getEmpJoiningDate() {
+		return empJoiningDate;
 	}
 
 	public String getEmpName() {
@@ -42,13 +57,9 @@ public class EmployeeDetails implements Comparator<EmployeeDetails>{
 	public String getEmpDeptId() {
 		return empDeptId;
 	}
-	@Override
-	public int compare(EmployeeDetails o1, EmployeeDetails o2) {
-		
-		
-		return 0;
+	
+	public String toString() {
+		return  empId+" "+empJoiningDate+" "+empName+" "+empDeptId+" "+empSalary;
 	}
-	
-	
 	
 }
