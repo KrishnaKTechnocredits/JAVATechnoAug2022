@@ -1,6 +1,6 @@
 //Assignment - 38 : 14th Oct'2022
 
-package komalShrivastava;
+package komalShrivastava.Collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
