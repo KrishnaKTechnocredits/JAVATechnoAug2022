@@ -48,7 +48,7 @@ output : 10 -> 2
          6 -> 2
          4 -> 1 */
 
-package pujaSah.assignments31_40;
+package pujaSah.assignments20_30;
 
 import java.util.Arrays;
 
