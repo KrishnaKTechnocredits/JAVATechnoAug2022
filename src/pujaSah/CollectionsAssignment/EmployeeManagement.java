@@ -1,3 +1,11 @@
+/*Assignment - 42 : 21th Oct'2022
+
+Sort Employee object based multiple attribute like name , id, Salary.
+Employee class should have empName, empId, empSalary, empDeptId as parameters.
+Print all instance variable of employee after sorting.
+
+Hint : Use Comparator. */
+
 package pujaSah.CollectionsAssignment;
 
 import java.util.ArrayList;
