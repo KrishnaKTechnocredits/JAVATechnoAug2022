@@ -61,8 +61,6 @@ if(ch =='Z'){
 
 package akankshaVyas.ASCII;
 
-import p1.Ascii;
-
 public class Assignemnet36ASCII {
 int getAsciiOfChar(char ch) {
 		

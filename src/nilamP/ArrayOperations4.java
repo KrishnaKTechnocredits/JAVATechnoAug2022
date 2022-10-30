@@ -154,7 +154,7 @@ public class ArrayOperations4 {
 	}
 
 	public static void main(String[] args) {
-
+		ArrayOperations4 ao = new ArrayOperations4();
 		int[] input = { 10, 20, 10, 44, 33, 55, 33 };
 		System.out.println("program 1 output : ");
 		System.out.println("Input Numbers : " + Arrays.toString(input));
