@@ -9,7 +9,7 @@ output : 2 -> 2
          11 -> 1
 
  */
-package swapnilMaheshwari.collection.MAPprograms;
+package swapnilMaheshwari.Collection.MAPprograms;
 
 import java.util.Iterator;
 import java.util.Set;

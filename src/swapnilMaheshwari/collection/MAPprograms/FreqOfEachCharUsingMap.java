@@ -8,7 +8,7 @@ output : {r=1, c=2, s=1, t=2, d=1, e=2, h=1, i=1, n=1, o=1}
           t --> 2
           ..... so on		   
  */
-package swapnilMaheshwari.collection.MAPprograms;
+package swapnilMaheshwari.Collection.MAPprograms;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -5,7 +5,7 @@ output : Hi -> 2
          Hello -> 1
 		 Techno -> 2
  */
-package swapnilMaheshwari.collection.MAPprograms;
+package swapnilMaheshwari.Collection.MAPprograms;
 
 import java.util.LinkedHashMap;
 import java.util.Set;

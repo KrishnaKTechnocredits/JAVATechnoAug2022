@@ -4,7 +4,7 @@ input : {60,54,51,57}
 output : [50,52,53,55,56,58,59]
 
  */
-package swapnilMaheshwari.collection.MAPprograms;
+package swapnilMaheshwari.Collection.MAPprograms;
 
 import java.util.ArrayList;
 import java.util.Arrays;

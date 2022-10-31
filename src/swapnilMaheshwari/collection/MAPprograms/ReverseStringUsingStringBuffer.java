@@ -3,7 +3,7 @@ Program 4 : Return a reverse String [Use : StringBuilder].
 Input : technocredits
 Output: stiderconhcet
  */
-package swapnilMaheshwari.collection.MAPprograms;
+package swapnilMaheshwari.Collection.MAPprograms;
 
 public class ReverseStringUsingStringBuffer {
 	StringBuffer getReverseStringUsingStringBuffer(String str) {
