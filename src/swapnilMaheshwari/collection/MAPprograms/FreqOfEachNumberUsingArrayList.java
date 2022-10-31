@@ -7,7 +7,7 @@ output : 3--->3
 		55--->1
 		11--->2
  */
-package swapnilMaheshwari.collection.MAPprograms;
+package swapnilMaheshwari.Collection.MAPprograms;
 
 import java.util.ArrayList;
 import java.util.Arrays;

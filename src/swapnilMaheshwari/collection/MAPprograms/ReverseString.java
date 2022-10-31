@@ -3,7 +3,7 @@ input: technocredits
 output: stiderconhcet
 */
 
-package swapnilMaheshwari.collection.MAPprograms;
+package swapnilMaheshwari.Collection.MAPprograms;
 
 public class ReverseString {
 	String getReverseStringWithReverseLoop(String str) {
