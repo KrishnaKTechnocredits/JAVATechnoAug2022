@@ -1,6 +1,6 @@
 package anujaD;
 
-public class Employee implements Comparable<Employee> { // Pojo class of employee
+public class Employee { // Pojo class of Employee
 
 	private String empName;
 	private int empId;
@@ -31,17 +31,9 @@ public class Employee implements Comparable<Employee> { // Pojo class of employe
 		return empDeptId;
 	}
 
-	// Overridden method from comparable interface 
-	@Override
-	public int compareTo(Employee o) {
-		if (this.empSalary != o.empSalary) {
-			return this.empSalary - o.empSalary;
-		} else if (!this.empName.equals(o.empName) ) {
-			return this.empName.compareTo(o.empName);
-		} else if (this.empDeptId != o.empDeptId) {
-			return this.empDeptId - o.empDeptId;
-		} else {
-			return this.empId - o.empId;
-		}
+	@Override // to string method overridden
+	public String toString() {
+		return this.getEmpId() + " -> " + this.getEmpName() + " -> " + this.getEmpSalary() + " -> "
+				+ this.getEmpDeptId();
 	}
 }

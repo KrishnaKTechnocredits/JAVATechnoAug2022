@@ -10,22 +10,22 @@ import java.util.Collections;
 public class Assignment41{
 
 	public static void main(String[] args) {
-		ArrayList<Employee> listOfEmployees = new ArrayList<Employee>();
+		ArrayList<Employee2> listOfEmployees = new ArrayList<Employee2>();
 
-		listOfEmployees.add(new Employee("Apurva", 1, 5000, 1001));
-		listOfEmployees.add(new Employee("Sejal", 8, 4000, 1002));
-		listOfEmployees.add(new Employee("Priti", 3, 4000, 1003));
-		listOfEmployees.add(new Employee("Ashish", 5, 6000, 1005));
-		listOfEmployees.add(new Employee("Vaibhav", 2, 3500, 1005));
-		listOfEmployees.add(new Employee("Apurva", 7, 5000, 1001));
-		listOfEmployees.add(new Employee("Nikhli", 4, 6500, 1004));
-		listOfEmployees.add(new Employee("Sanjay", 9, 5500, 1002));
-		listOfEmployees.add(new Employee("Vaishnavi", 6, 3500, 1002));
-		listOfEmployees.add(new Employee("Apurva", 10, 2000, 1003));
+		listOfEmployees.add(new Employee2("Apurva", 1, 5000, 1001));
+		listOfEmployees.add(new Employee2("Sejal", 8, 4000, 1002));
+		listOfEmployees.add(new Employee2("Priti", 3, 4000, 1003));
+		listOfEmployees.add(new Employee2("Ashish", 5, 6000, 1005));
+		listOfEmployees.add(new Employee2("Vaibhav", 2, 3500, 1005));
+		listOfEmployees.add(new Employee2("Apurva", 7, 5000, 1001));
+		listOfEmployees.add(new Employee2("Nikhli", 4, 6500, 1004));
+		listOfEmployees.add(new Employee2("Sanjay", 9, 5500, 1002));
+		listOfEmployees.add(new Employee2("Vaishnavi", 6, 3500, 1002));
+		listOfEmployees.add(new Employee2("Apurva", 10, 2000, 1003));
 
 		Collections.sort(listOfEmployees);
 		System.out.println("Employee Details -> EmpId, EmpName, EmpSalary, EmpDeptId\n");
-		for (Employee list : listOfEmployees) {
+		for (Employee2 list : listOfEmployees) {
 			System.out.println(list.getEmpId() + " -> " + list.getEmpName() + " -> " + list.getEmpSalary() + " -> "
 					+ list.getEmpDeptId());
 		}
